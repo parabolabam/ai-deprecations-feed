@@ -38,10 +38,10 @@
   },
   "groq": {
    "changed": "2026-11-22",
-   "count": 0,
+   "count": 40,
    "error": null,
    "since": "2026-11-22",
-   "state": "diff"
+   "state": "ok"
   },
   "openai": {
    "changed": "2026-11-22",
