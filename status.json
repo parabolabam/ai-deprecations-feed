@@ -52,6 +52,13 @@
   },
   "vertex": {
    "changed": "2026-11-22",
+   "count": 54,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "ok"
+  },
+  "vertex-partners": {
+   "changed": "2026-11-22",
    "count": 0,
    "error": null,
    "since": "2026-11-22",

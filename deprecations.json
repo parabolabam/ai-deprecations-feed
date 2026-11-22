@@ -77,6 +77,29 @@
    "baseline": true
   },
   {
+   "id": "092ce41869f47eed",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-10-20: gemini-2.5-flash",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-10-20",
+   "affected": [
+    "gemini-2.5-flash"
+   ],
+   "replacement": "gemini-3.8-flash or gemini-3.5-flash-lite",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash.md.txt",
+    "gemini-3.8-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash.md.txt",
+    "gemini-3.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "097028c365f3984c",
    "source": "azure",
    "kind": "parsed",
@@ -90,6 +113,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "09d1bcfe49d2ccfd",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagegeneration@004",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagegeneration@004"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -166,6 +210,27 @@
    "replacement": "gpt-realtime-2.1",
    "status": "Preview",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0c6c97c94a487074",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-04-21: textembedding-gecko@001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-04-21",
+   "affected": [
+    "textembedding-gecko@001"
+   ],
+   "replacement": "gemini-embedding-001",
+   "status": null,
+   "links": [
+    "gemini-embedding-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-text-embeddings.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -400,6 +465,48 @@
    "baseline": true
   },
   {
+   "id": "15e04886ad024c17",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-04-21: gemini-1.0-pro-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-04-21",
+   "affected": [
+    "gemini-1.0-pro-001"
+   ],
+   "replacement": "gemini-2.5-flash",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1682ec6f9259970c",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-11-05: gemini-omni-1.2-flash",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-11-05",
+   "affected": [
+    "gemini-omni-1.2-flash"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-omni-1.2-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "180350552336f7be",
    "source": "groq",
    "kind": "parsed",
@@ -413,6 +520,27 @@
    "replacement": "qwen/qwen3-32b",
    "status": null,
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1833a7c04f8f8c31",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-04-21: gemini-1.0-pro-vision-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-04-21",
+   "affected": [
+    "gemini-1.0-pro-vision-001"
+   ],
+   "replacement": "gemini-2.5-flash",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -495,6 +623,27 @@
    "baseline": true
   },
   {
+   "id": "1fc5c7ddfdf0ece1",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-01: text-embedding-004",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-04-01",
+   "affected": [
+    "text-embedding-004"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "text-embedding-004: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-text-embeddings.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "21021f51c6de49c9",
    "source": "azure",
    "kind": "parsed",
@@ -552,6 +701,27 @@
    "baseline": true
   },
   {
+   "id": "21fe2e904ad44540",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-05-24: textembedding-gecko@003\\*",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-05-24",
+   "affected": [
+    "textembedding-gecko@003"
+   ],
+   "replacement": "gemini-embedding-001",
+   "status": null,
+   "links": [
+    "gemini-embedding-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-text-embeddings.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "23367feb831581cc",
    "source": "azure",
    "kind": "parsed",
@@ -584,6 +754,28 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "241074060cd61877",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-03-15: gemini-2.5-flash-image",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-03-15",
+   "affected": [
+    "gemini-2.5-flash-image"
+   ],
+   "replacement": "gemini-3.1-flash-lite-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt",
+    "gemini-3.1-flash-lite-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-flash-lite-image.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -685,6 +877,48 @@
    "baseline": true
   },
   {
+   "id": "2d8ac36f17e8f019",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-28: gemini-3-pro-image",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-05-28",
+   "affected": [
+    "gemini-3-pro-image"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-3-pro-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-pro-image.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2e33119f288d21dc",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-25: gemini-3.8-live",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-09-25",
+   "affected": [
+    "gemini-3.8-live"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-3.8-live: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-live.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "2e6e32ac12dd57ed",
    "source": "azure",
    "kind": "parsed",
@@ -755,6 +989,27 @@
    "replacement": "gpt-5.6-sol^4^",
    "status": "Deprecated",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "33711e56572169d5",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagegeneration@003",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagegeneration@003"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -932,6 +1187,48 @@
    "baseline": true
   },
   {
+   "id": "3d7a2f3a5ab99354",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: veo-3.0-fast-generate-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "veo-3.0-fast-generate-001"
+   ],
+   "replacement": "veo-3.1-fast-generate-001",
+   "status": null,
+   "links": [
+    "veo-3.1-fast-generate-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate.md.txt#3.1-fast-generate-001"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3dc42b3589e17fb9",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-28: gemini-3.1-flash-lite-image",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-06-28",
+   "affected": [
+    "gemini-3.1-flash-lite-image"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-3.1-flash-lite-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-flash-lite-image.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "3e1e3dcaf4022fd6",
    "source": "azure",
    "kind": "parsed",
@@ -945,6 +1242,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3fecd7f4fb5013db",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-01: gemini-2.0-flash-lite",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-01",
+   "affected": [
+    "gemini-2.0-flash-lite"
+   ],
+   "replacement": "gemini-3.5-flash-lite",
+   "status": null,
+   "links": [
+    "gemini-3.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1046,6 +1364,48 @@
    "baseline": true
   },
   {
+   "id": "4764be24445ef9f1",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-05-24: gemini-1.5-pro-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-05-24",
+   "affected": [
+    "gemini-1.5-pro-001"
+   ],
+   "replacement": "gemini-2.5-flash",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "479424daea0f3f5a",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: veo-3.0-generate-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "veo-3.0-generate-001"
+   ],
+   "replacement": "veo-3.1-generate-001",
+   "status": null,
+   "links": [
+    "veo-3.1-generate-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate.md.txt#3.1-generate-001"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "49ce0a7639897b6c",
    "source": "azure",
    "kind": "parsed",
@@ -1059,6 +1419,48 @@
    "replacement": "mistral-large-4-latest",
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4a2b7ed016bb847a",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-01: text-multilingual-embedding-002",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-04-01",
+   "affected": [
+    "text-multilingual-embedding-002"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "text-multilingual-embedding-002: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-text-embeddings.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4ba30be295d67f39",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-09-24: gemini-1.5-pro-002",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-09-24",
+   "affected": [
+    "gemini-1.5-pro-002"
+   ],
+   "replacement": "gemini-2.5-flash",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1097,6 +1499,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4d95978d5e21035a",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagen-4.0-ultra-generate-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagen-4.0-ultra-generate-001"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1160,6 +1583,28 @@
    "baseline": true
   },
   {
+   "id": "51a25f59d89de37f",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-13: gemini-live-2.5-flash-native-audio",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-12-13",
+   "affected": [
+    "gemini-live-2.5-flash-native-audio"
+   ],
+   "replacement": "gemini-3.8-live",
+   "status": null,
+   "links": [
+    "gemini-live-2.5-flash-native-audio: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-live-api.md.txt",
+    "gemini-3.8-live: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-live.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "51eb47394f9f54cc",
    "source": "azure",
    "kind": "parsed",
@@ -1192,6 +1637,28 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "54cdf2f02fb4a971",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: gemini-3.6-flash",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "gemini-3.6-flash"
+   ],
+   "replacement": "gemini-3.8-flash",
+   "status": null,
+   "links": [
+    "gemini-3.6-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-6-flash.md.txt",
+    "gemini-3.8-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1394,6 +1861,27 @@
    "baseline": true
   },
   {
+   "id": "5a6497e8ef093442",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-04-21: textembedding-gecko@002",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-04-21",
+   "affected": [
+    "textembedding-gecko@002"
+   ],
+   "replacement": "gemini-embedding-001",
+   "status": null,
+   "links": [
+    "gemini-embedding-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-text-embeddings.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "5a84009a096a31b2",
    "source": "azure",
    "kind": "parsed",
@@ -1407,6 +1895,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5ccdb604f5bae5eb",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: veo-2.0-generate-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "veo-2.0-generate-001"
+   ],
+   "replacement": "veo-3.1-generate-001",
+   "status": null,
+   "links": [
+    "veo-3.1-generate-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate.md.txt#3.1-generate-001"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1565,6 +2074,28 @@
    "baseline": true
   },
   {
+   "id": "659f7c3d7f78cadd",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-28: gemini-3.7-flash",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-01-28",
+   "affected": [
+    "gemini-3.7-flash"
+   ],
+   "replacement": "gemini-3.8-flash",
+   "status": null,
+   "links": [
+    "gemini-3.7-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-7-flash.md.txt",
+    "gemini-3.8-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "66ec86e3b9a643ac",
    "source": "azure",
    "kind": "parsed",
@@ -1660,6 +2191,27 @@
    "baseline": true
   },
   {
+   "id": "6ce03064aee18e86",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagegeneration@002",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagegeneration@002"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "6e7094435ea847d5",
    "source": "azure",
    "kind": "parsed",
@@ -1736,6 +2288,27 @@
    "baseline": true
   },
   {
+   "id": "736cddb8903f975e",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-09-24: gemini-1.5-flash-002",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-09-24",
+   "affected": [
+    "gemini-1.5-flash-002"
+   ],
+   "replacement": "gemini-2.5-flash-lite",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-lite.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "742b226d8586a9a4",
    "source": "azure",
    "kind": "parsed",
@@ -1749,6 +2322,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "76a90e4a7f72275a",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-10-13: gemini-4-argon",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-10-13",
+   "affected": [
+    "gemini-4-argon"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-4-argon: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-argon.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1774,6 +2368,28 @@
    "baseline": true
   },
   {
+   "id": "799d5ed923cda222",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-04: veo-3.1-fast-generate-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-05-04",
+   "affected": [
+    "veo-3.1-fast-generate-001"
+   ],
+   "replacement": "gemini-omni-1.2-flash",
+   "status": null,
+   "links": [
+    "veo-3.1-fast-generate-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate.md.txt#3.1-fast-generate-001",
+    "gemini-omni-1.2-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "79d8222d9a28a149",
    "source": "azure",
    "kind": "parsed",
@@ -1793,6 +2409,27 @@
    "baseline": true
   },
   {
+   "id": "7ae820c901c4a57e",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-04-21: text-bison",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-04-21",
+   "affected": [
+    "text-bison"
+   ],
+   "replacement": "gemini-2.5-flash-lite",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-lite.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "7b7cc901292b8245",
    "source": "azure",
    "kind": "parsed",
@@ -1806,6 +2443,27 @@
    "replacement": null,
    "status": "Preview",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "7d3ca5c71c2dfda6",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2028-05-20: gemini-embedding-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2028-05-20",
+   "affected": [
+    "gemini-embedding-001"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-embedding-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-text-embeddings.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1869,6 +2527,27 @@
    "baseline": true
   },
   {
+   "id": "7f9133225f8872ce",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-04-21: gemini-1.0-pro-002",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-04-21",
+   "affected": [
+    "gemini-1.0-pro-002"
+   ],
+   "replacement": "gemini-2.5-flash",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "807246a08c6331a8",
    "source": "azure",
    "kind": "parsed",
@@ -1920,6 +2599,48 @@
    "replacement": "claude-haiku-5-5",
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "823eeeaefed06b1b",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-07: gemini-3.1-flash-lite",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-05-07",
+   "affected": [
+    "gemini-3.1-flash-lite"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-3.1-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-flash-lite.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "827cd92f0ad07bf3",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-01: gemini-2.0-flash",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-01",
+   "affected": [
+    "gemini-2.0-flash"
+   ],
+   "replacement": "gemini-3.5-flash-lite",
+   "status": null,
+   "links": [
+    "gemini-3.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1983,6 +2704,27 @@
    "baseline": true
   },
   {
+   "id": "89b6122dbae10912",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-09-24: imagetext",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-09-24",
+   "affected": [
+    "imagetext"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "8bfe4f991faad46a",
    "source": "azure",
    "kind": "parsed",
@@ -2034,6 +2776,27 @@
    "replacement": null,
    "status": "Preview",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8ee76d2c1288c075",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-28: gemini-3.1-flash-image",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-05-28",
+   "affected": [
+    "gemini-3.1-flash-image"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-3.1-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-flash-image.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -2129,6 +2892,29 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "94c4adcfa6004914",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-10-20: gemini-2.5-pro",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-10-20",
+   "affected": [
+    "gemini-2.5-pro"
+   ],
+   "replacement": "gemini-3.8-flash or gemini-3.5-flash",
+   "status": null,
+   "links": [
+    "gemini-2.5-pro: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-pro.md.txt",
+    "gemini-3.8-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash.md.txt",
+    "gemini-3.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -2306,6 +3092,27 @@
    "baseline": true
   },
   {
+   "id": "9ec5857204797258",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagegeneration@006",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagegeneration@006"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "9fb05ca8232f2776",
    "source": "azure",
    "kind": "parsed",
@@ -2395,6 +3202,27 @@
    "replacement": "llama-3.2-11b-vision-preview",
    "status": null,
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a3d85e29e9fd17ce",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-01: text-embedding-005",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-04-01",
+   "affected": [
+    "text-embedding-005"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "text-embedding-005: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-text-embeddings.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -2667,6 +3495,27 @@
    "baseline": true
   },
   {
+   "id": "b77daf93cd81e686",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagen-3.0-generate-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagen-3.0-generate-001"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "b995317e7a68c733",
    "source": "azure",
    "kind": "parsed",
@@ -2724,6 +3573,27 @@
    "baseline": true
   },
   {
+   "id": "ba9d54c019255320",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-05-24: gemini-1.5-flash-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-05-24",
+   "affected": [
+    "gemini-1.5-flash-001"
+   ],
+   "replacement": "gemini-2.5-flash-lite",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-lite.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "bb80866b66c014b8",
    "source": "azure",
    "kind": "parsed",
@@ -2756,6 +3626,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "bcf907187489ec4d",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-05-24: textembedding-gecko-multilingual@001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-05-24",
+   "affected": [
+    "textembedding-gecko-multilingual@001"
+   ],
+   "replacement": "gemini-embedding-001",
+   "status": null,
+   "links": [
+    "gemini-embedding-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-text-embeddings.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -2876,6 +3767,27 @@
    "baseline": true
   },
   {
+   "id": "c3e6eecf2995db21",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-04-21: code-gecko",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-04-21",
+   "affected": [
+    "code-gecko"
+   ],
+   "replacement": "gemini-2.5-flash-lite",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-lite.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "c6dcc81c1c8a03cb",
    "source": "azure",
    "kind": "parsed",
@@ -2908,6 +3820,28 @@
    "replacement": "llama-3.3-70b-versatile",
    "status": null,
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "c7f5d176dc0bd301",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-04: veo-3.1-generate-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-05-04",
+   "affected": [
+    "veo-3.1-generate-001"
+   ],
+   "replacement": "gemini-omni-1.2-flash",
+   "status": null,
+   "links": [
+    "veo-3.1-generate-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate.md.txt#3.1-generate-001",
+    "gemini-omni-1.2-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/omni-1-2-flash.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -2965,6 +3899,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "cd2dece68e8b1d33",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-19: gemini-3.5-flash",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-05-19",
+   "affected": [
+    "gemini-3.5-flash"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-3.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -3060,6 +4015,48 @@
    "replacement": "gpt-5.6-terra^4^",
    "status": "Deprecated",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d77c778678662f71",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-01: multimodalembedding@001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-04-01",
+   "affected": [
+    "multimodalembedding@001"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "multimodalembedding@001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/embeddings/get-multimodal-embeddings.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "dac9d4c4e9e53d3d",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2025-04-21: chat-bison",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2025-04-21",
+   "affected": [
+    "chat-bison"
+   ],
+   "replacement": "gemini-2.5-flash-lite",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-lite.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -3180,6 +4177,27 @@
    "baseline": true
   },
   {
+   "id": "e4a6d544a3e1d671",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-07-21: gemini-3.5-flash-lite",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-07-21",
+   "affected": [
+    "gemini-3.5-flash-lite"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-3.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "e800dc667eb49822",
    "source": "azure",
    "kind": "parsed",
@@ -3231,6 +4249,51 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e983c4d850daff05",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-10-20: gemini-2.5-flash-lite",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-10-20",
+   "affected": [
+    "gemini-2.5-flash-lite"
+   ],
+   "replacement": "gemini-3.8-flash or gemini-3.5-flash-lite or Gemma 4",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-lite.md.txt",
+    "gemini-3.8-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash.md.txt",
+    "gemini-3.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite.md.txt",
+    "Gemma 4: https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemma4"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ec996760ff6edea2",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagegeneration@005",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagegeneration@005"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -3351,6 +4414,27 @@
    "baseline": true
   },
   {
+   "id": "f1d5aa000962b289",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagen-4.0-generate-001",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagen-4.0-generate-001"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "f3e9e224408eec32",
    "source": "azure",
    "kind": "parsed",
@@ -3389,6 +4473,27 @@
    "baseline": true
   },
   {
+   "id": "f6ff7ee3ef567e68",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-30: imagen-3.0-generate-002",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "imagen-3.0-generate-002"
+   ],
+   "replacement": "gemini-2.5-flash-image",
+   "status": null,
+   "links": [
+    "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "f7a07d0813f76919",
    "source": "azure",
    "kind": "parsed",
@@ -3402,6 +4507,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "f9334cf057d62a75",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-02: gemini-3.8-flash",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": null,
+   "shutdown": "2027-09-02",
+   "affected": [
+    "gemini-3.8-flash"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "gemini-3.8-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash.md.txt"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -5792,6 +6918,27 @@
    "status": null,
    "links": [],
    "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8e126b91ef8a5b95",
+   "source": "vertex",
+   "kind": "parsed",
+   "title": "Feature shutdown 2026-06-24: Generative AI module in the Vertex AI SDK",
+   "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+   "announced": "2025-06-24",
+   "shutdown": "2026-06-24",
+   "affected": [
+    "Generative AI module in the Vertex AI SDK"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [
+    "Vertex AI SDK migration guide: https://docs.cloud.google.com/vertex-ai/generative-ai/docs/genai-vertexai-sdk.md"
+   ],
+   "text": "Starting on June 24, 2025, the Generative AI module in the Vertex AI SDK is deprecated. The Generative AI module will be removed on June 24, 2026. For information about migrating to the Google Gen AI SDK, see Vertex AI SDK migration guide.",
    "first_seen": "2026-11-22",
    "updated": null,
    "baseline": true
