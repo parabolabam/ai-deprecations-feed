@@ -1,6 +1,310 @@
 {
  "records": [
   {
+   "id": "01dee388c264735c",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-14: Cohere: Cohere-rerank-v4.0-fast 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-14",
+   "affected": [
+    "Cohere-rerank-v4.0-fast 1"
+   ],
+   "replacement": "Cohere-rerank-v5-fast",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0289bc44b1fa46ca",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-08-24: Azure OpenAI: gpt-realtime-1.5 2026-02-23",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-08-24",
+   "affected": [
+    "gpt-realtime-1.5 2026-02-23"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "087ebb2df4dd70b8",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-14: Azure OpenAI: gpt-4o 2024-11-20",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-14",
+   "affected": [
+    "gpt-4o 2024-11-20"
+   ],
+   "replacement": "gpt-5.1",
+   "status": "Legacy",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "08bf07022e7b02a3",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Fine-tuned deployment retirement 2028-04-13: Azure OpenAI: gpt-4.1-nano 2025-04-14",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-04-13",
+   "affected": [
+    "gpt-4.1-nano 2025-04-14"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "097028c365f3984c",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-06: Azure OpenAI: gpt-audio-mini 2025-10-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-06",
+   "affected": [
+    "gpt-audio-mini 2025-10-06"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0a9278235fbec182",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-01: Cohere: embed-v-4-0 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-01",
+   "affected": [
+    "embed-v-4-0 1"
+   ],
+   "replacement": "Coher-embed-v5-fast, Cohere-embed-v5-pro",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0b611bffa4aed6b3",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-03-02: Microsoft: MAI-Thinking-1 2026-06-01",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-03-02",
+   "affected": [
+    "MAI-Thinking-1 2026-06-01"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0c031157801fb466",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Fine-tuned deployment retirement 2027-10-01: Azure OpenAI: gpt-4o-mini 2024-07-18",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-01",
+   "affected": [
+    "gpt-4o-mini 2024-07-18"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0c34eb5bbd244c39",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-20: Azure OpenAI: gpt-realtime-2 2026-05-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-20",
+   "affected": [
+    "gpt-realtime-2 2026-05-06"
+   ],
+   "replacement": "gpt-realtime-2.1",
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0d9ba9cd53ab913b",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-14: Azure OpenAI: gpt-4o 2024-05-13",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-14",
+   "affected": [
+    "gpt-4o 2024-05-13"
+   ],
+   "replacement": "gpt-5.1 (2025-11-13)",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0e49beb6e9305401",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-10-16: Cohere: Cohere-command-a-plus-05-2026 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-10-16",
+   "affected": [
+    "Cohere-command-a-plus-05-2026 1"
+   ],
+   "replacement": "coherelabs-command-a-plus-05-2026-fp8^1^, coherelabs-command-a-plus-05-2026-bf16^1^, coherelabs-command-a-plus-05-2026-w4a4^1^",
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0ea44d26a452534f",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-01: Microsoft: MAI-Image-2.6 2026-07-31",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-01",
+   "affected": [
+    "MAI-Image-2.6 2026-07-31"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0f5151fb016aa78d",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-24: Microsoft: MAI-Image-2.5-Pro 2026-06-19",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-24",
+   "affected": [
+    "MAI-Image-2.5-Pro 2026-06-19"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0f545b49797ceb75",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-15: DeepSeek: DeepSeek-V4.1-Flash 2026-09-10",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-15",
+   "affected": [
+    "DeepSeek-V4.1-Flash 2026-09-10"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0f61258cfffacfd0",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-07-13: Azure OpenAI: gpt-5-mini 2025-08-07",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-07-13",
+   "affected": [
+    "gpt-5-mini 2025-08-07"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "11daa9bcd4822166",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-10: Anthropic: claude-sonnet-4-6 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-10",
+   "affected": [
+    "claude-sonnet-4-6 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "13a5067a4e5d71ee",
    "source": "groq",
    "kind": "parsed",
@@ -20,6 +324,82 @@
    "baseline": true
   },
   {
+   "id": "13c7354d5bd84bb0",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-08: Azure OpenAI: gpt-chat-latest 2026-05-28",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-08",
+   "affected": [
+    "gpt-chat-latest 2026-05-28"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "14148ed7da767639",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-17: Microsoft: Phi-4-mini-instruct",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-17",
+   "affected": [
+    "Phi-4-mini-instruct"
+   ],
+   "replacement": "microsoft--phi-4 (Foundry Managed Compute)",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1511691fa49b9d8b",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-17: Microsoft: Phi-4-reasoning",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-17",
+   "affected": [
+    "Phi-4-reasoning"
+   ],
+   "replacement": "microsoft--phi-4 (Foundry Managed Compute)",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "153f9c9382f30d43",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-07: Azure OpenAI: gpt-image-1-mini 2025-10-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-07",
+   "affected": [
+    "gpt-image-1-mini 2025-10-06"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "180350552336f7be",
    "source": "groq",
    "kind": "parsed",
@@ -32,6 +412,899 @@
    ],
    "replacement": "qwen/qwen3-32b",
    "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "18703b8be839548b",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-04: Microsoft: MAI-Transcribe-2-Streaming 2026-08-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-04",
+   "affected": [
+    "MAI-Transcribe-2-Streaming 2026-08-06"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1981884721c9a2f0",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-21: Azure OpenAI: gpt-5.4-mini 2026-03-17",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-21",
+   "affected": [
+    "gpt-5.4-mini 2026-03-17"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1d1907b6f90944e7",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-15: Azure OpenAI: tts-hd 001",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-15",
+   "affected": [
+    "tts-hd 001"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1eabc7f31f41191e",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-07-31: Azure OpenAI: gpt-realtime-2.1-mini 2026-07-07",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-07-31",
+   "affected": [
+    "gpt-realtime-2.1-mini 2026-07-07"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "21021f51c6de49c9",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-05: Black Forest Labs: FLUX-1.1-pro 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-05",
+   "affected": [
+    "FLUX-1.1-pro 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2172e615ad6f44fa",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-14: Cohere: Cohere-rerank-v4.0-pro 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-14",
+   "affected": [
+    "Cohere-rerank-v4.0-pro 1"
+   ],
+   "replacement": "Cohere-rerank-v5-pro",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "21a8b12861823756",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-10-01: Mistral AI: mistral-ocr-4-0 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-01",
+   "affected": [
+    "mistral-ocr-4-0 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "23367feb831581cc",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-01: Anthropic: claude-opus-4-8 2",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-01",
+   "affected": [
+    "claude-opus-4-8 2"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "240dde2154b041e0",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-15: Azure OpenAI: gpt-4o-mini-tts 2025-12-15",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-15",
+   "affected": [
+    "gpt-4o-mini-tts 2025-12-15"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "24168f63601ce78f",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-15: Azure OpenAI: gpt-5.1-codex-mini 2025-11-13",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-15",
+   "affected": [
+    "gpt-5.1-codex-mini 2025-11-13"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2666bb76d7bada7c",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-02: Anthropic: claude-mythos-preview (gated research preview)",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-02",
+   "affected": [
+    "claude-mythos-preview (gated research preview)"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "296ee0207effee65",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-15: Azure OpenAI: gpt-realtime-mini 2025-12-15",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-15",
+   "affected": [
+    "gpt-realtime-mini 2025-12-15"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2a7e4dfc8a39d23e",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-12: xAI: grok-4.3 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-12",
+   "affected": [
+    "grok-4.3 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2c9390b2fab25f85",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Azure OpenAI: o3-deep-research 2025-06-26",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "o3-deep-research 2025-06-26"
+   ],
+   "replacement": "gpt-5.6-sol^4^",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2e6e32ac12dd57ed",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-03-11: Azure OpenAI: gpt-6-sol 2026-09-22",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-03-11",
+   "affected": [
+    "gpt-6-sol 2026-09-22"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2f98b743f69c91fc",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-05: Black Forest Labs: FLUX.1-Kontext-pro 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-05",
+   "affected": [
+    "FLUX.1-Kontext-pro 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3289cdeb8b266cb3",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Azure OpenAI: o3 2025-04-16",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "o3 2025-04-16"
+   ],
+   "replacement": "gpt-5.6-sol^4^",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "32a3e29fe98d2388",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Azure OpenAI: o1 2024-12-17",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "o1 2024-12-17"
+   ],
+   "replacement": "gpt-5.6-sol^4^",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "36c723f3ead6b95a",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-15: Anthropic: claude-opus-5-5-fast 2",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-15",
+   "affected": [
+    "claude-opus-5-5-fast 2"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "37149ed8b2cca0b5",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-06: Azure OpenAI: gpt-realtime-mini 2025-10-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-06",
+   "affected": [
+    "gpt-realtime-mini 2025-10-06"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3987c6637a4d9472",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-08-24: Azure OpenAI: gpt-audio-1.5 2026-02-23",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-08-24",
+   "affected": [
+    "gpt-audio-1.5 2026-02-23"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3b84a6ffbbbbee20",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-02-22: DeepSeek: DeepSeek-V4-Flash 2026-04-23",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-02-22",
+   "affected": [
+    "DeepSeek-V4-Flash 2026-04-23"
+   ],
+   "replacement": "DeepSeek-V4-Flash-0731",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3b986d9db44cc1e1",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-26: Azure OpenAI: gpt-4o-transcribe 2025-03-20",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-26",
+   "affected": [
+    "gpt-4o-transcribe 2025-03-20"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3c32fd1775e97b81",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-17: Azure OpenAI: gpt-chat-latest 2026-06-24",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-17",
+   "affected": [
+    "gpt-chat-latest 2026-06-24"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3ca4dadbdfe36cbf",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-12: Cohere: Cohere-rerank-v5-fast 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-12",
+   "affected": [
+    "Cohere-rerank-v5-fast 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3cd9a031819f54c5",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-01: Anthropic: claude-opus-4-8 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-01",
+   "affected": [
+    "claude-opus-4-8 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3d1124bd073a0f26",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-09: Azure OpenAI: gpt-5 2025-08-07",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-09",
+   "affected": [
+    "gpt-5 2025-08-07"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3e1e3dcaf4022fd6",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-19: xAI: grok-4-1-fast-reasoning 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-19",
+   "affected": [
+    "grok-4-1-fast-reasoning 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4200bd0406a55530",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-20: Microsoft: model-router 2025-11-18",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-20",
+   "affected": [
+    "model-router 2025-11-18"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "424099c4db733fa7",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-09-15: Microsoft: MAI-Transcribe-1 2026-01-23",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-09-15",
+   "affected": [
+    "MAI-Transcribe-1 2026-01-23"
+   ],
+   "replacement": "MAI-Transcribe-1.5",
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "431d7e39c592701c",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-10-28: Azure OpenAI: gpt-image-1 2025-04-15",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-10-28",
+   "affected": [
+    "gpt-image-1 2025-04-15"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4338533581e12bb7",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-10-26: Azure OpenAI: gpt-5.5 2026-04-24",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-26",
+   "affected": [
+    "gpt-5.5 2026-04-24"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "454e648dba2ff4c7",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-08-28: Microsoft: MAI-Image-2e 2026-04-09",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-08-28",
+   "affected": [
+    "MAI-Image-2e 2026-04-09"
+   ],
+   "replacement": "MAI-Image-2.5-Flash",
+   "status": "Retired",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "49ce0a7639897b6c",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-15: Mistral AI: Codestral-2501 2",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-15",
+   "affected": [
+    "Codestral-2501 2"
+   ],
+   "replacement": "mistral-large-4-latest",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4bd8b96502a9ea15",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-15: Azure OpenAI: gpt-4o-mini-transcribe 2025-12-15",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-15",
+   "affected": [
+    "gpt-4o-mini-transcribe 2025-12-15"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4c40a50a7e5be38b",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-31: Meta: Llama-3.3-70B-Instruct",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-31",
+   "affected": [
+    "Llama-3.3-70B-Instruct"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4de8a987dbe1e9be",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-10-21: Azure OpenAI: gpt-image-2 2026-04-21",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-21",
+   "affected": [
+    "gpt-image-2 2026-04-21"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4f7a68d0d795702d",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-12: Cohere: Cohere-rerank-v5-pro 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-12",
+   "affected": [
+    "Cohere-rerank-v5-pro 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5026cf1585bd90e9",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-02-22: DeepSeek: DeepSeek-V4-Pro 2026-04-23",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-02-22",
+   "affected": [
+    "DeepSeek-V4-Pro 2026-04-23"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "51eb47394f9f54cc",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-03-06: DeepSeek: DeepSeek-V4.1-Flash-1017 2026-10-17",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-03-06",
+   "affected": [
+    "DeepSeek-V4.1-Flash-1017 2026-10-17"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5445e9531d54f226",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-30: Anthropic: claude-sonnet-5 2",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-30",
+   "affected": [
+    "claude-sonnet-5 2"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "54ced8e8b27b1f2d",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-06: xAI: grok-4-20-non-reasoning 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-06",
+   "affected": [
+    "grok-4-20-non-reasoning 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "54e20b61612efc56",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-03-02: Azure OpenAI: gpt-audio 2025-08-28",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-03-02",
+   "affected": [
+    "gpt-audio 2025-08-28"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "557087a97d06e2e3",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-10-01: Mistral AI: mistral-medium-3-5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-01",
+   "affected": [
+    "mistral-medium-3-5 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "55b3a5aeca954547",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Meta: Llama-4-Maverick-17B-128E-Instruct-FP8",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "Llama-4-Maverick-17B-128E-Instruct-FP8"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5646bf6d23dc0382",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-15: Cohere: Cohere-embed-v3-multilingual 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-15",
+   "affected": [
+    "Cohere-embed-v3-multilingual 1"
+   ],
+   "replacement": "Cohere-embed-v5-fast, Cohere-embed-v5-pro",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "56ab14f39496098f",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-10: Azure OpenAI: gpt-live-1 2026-09-10",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-10",
+   "affected": [
+    "gpt-live-1 2026-09-10"
+   ],
+   "replacement": null,
+   "status": "GA",
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -64,6 +1337,196 @@
    "baseline": true
   },
   {
+   "id": "582d8eaf52c03ade",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-01-11: Azure OpenAI: gpt-6-astra 2026-09-03",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-01-11",
+   "affected": [
+    "gpt-6-astra 2026-09-03"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5845ccefbc693c0b",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-14: Azure OpenAI: gpt-4o 2024-08-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-14",
+   "affected": [
+    "gpt-4o 2024-08-06"
+   ],
+   "replacement": "gpt-5.1",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "588e99111b3fb3d4",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-02-09: Azure OpenAI: text-embedding-3-small 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-02-09",
+   "affected": [
+    "text-embedding-3-small 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5a84009a096a31b2",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-16: Azure OpenAI: gpt-image-1.5 2025-12-16",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-16",
+   "affected": [
+    "gpt-image-1.5 2025-12-16"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5f1d305d600e3787",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-18: Azure OpenAI: gpt-5.1-codex-max 2025-12-04",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-18",
+   "affected": [
+    "gpt-5.1-codex-max 2025-12-04"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5f3679685b52414f",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-06: xAI: grok-4-20-reasoning 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-06",
+   "affected": [
+    "grok-4-20-reasoning 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5fdcac769656ae5c",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-12-07: Anthropic: claude-fable-5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-12-07",
+   "affected": [
+    "claude-fable-5 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "62157f4b35a69bbf",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-02-09: Azure OpenAI: text-embedding-ada-002 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-02-09",
+   "affected": [
+    "text-embedding-ada-002 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "626e49ce2e7d3a5f",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-10-26: Azure OpenAI: gpt-6.1-terra 2026-10-26",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-26",
+   "affected": [
+    "gpt-6.1-terra 2026-10-26"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "638a3403e1ea23d5",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-01-11: Azure OpenAI: gpt-5.6-luna 2026-07-09",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-01-11",
+   "affected": [
+    "gpt-5.6-luna 2026-07-09"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "639fb157bedb7f2e",
    "source": "groq",
    "kind": "parsed",
@@ -76,6 +1539,538 @@
    ],
    "replacement": "qwen/qwen3.8-27b",
    "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "640df408b04ad4f0",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-03-17: Azure OpenAI: gpt-5-codex 2025-09-15",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-03-17",
+   "affected": [
+    "gpt-5-codex 2025-09-15"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "66ec86e3b9a643ac",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Azure OpenAI: o3-pro 2025-06-10",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "o3-pro 2025-06-10"
+   ],
+   "replacement": "gpt-5.6-sol^4^",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6a557fb9b7302cb2",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-08-31: Nixtla: TimeGEN-1 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-08-31",
+   "affected": [
+    "TimeGEN-1 1"
+   ],
+   "replacement": "TimeGPT-1, TimegGPT-2.1",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6a878c89a812aace",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-15: Azure OpenAI: tts 001",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-15",
+   "affected": [
+    "tts 001"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6ad9077706e537a8",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-07-31: Azure OpenAI: gpt-realtime-2.1 2026-07-07",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-07-31",
+   "affected": [
+    "gpt-realtime-2.1 2026-07-07"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6cadc487d7a75357",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-04: Microsoft: Microsoft-Decision-1 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-04",
+   "affected": [
+    "Microsoft-Decision-1 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6e7094435ea847d5",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-20: Black Forest Labs: FLUX.2-pro 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-20",
+   "affected": [
+    "FLUX.2-pro 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6eafad57a6331d41",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-03-11: Azure OpenAI: gpt-6.1-sol 2026-09-29",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-03-11",
+   "affected": [
+    "gpt-6.1-sol 2026-09-29"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6f3a1c9396f14dee",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-16: MoonshotAI: Kimi-K2.6 2026-04-20",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-16",
+   "affected": [
+    "Kimi-K2.6 2026-04-20"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "72ac71a5c3e43cd8",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-31: Meta: Llama-4-Scout-17B-16E-Instruct",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-31",
+   "affected": [
+    "Llama-4-Scout-17B-16E-Instruct"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "742b226d8586a9a4",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-02-09: Azure OpenAI: text-embedding-ada-002 2",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-02-09",
+   "affected": [
+    "text-embedding-ada-002 2"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "77ec0052c4a59e7f",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-14: Azure OpenAI: gpt-4.1-nano 2025-04-14",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-14",
+   "affected": [
+    "gpt-4.1-nano 2025-04-14"
+   ],
+   "replacement": null,
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "79d8222d9a28a149",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-15: Cohere: cohere-command-a 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-15",
+   "affected": [
+    "cohere-command-a 1"
+   ],
+   "replacement": "coherelabs-command-a-plus-05-2026-fp8^1^, coherelabs-command-a-plus-05-2026-bf16^1^, coherelabs-command-a-plus-05-2026-w4a4^1^",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "7b7cc901292b8245",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-16: MoonshotAI: Kimi-K2.7-Code 2026-06-12",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-16",
+   "affected": [
+    "Kimi-K2.7-Code 2026-06-12"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "7de841c5db40bf56",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-09: Azure OpenAI: gpt-image-2.5-flare 2026-09-09",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-09",
+   "affected": [
+    "gpt-image-2.5-flare 2026-09-09"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "7ea865413349bd39",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-07: Azure OpenAI: gpt-5-pro 2025-10-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-07",
+   "affected": [
+    "gpt-5-pro 2025-10-06"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "7ef77da7aa0ec045",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-17: Azure OpenAI: codex-mini 2025-05-16",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-17",
+   "affected": [
+    "codex-mini 2025-05-16"
+   ],
+   "replacement": null,
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "807246a08c6331a8",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-27: Microsoft: model-router 2025-05-19",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-27",
+   "affected": [
+    "model-router 2025-05-19"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "808c0fa422d2c1a0",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-12-07: Anthropic: claude-mythos-5-1 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-12-07",
+   "affected": [
+    "claude-mythos-5-1 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "820f82a6b000d019",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-22: Anthropic: claude-haiku-4-5 2",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-22",
+   "affected": [
+    "claude-haiku-4-5 2"
+   ],
+   "replacement": "claude-haiku-5-5",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "82987a65e32bcde1",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Fine-tuned deployment retirement 2027-10-01: Azure OpenAI: gpt-4o 2024-08-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-01",
+   "affected": [
+    "gpt-4o 2024-08-06"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8767bb6d230562f4",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-17: Microsoft: Phi-4",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-17",
+   "affected": [
+    "Phi-4"
+   ],
+   "replacement": "microsoft--phi-4 (Foundry Managed Compute)",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "89325fbe954519e6",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-19: xAI: grok-4-1-fast-non-reasoning 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-19",
+   "affected": [
+    "grok-4-1-fast-non-reasoning 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8bfe4f991faad46a",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-06: Anthropic: claude-opus-4-7 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-06",
+   "affected": [
+    "claude-opus-4-7 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8df04e3e7236385d",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-17: Azure OpenAI: gpt-chat-latest 2026-05-05",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-17",
+   "affected": [
+    "gpt-chat-latest 2026-05-05"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8ecb31cef2def764",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-27: Microsoft: model-router 2025-08-07",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-27",
+   "affected": [
+    "model-router 2025-08-07"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8f2699c121bce118",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-11-09: Azure OpenAI: gpt-realtime-whisper 2026-05-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-11-09",
+   "affected": [
+    "gpt-realtime-whisper 2026-05-06"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8fe1bbb48d71a766",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-20: Azure OpenAI: gpt-4o-mini-tts 2025-03-20",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-20",
+   "affected": [
+    "gpt-4o-mini-tts 2025-03-20"
+   ],
+   "replacement": null,
+   "status": "Preview",
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -102,6 +2097,291 @@
    "baseline": true
   },
   {
+   "id": "925c7fa68d03fe11",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-09: Mistral AI: mistral-medium-2505 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-09",
+   "affected": [
+    "mistral-medium-2505 1"
+   ],
+   "replacement": "mistral-medium-3-5",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9454d3a66c2799d5",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-21: Azure OpenAI: gpt-5.4-nano 2026-03-17",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-21",
+   "affected": [
+    "gpt-5.4-nano 2026-03-17"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "94ff2091abe06642",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-31: Meta: Llama-3.3-70B-Instruct",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-31",
+   "affected": [
+    "Llama-3.3-70B-Instruct"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "96246c762bf224f6",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-24: Microsoft: MAI-Image-2.5-Flash 2026-06-02",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-24",
+   "affected": [
+    "MAI-Image-2.5-Flash 2026-06-02"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "999c1617153874f8",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Fine-tuned deployment retirement 2027-11-19: Azure OpenAI: o4-mini 2025-04-16",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-11-19",
+   "affected": [
+    "o4-mini 2025-04-16"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "99fa80ca481cb0ea",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-08-24: Azure OpenAI: gpt-5.3-codex 2026-02-24",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-08-24",
+   "affected": [
+    "gpt-5.3-codex 2026-02-24"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9c6fc2e84ce52e34",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-08: Azure OpenAI: gpt-5.2 2025-12-11",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-08",
+   "affected": [
+    "gpt-5.2 2025-12-11"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9cbd7fe6f7e8239e",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-15: Cohere: Cohere-embed-v3-english 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-15",
+   "affected": [
+    "Cohere-embed-v3-english 1"
+   ],
+   "replacement": "Cohere-embed-v5-fast, Cohere-embed-v5-pro",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9cfdc225e1cbb43b",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-26: MoonshotAI: Kimi-K2.5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-26",
+   "affected": [
+    "Kimi-K2.5 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9dbb0c68356bd93c",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-17: Microsoft: Phi-4-mini-reasoning",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-17",
+   "affected": [
+    "Phi-4-mini-reasoning"
+   ],
+   "replacement": "microsoft--phi-4 (Foundry Managed Compute)",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9e5dabcea26b5d58",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Fine-tuned deployment retirement 2027-10-14: Azure OpenAI: gpt-4.1 2025-04-14",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-14",
+   "affected": [
+    "gpt-4.1 2025-04-14"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9fb05ca8232f2776",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-12-07: Anthropic: claude-fable-5-1 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-12-07",
+   "affected": [
+    "claude-fable-5-1 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a013f1569610fc37",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-17: Microsoft: Phi-4-multimodal-instruct",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-17",
+   "affected": [
+    "Phi-4-multimodal-instruct"
+   ],
+   "replacement": "microsoft--phi-4 (Foundry Managed Compute)",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a24c16a3fe8f33e2",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-02-01: Azure OpenAI: gpt-live-transcribe 2026-07-28",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-02-01",
+   "affected": [
+    "gpt-live-transcribe 2026-07-28"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a2d5f012aaf585da",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-23: Cohere: Cohere-Embed-V5-Fast 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-23",
+   "affected": [
+    "Cohere-Embed-V5-Fast 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "a31d97d575c4d133",
    "source": "groq",
    "kind": "parsed",
@@ -114,6 +2394,462 @@
    ],
    "replacement": "llama-3.2-11b-vision-preview",
    "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a3fe0a6f50be94f6",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-02-09: Azure OpenAI: text-embedding-3-large 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-02-09",
+   "affected": [
+    "text-embedding-3-large 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a5a38bcca5e71387",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-15: Azure OpenAI: whisper 001",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-15",
+   "affected": [
+    "whisper 001"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a71365b330862edc",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-07-08: Anthropic: claude-opus-5 2",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-07-08",
+   "affected": [
+    "claude-opus-5 2"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a7d12999685edd07",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Fine-tuned deployment retirement 2027-10-14: Azure OpenAI: gpt-4.1-mini 2025-04-14",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-14",
+   "affected": [
+    "gpt-4.1-mini 2025-04-14"
+   ],
+   "replacement": null,
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a7f2a974a48376d0",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-22: Anthropic: claude-opus-4-5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-22",
+   "affected": [
+    "claude-opus-4-5 1"
+   ],
+   "replacement": "claude-opus-5-5",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a915e70603ac1d89",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-01-11: Azure OpenAI: gpt-5.6-sol 2026-07-09",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-01-11",
+   "affected": [
+    "gpt-5.6-sol 2026-07-09"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a9b5924bcb983d6b",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-30: Anthropic: claude-sonnet-5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-30",
+   "affected": [
+    "claude-sonnet-5 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "aaa7465c7410ee14",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-22: Anthropic: claude-haiku-4-5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-22",
+   "affected": [
+    "claude-haiku-4-5 1"
+   ],
+   "replacement": "claude-haiku-5-5",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "aabecd3735271f84",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-15: OpenAI-OSS: gpt-oss-120b 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-15",
+   "affected": [
+    "gpt-oss-120b 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "aae888c0011e6a03",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-08-31: NTT Data: tsuzumi-7b 2",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-08-31",
+   "affected": [
+    "tsuzumi-7b 2"
+   ],
+   "replacement": "tsuzumi2",
+   "status": "Legacy",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ab950aabfa9a83fa",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-31: xAI: grok-code-fast-1 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-31",
+   "affected": [
+    "grok-code-fast-1 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b2d45851fb299bf0",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-09: Mistral AI: Ministral-3B 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-09",
+   "affected": [
+    "Ministral-3B 1"
+   ],
+   "replacement": "ministral-ministral-4b-instruct",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b6059a1d6d58bcb2",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-03: DeepSeek: DeepSeek-V4-Flash-0731 2026-07-31",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-03",
+   "affected": [
+    "DeepSeek-V4-Flash-0731 2026-07-31"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b64db2e982b19c92",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-24: Microsoft: MAI-Image-2.5 2026-06-02",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-24",
+   "affected": [
+    "MAI-Image-2.5 2026-06-02"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b995317e7a68c733",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-01: Microsoft: MAI-Image-2.6-Flash 2026-07-31",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-01",
+   "affected": [
+    "MAI-Image-2.6-Flash 2026-07-31"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b9b83b71b958f605",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-09: Azure OpenAI: gpt-image-2.5-sunburst 2026-09-09",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-09",
+   "affected": [
+    "gpt-image-2.5-sunburst 2026-09-09"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b9c93205f99b4536",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-15: Cohere: Cohere-parse-v5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-15",
+   "affected": [
+    "Cohere-parse-v5 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "bb80866b66c014b8",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-20: Azure OpenAI: gpt-4o-mini-transcribe 2025-03-20",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-20",
+   "affected": [
+    "gpt-4o-mini-transcribe 2025-03-20"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "bc6efb72ce8e26b9",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-11-09: Azure OpenAI: gpt-realtime-translate 2026-05-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-11-09",
+   "affected": [
+    "gpt-realtime-translate 2026-05-06"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "bdf0892140989021",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-20: Black Forest Labs: FLUX.2-flex 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-20",
+   "affected": [
+    "FLUX.2-flex 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "be26eaa1c8d1cb87",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-15: Mistral AI: mistral-small-2503 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-15",
+   "affected": [
+    "mistral-small-2503 1"
+   ],
+   "replacement": "mistralai-mistral-small-4-119b-2603",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "be6b5f151448eae9",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-14: Azure OpenAI: gpt-4.1 2025-04-14",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-14",
+   "affected": [
+    "gpt-4.1 2025-04-14"
+   ],
+   "replacement": null,
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "be6f4206e1bea8f2",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-12: Azure OpenAI: gpt-chat-latest 2026-08-06",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-12",
+   "affected": [
+    "gpt-chat-latest 2026-08-06"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "bee3bf0c10268c33",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-01-11: Azure OpenAI: gpt-5.6-terra 2026-07-09",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-01-11",
+   "affected": [
+    "gpt-5.6-terra 2026-07-09"
+   ],
+   "replacement": null,
+   "status": "GA",
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -140,6 +2876,25 @@
    "baseline": true
   },
   {
+   "id": "c6dcc81c1c8a03cb",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Azure OpenAI: o3-mini 2025-01-31",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "o3-mini 2025-01-31"
+   ],
+   "replacement": "gpt-5.6-terra^4^",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "c72eee6aa62a87bf",
    "source": "groq",
    "kind": "parsed",
@@ -152,6 +2907,63 @@
    ],
    "replacement": "llama-3.3-70b-versatile",
    "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "c83d6e052e06f632",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-30: Anthropic: claude-sonnet-4-5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-30",
+   "affected": [
+    "claude-sonnet-4-5 1"
+   ],
+   "replacement": "claude-sonnet-5-5",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "c87f18e6a5751d84",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-11-01: DeepSeek: DeepSeek-V3.2-Speciale 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-11-01",
+   "affected": [
+    "DeepSeek-V3.2-Speciale 1"
+   ],
+   "replacement": "DeepSeek-V4-Pro",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "cae0562beb87624a",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-03-11: Azure OpenAI: gpt-6-luna 2026-09-22",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-03-11",
+   "affected": [
+    "gpt-6-luna 2026-09-22"
+   ],
+   "replacement": null,
+   "status": "GA",
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -178,6 +2990,291 @@
    "baseline": true
   },
   {
+   "id": "d11dedb0598dc625",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-10-05: xAI: grok-4.7 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-10-05",
+   "affected": [
+    "grok-4.7 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d2c97bee2ee3866e",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Azure OpenAI: o1-pro 2025-03-19",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "o1-pro 2025-03-19"
+   ],
+   "replacement": "gpt-5.6-sol^4^",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d2ccf63a5a6d177c",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-08-24: xAI: grok-4.6 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-08-24",
+   "affected": [
+    "grok-4.6 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d448201e87b828bb",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Azure OpenAI: o4-mini 2025-04-16",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "o4-mini 2025-04-16"
+   ],
+   "replacement": "gpt-5.6-terra^4^",
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "dc5f33209694ce7d",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-23: Cohere: Cohere-Embed-V5-Pro 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-23",
+   "affected": [
+    "Cohere-Embed-V5-Pro 1"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "de737949b9ce2766",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-06-15: Azure OpenAI: gpt-audio-mini 2025-12-15",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-06-15",
+   "affected": [
+    "gpt-audio-mini 2025-12-15"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "de90e7e545c9f729",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-09: Azure OpenAI: gpt-5-nano 2025-08-07",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-09",
+   "affected": [
+    "gpt-5-nano 2025-08-07"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e00f1ba5b25a55bf",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-07-13: Azure OpenAI: gpt-5.2-codex 2026-01-14",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-07-13",
+   "affected": [
+    "gpt-5.2-codex 2026-01-14"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e15f2d52d7d2a53e",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-05-15: Azure OpenAI: gpt-5.1-codex 2025-11-13",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-05-15",
+   "affected": [
+    "gpt-5.1-codex 2025-11-13"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e36756d773e16369",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-14: Azure OpenAI: gpt-4o-mini 2024-07-18",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-14",
+   "affected": [
+    "gpt-4o-mini 2024-07-18"
+   ],
+   "replacement": null,
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e800dc667eb49822",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-19: Meta: Llama-4-Maverick-17B-128E-Instruct-FP8",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-11-19",
+   "affected": [
+    "Llama-4-Maverick-17B-128E-Instruct-FP8"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e8f057648e140b1d",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-02: Azure OpenAI: gpt-5.4 2026-03-05",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-02",
+   "affected": [
+    "gpt-5.4 2026-03-05"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e910091b100654ad",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-01-31: xAI: grok-4 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-01-31",
+   "affected": [
+    "grok-4 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ed3b89d077263400",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-02: Anthropic: claude-opus-4-6 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-02",
+   "affected": [
+    "claude-opus-4-6 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ed921fc42f8956fa",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-03-02: Azure OpenAI: gpt-realtime 2025-08-28",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-03-02",
+   "affected": [
+    "gpt-realtime 2025-08-28"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "edebf5aebeb69d4e",
    "source": "groq",
    "kind": "parsed",
@@ -190,6 +3287,25 @@
    ],
    "replacement": "llama-3.2-90b-vision-preview llama-3.1-70b-versatile (text-only workloads)",
    "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "eee9c3cd59148d49",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-07-13: Azure OpenAI: gpt-5.1 2025-11-13",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-07-13",
+   "affected": [
+    "gpt-5.1 2025-11-13"
+   ],
+   "replacement": null,
+   "status": "GA",
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -216,6 +3332,139 @@
    "baseline": true
   },
   {
+   "id": "eff8d380b1fe8bd4",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-02: Azure OpenAI: gpt-chat-latest 2026-10-07",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-02",
+   "affected": [
+    "gpt-chat-latest 2026-10-07"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "f3e9e224408eec32",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2028-02-01: Azure OpenAI: gpt-transcribe 2026-07-28",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2028-02-01",
+   "affected": [
+    "gpt-transcribe 2026-07-28"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "f4ea50e91217a4cd",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-02-15: Mistral AI: mistral-document-ai-2512 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-02-15",
+   "affected": [
+    "mistral-document-ai-2512 1"
+   ],
+   "replacement": "mistral-ocr-4-0",
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "f7a07d0813f76919",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-09-07: Azure OpenAI: gpt-5.4-pro 2026-03-05",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-09-07",
+   "affected": [
+    "gpt-5.4-pro 2026-03-05"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "f9590ab94b42e50f",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-14: Azure OpenAI: gpt-4.1-mini 2025-04-14",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-14",
+   "affected": [
+    "gpt-4.1-mini 2025-04-14"
+   ],
+   "replacement": null,
+   "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "fa5c0a257b3ecb81",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2026-12-15: DeepSeek: DeepSeek-V4-Pro-0813 2026-08-13",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2026-12-15",
+   "affected": [
+    "DeepSeek-V4-Pro-0813 2026-08-13"
+   ],
+   "replacement": null,
+   "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "faae36a9f5e02cc4",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-04-15: Azure OpenAI: gpt-4o-transcribe-diarize 2025-10-15",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-04-15",
+   "affected": [
+    "gpt-4o-transcribe-diarize 2025-10-15"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "ff18414d1602f383",
    "source": "groq",
    "kind": "parsed",
@@ -228,6 +3477,44 @@
    ],
    "replacement": "qwen/qwen3-32b",
    "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ff6ad67b059ef74d",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-07-08: Anthropic: claude-opus-5 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-07-08",
+   "affected": [
+    "claude-opus-5 1"
+   ],
+   "replacement": null,
+   "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ffdce9598af5f905",
+   "source": "azure",
+   "kind": "parsed",
+   "title": "Model retirement 2027-11-02: DeepSeek: DeepSeek-V3.2 1",
+   "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+   "announced": null,
+   "shutdown": "2027-11-02",
+   "affected": [
+    "DeepSeek-V3.2 1"
+   ],
+   "replacement": "DeepSeek-V4.1-Flash",
+   "status": "GA",
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",

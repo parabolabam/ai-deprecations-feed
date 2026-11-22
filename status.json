@@ -10,10 +10,10 @@
   },
   "azure": {
    "changed": "2026-11-22",
-   "count": 0,
+   "count": 173,
    "error": null,
    "since": "2026-11-22",
-   "state": "diff"
+   "state": "ok"
   },
   "bedrock": {
    "changed": "2026-11-22",
