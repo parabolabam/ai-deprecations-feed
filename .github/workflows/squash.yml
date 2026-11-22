@@ -1,0 +1,21 @@
+name: squash-data
+on:
+  schedule:
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+concurrency:
+  group: data-branch
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  squash:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan squashed && git add -A && git commit -m "data: squash $(date -u +%F)" && git push -f origin squashed:data

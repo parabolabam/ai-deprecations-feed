@@ -1,0 +1,66 @@
+name: update
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+concurrency:
+  group: data-branch
+  cancel-in-progress: false
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+  actions: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked --python 3.12
+      - name: Run
+        run: |
+          SITE_URL="https://${{ github.repository_owner }}.github.io/${GITHUB_REPOSITORY#*/}" uv run python -m depfeed --data data --site site
+      - name: Commit data
+        working-directory: data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then git commit -m "data: $(date -u +%F)" && git push; fi
+      - name: Open issues for broken sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          for id in $(jq -r '.sources|to_entries[]|select(.value.state|endswith("_broken"))|.key' data/status.json); do
+            state=$(jq -r --arg id "$id" '.sources[$id].state' data/status.json)
+            error=$(jq -r --arg id "$id" '.sources[$id].error' data/status.json)
+            if [ "$(gh issue list --state open --search "\"[broken] $id\" in:title" --json number --jq length)" = 0 ]; then
+              body=$(printf '%s: %s\n\n%s\n\nReset after a legitimate big change: delete snapshots/%s.md and the sources.%s entry in status.json on branch data; the next run treats the source as new.' "$state" "$error" "$RUN_URL" "$id" "$id")
+              gh issue create --title "[broken] $id" --body "$body"
+            fi
+          done
+      # Commits to the non-default data branch may not count as repo activity for the 60-day rule; this is the second guard.
+      - name: Keepalive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(date -u +%u)" = 1 ]; then gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/update.yml/enable"; fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
