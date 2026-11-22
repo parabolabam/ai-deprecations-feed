@@ -4,10 +4,10 @@ Daily RSS and JSON feed of model and API deprecation announcements from OpenAI, 
 
 Feeds (GitHub Pages):
 
-- `https://<user>.github.io/ai-deprecations-feed/feed.xml` — RSS, last 6 months
-- `https://<user>.github.io/ai-deprecations-feed/feed.json` — JSON Feed 1.1, last 6 months
-- `https://<user>.github.io/ai-deprecations-feed/deprecations.json` — full archive
-- `https://<user>.github.io/ai-deprecations-feed/status.json` — state of each source
+- `https://parabolabam.github.io/ai-deprecations-feed/feed.xml` — RSS, last 6 months
+- `https://parabolabam.github.io/ai-deprecations-feed/feed.json` — JSON Feed 1.1, last 6 months
+- `https://parabolabam.github.io/ai-deprecations-feed/deprecations.json` — full archive
+- `https://parabolabam.github.io/ai-deprecations-feed/status.json` — state of each source
 
 Code lives on `main`, state (snapshots, archive, status) on branch `data`.
 

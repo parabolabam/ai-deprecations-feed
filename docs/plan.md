@@ -15,7 +15,7 @@ The owner needs a readable RSS feed of AI-provider model/API deprecations. OpenA
 
 **Spec:** design doc «Лента депрекаций AI-провайдеров — дизайн» (2026-11-22). Task 0 commits it as `docs/design.md` and this plan as `docs/plan.md`.
 
-**Repo:** `github.com/<user>/ai-deprecations-feed`, public, local `~/github/ai-deprecations-feed`. Feed: `https://<user>.github.io/ai-deprecations-feed/feed.xml` (+ `feed.json`, `deprecations.json`, `status.json`). `<user>` = output of `gh api user --jq .login` after the owner logs in.
+**Repo:** `github.com/parabolabam/ai-deprecations-feed`, public, local `~/github/ai-deprecations-feed`. Feed: `https://parabolabam.github.io/ai-deprecations-feed/feed.xml` (+ `feed.json`, `deprecations.json`, `status.json`). `parabolabam` = output of `gh api user --jq .login` after the owner logs in.
 
 ## Global Constraints
 
@@ -29,7 +29,7 @@ The owner needs a readable RSS feed of AI-provider model/API deprecations. OpenA
 - All dates UTC, ISO `YYYY-MM-DD`.
 - Monthly: squash `data` to one commit (orphan + force-push).
 - Both workflows use `concurrency: {group: data-branch, cancel-in-progress: false}` so the squash never races a daily push.
-- HTTP: `User-Agent: ai-deprecations-feed (+https://github.com/<user>/ai-deprecations-feed)` (non-browser on purpose: Gemini serves markdown only to non-browser UAs), `Accept: text/markdown, text/plain;q=0.9`, timeout 30 s, 1 retry on network error / 429 / 5xx.
+- HTTP: `User-Agent: ai-deprecations-feed (+https://github.com/parabolabam/ai-deprecations-feed)` (non-browser on purpose: Gemini serves markdown only to non-browser UAs), `Accept: text/markdown, text/plain;q=0.9`, timeout 30 s, 1 retry on network error / 429 / 5xx.
 - The run exits 0 when a source is broken (data and site must still update; the issue is the signal). It exits non-zero only on a bug outside per-source processing.
 
 ## Decisions the spec left to the executor
@@ -249,7 +249,7 @@ Job `deploy` (`needs: update`, `environment: github-pages`): `actions/deploy-pag
 - [ ] **Step 1: Lint** — `uvx actionlint` (or `actionlint` via brew) → no output.
 - [ ] **Step 2: Commit + push main.**
 - [ ] **Step 3: First run** — `gh workflow run update.yml && gh run watch --exit-status` → success. Paste the 9 status lines from the log.
-- [ ] **Step 4: Verify live feed** — `curl -sf https://<user>.github.io/ai-deprecations-feed/feed.xml | head -c 600` shows `<rss`; `curl -sf .../status.json | jq '.sources|map_values(.state)'` shows openai `ok`, others `diff`. `git log origin/data --oneline -1` shows the data commit.
+- [ ] **Step 4: Verify live feed** — `curl -sf https://parabolabam.github.io/ai-deprecations-feed/feed.xml | head -c 600` shows `<rss`; `curl -sf .../status.json | jq '.sources|map_values(.state)'` shows openai `ok`, others `diff`. `git log origin/data --oneline -1` shows the data commit.
 - [ ] **Step 5: Second run** — `gh workflow run update.yml`, wait → `git fetch && git log origin/data --oneline -1` unchanged (no-change run makes no commit; unless Monday).
 - [ ] **Step 6: Squash** — `gh workflow run squash.yml`, wait → `git fetch && git rev-list --count origin/data` = `1`.
 
