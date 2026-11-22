@@ -1,0 +1,68 @@
+{
+ "heartbeat": null,
+ "sources": {
+  "anthropic": {
+   "changed": "2026-11-22",
+   "count": 0,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "diff"
+  },
+  "azure": {
+   "changed": "2026-11-22",
+   "count": 0,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "diff"
+  },
+  "bedrock": {
+   "changed": "2026-11-22",
+   "count": 0,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "diff"
+  },
+  "cohere": {
+   "changed": "2026-11-22",
+   "count": 0,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "diff"
+  },
+  "gemini": {
+   "changed": "2026-11-22",
+   "count": 0,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "diff"
+  },
+  "groq": {
+   "changed": "2026-11-22",
+   "count": 0,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "diff"
+  },
+  "openai": {
+   "changed": "2026-11-22",
+   "count": 156,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "ok"
+  },
+  "vertex": {
+   "changed": "2026-11-22",
+   "count": 0,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "diff"
+  },
+  "xai": {
+   "changed": "2026-11-22",
+   "count": 0,
+   "error": null,
+   "since": "2026-11-22",
+   "state": "diff"
+  }
+ }
+}
