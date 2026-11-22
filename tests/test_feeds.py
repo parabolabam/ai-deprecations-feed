@@ -87,3 +87,9 @@ def test_window_drops_undated_baseline():
         return Record(id=id, source="x", kind="parsed", title="t", url="u",
                       first_seen=TODAY, baseline=True, **kw)
     assert [r.id for r in in_window([p("a"), p("b", announced=ago(10))], TODAY)] == ["b"]
+
+
+def test_details_line():
+    r = Record(id="p", source="openai", kind="parsed", title="t", url="u",
+               announced=TODAY, text="why")
+    assert "Details: why" in json.loads(json_feed([r], TODAY, SITE, {}))["items"][0]["content_text"]

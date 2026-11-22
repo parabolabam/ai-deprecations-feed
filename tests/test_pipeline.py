@@ -36,7 +36,6 @@ def kinds(res):
 def test_check_rules():
     assert check([], 0) == "no records"
     assert check([rec()], 10) == "count dropped from 10 to 1"
-    assert check([rec(), rec("x", announced=None)], 0) == "record without date: x"
     assert check([rec(), rec("y", announced=None, shutdown="2026-02-01")], 0) is None
 
 

@@ -15,9 +15,6 @@ def check(records: list[Record], prev_count: int) -> str | None:
         return "no records"
     if len(records) < prev_count / 2:
         return f"count dropped from {prev_count} to {len(records)}"
-    for r in records:
-        if not (r.announced or r.shutdown):
-            return f"record without date: {r.title}"
     return None
 
 

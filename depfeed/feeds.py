@@ -29,6 +29,7 @@ def _desc(r: Record) -> str:
             f"Shutdown: {r.shutdown or 'not set'}",
             *([f"Status: {r.status}"] if r.status else []),
             f"Replacement: {r.replacement or 'none'}",
+            *([f"Details: {r.text}"] if r.text else []),
             *[f"Docs: {x}" for x in r.links],
             f"Source: {r.url}",
         ])
