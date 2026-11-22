@@ -4,8 +4,10 @@ from pathlib import Path
 from depfeed.__main__ import main
 from depfeed.sources import SOURCES
 
-FIX = (Path(__file__).parent / "fixtures" / "openai.md").read_text()
-OTHER = {s.id: "\n".join(f"{s.id} line {i}" for i in range(200)) for s in SOURCES}
+FIXD = Path(__file__).parent / "fixtures"
+FIX = (FIXD / "openai.md").read_text()
+OTHER = {s.id: (FIXD / f"{s.id}.md").read_text() if (FIXD / f"{s.id}.md").exists()
+         else "\n".join(f"{s.id} line {i}" for i in range(200)) for s in SOURCES}
 TUE = "2026-11-24"
 
 
@@ -30,7 +32,8 @@ def test_e2e_first_run(tmp_path):
     items = json.loads((site / "feed.json").read_text())["items"]
     st = status(tmp_path)["sources"]
     assert st["openai"]["state"] == "ok" and st["openai"]["count"] == 156
-    assert [s for s in st if st[s]["state"] == "diff"].__len__() == 8
+    assert {s for s in st if st[s]["state"] == "diff"} == {s.id for s in SOURCES if s.parser is None}
+    assert all(st[s.id]["state"] == "ok" for s in SOURCES if s.parser)
     assert not [r for r in records(tmp_path) if r["kind"] == "raw"]
     assert not [i for i in items if i["tags"][0] == "openai"
                 and i["date_published"].startswith(TUE)]
@@ -60,9 +63,9 @@ def test_e2e_parser_break_keeps_records(tmp_path):
 
 def test_e2e_diff_source_change(tmp_path):
     run(tmp_path)
-    run(tmp_path, "2026-11-25", anthropic=OTHER["anthropic"] + "\nbrand new line")
-    raw = [r for r in records(tmp_path) if r["kind"] == "raw" and r["source"] == "anthropic"]
-    assert len(raw) == 1 and raw[0]["text"].strip() == "brand new line"
+    run(tmp_path, "2026-11-25", xai=OTHER["xai"] + "\nbrand new deprecation")
+    raw = [r for r in records(tmp_path) if r["kind"] == "raw" and r["source"] == "xai"]
+    assert len(raw) == 1 and raw[0]["text"].strip() == "brand new deprecation"
 
 
 def test_heartbeat_monday(tmp_path):

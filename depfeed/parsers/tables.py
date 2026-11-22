@@ -122,7 +122,7 @@ def parse_tables(text: str, link: str, source: str, specs: list[TableSpec]) -> l
         when = shutdown or c.get("shutdown", "").replace("**", "")
         sec = section + ": " if "section" in spec.id_fields else ""
         aff = ", ".join(affected) if spec.affected == "model_version" else _plain(cell)
-        title = f"{spec.prefix} {when}: {sec}{aff}"
+        title = f"{spec.prefix} {when}: {sec}{aff}" if when else f"{spec.prefix}: {sec}{aff}"
         if spec.skip_undated and not shutdown:
             continue
         if spec.require_date and not (announced or shutdown):

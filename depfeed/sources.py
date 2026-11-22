@@ -4,7 +4,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from depfeed.parsers import openai
+from depfeed.parsers import anthropic, openai
 
 if TYPE_CHECKING:
     from depfeed.records import Record
@@ -27,7 +27,7 @@ SOURCES: list[Source] = [
            "https://developers.openai.com/api/docs/deprecations", parser=openai.parse),
     Source("anthropic", "Anthropic",
            ("https://platform.claude.com/docs/en/about-claude/model-deprecations.md",),
-           "https://platform.claude.com/docs/en/about-claude/model-deprecations"),
+           "https://platform.claude.com/docs/en/about-claude/model-deprecations", parser=anthropic.parse),
     Source("gemini", "Google AI (Gemini)",
            ("https://aistudio.google.com/docs/deprecations.md",),
            "https://aistudio.google.com/docs/deprecations"),
