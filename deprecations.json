@@ -13,9 +13,12 @@
    ],
    "replacement": "The same models with EU data residency and Standard processing (service_tier: default), or the GPT-6.2 model family.",
    "status": "Deprecated",
+   "links": [
+    "GPT-6.2 model family: https://developers.openai.com/api/docs/guides/latest-model"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "bee9d703da5cbfc1",
@@ -31,6 +34,7 @@
    ],
    "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -48,6 +52,7 @@
    ],
    "replacement": "The most capable cyber model available to you.",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -66,6 +71,7 @@
    ],
    "replacement": "gpt-6-luna",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -83,6 +89,7 @@
    ],
    "replacement": "gpt-6-luna",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -100,6 +107,7 @@
    ],
    "replacement": "gpt-6-luna",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -117,6 +125,7 @@
    ],
    "replacement": "gpt-6-luna",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -134,6 +143,7 @@
    ],
    "replacement": "gpt-realtime-2.1-mini",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -151,6 +161,7 @@
    ],
    "replacement": "gpt-6-sol",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -169,6 +180,7 @@
    ],
    "replacement": "gpt-6-luna",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -186,6 +198,7 @@
    ],
    "replacement": "gpt-realtime-2.1-mini",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -204,6 +217,7 @@
    ],
    "replacement": "gpt-6-sol",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -223,6 +237,7 @@
    ],
    "replacement": "gpt-realtime-2.1-mini",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -240,6 +255,7 @@
    ],
    "replacement": "The most capable cyber model available to you.",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -257,6 +273,7 @@
    ],
    "replacement": "gpt-live-transcribe or gpt-transcribe",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -274,6 +291,7 @@
    ],
    "replacement": "gpt-live-transcribe or gpt-transcribe",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -292,6 +310,7 @@
    ],
    "replacement": "gpt-live-transcribe or gpt-transcribe",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -309,6 +328,7 @@
    ],
    "replacement": "gpt-live-transcribe or gpt-transcribe",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -326,9 +346,12 @@
    ],
    "replacement": "/v1/realtime/translations",
    "status": "Deprecated",
+   "links": [
+    "/v1/realtime/translations: https://developers.openai.com/api/docs/guides/realtime-translation"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "1124b9cd1be91b12",
@@ -343,6 +366,7 @@
    ],
    "replacement": "gpt-audio-1.5",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -361,6 +385,7 @@
    ],
    "replacement": "gpt-audio-1.5",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -379,6 +404,7 @@
    ],
    "replacement": "gpt-audio-1.5",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -397,6 +423,7 @@
    ],
    "replacement": "gpt-realtime-2.1",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -414,6 +441,7 @@
    ],
    "replacement": "gpt-realtime-2.1-mini",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -432,6 +460,7 @@
    ],
    "replacement": "gpt-realtime-2.1-mini",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -449,6 +478,7 @@
    ],
    "replacement": "gpt-realtime-2.1",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -466,6 +496,7 @@
    ],
    "replacement": "gpt-4o-mini-transcribe-2025-12-15",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -483,6 +514,7 @@
    ],
    "replacement": "gpt-audio-1.5",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -501,6 +533,7 @@
    ],
    "replacement": "gpt-6.1-sol (reasoning.mode: pro) in the Responses API",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -519,6 +552,7 @@
    ],
    "replacement": "gpt-6.1-sol",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -537,6 +571,7 @@
    ],
    "replacement": "gpt-6.1-sol (reasoning.mode: pro) in the Responses API",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -555,6 +590,7 @@
    ],
    "replacement": "gpt-6-luna",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -573,6 +609,7 @@
    ],
    "replacement": "gpt-6.1-terra",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -591,6 +628,7 @@
    ],
    "replacement": "gpt-6.1-sol",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -608,9 +646,12 @@
    ],
    "replacement": "Agents SDK or ChatGPT Workspace Agents. Migration guide. ChatKit remains available.",
    "status": "Deprecated",
+   "links": [
+    "Migration guide: https://developers.openai.com/api/docs/guides/agent-builder/migrate-from-agent-builder"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "8bc5a04f9d3d4d72",
@@ -625,9 +666,13 @@
    ],
    "replacement": "Migrate to Promptfoo. For fine-tuning graders, see the fine-tuning timeline.",
    "status": "Read-only",
+   "links": [
+    "Migrate to Promptfoo: https://developers.openai.com/cookbook/examples/evaluation/moving-from-openai-evals-to-promptfoo",
+    "fine-tuning timeline: https://developers.openai.com/api/docs/deprecations#update-to-openais-self-serve-fine-tuning"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "d4056c324731987d",
@@ -642,9 +687,12 @@
    ],
    "replacement": "Move prompt content into your application code. Migration guide",
    "status": "Deprecated",
+   "links": [
+    "Migration guide: https://developers.openai.com/api/docs/guides/prompting/migrate-from-prompt-object"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "87d3e9c520490afb",
@@ -659,6 +707,7 @@
    ],
    "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -677,6 +726,7 @@
    ],
    "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -694,6 +744,7 @@
    ],
    "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
    "status": "Deprecated",
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -711,6 +762,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -728,6 +780,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -745,9 +798,12 @@
    ],
    "replacement": "See the fine-tuning timeline.",
    "status": "Restricted access",
+   "links": [
+    "fine-tuning timeline: https://developers.openai.com/api/docs/deprecations#update-to-openais-self-serve-fine-tuning"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "1bd7ac0057f94994",
@@ -762,6 +818,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -780,6 +837,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -797,6 +855,7 @@
    ],
    "replacement": "gpt-audio-1.5",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -814,6 +873,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -832,6 +892,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -849,6 +910,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -866,6 +928,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -883,6 +946,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -900,6 +964,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -918,6 +983,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -935,6 +1001,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -952,6 +1019,7 @@
    ],
    "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -970,6 +1038,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -988,6 +1057,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1005,6 +1075,7 @@
    ],
    "replacement": "gpt-realtime-2.1-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1024,6 +1095,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1041,6 +1113,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1058,6 +1131,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1075,6 +1149,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1093,6 +1168,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1113,6 +1189,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1131,6 +1208,7 @@
    ],
    "replacement": "gpt-5.6-luna",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1149,6 +1227,7 @@
    ],
    "replacement": "gpt-5.6-sol (reasoning.mode: pro)",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1166,6 +1245,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1183,6 +1263,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1202,6 +1283,7 @@
    ],
    "replacement": "gpt-5.6-sol",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1219,6 +1301,7 @@
    ],
    "replacement": "No one-to-one replacement",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1236,6 +1319,7 @@
    ],
    "replacement": "No one-to-one replacement",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1253,6 +1337,7 @@
    ],
    "replacement": "No one-to-one replacement",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1270,6 +1355,7 @@
    ],
    "replacement": "No one-to-one replacement",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1287,6 +1373,7 @@
    ],
    "replacement": "No one-to-one replacement",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1304,6 +1391,7 @@
    ],
    "replacement": "No one-to-one replacement",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1321,6 +1409,7 @@
    ],
    "replacement": "gpt-5.1-chat-latest",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1338,6 +1427,7 @@
    ],
    "replacement": "gpt-5-codex-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1355,6 +1445,7 @@
    ],
    "replacement": "gpt-image-2, gpt-image-1, or gpt-image-1-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1372,6 +1463,7 @@
    ],
    "replacement": "gpt-image-2, gpt-image-1, or gpt-image-1-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1389,6 +1481,7 @@
    ],
    "replacement": "gpt-5, or gpt-4.1 for latency-sensitive tasks that don't require reasoning",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1406,6 +1499,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1425,6 +1519,7 @@
    ],
    "replacement": "gpt-5, or gpt-4.1 for latency-sensitive tasks that don't require reasoning",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1442,6 +1537,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1459,6 +1555,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1476,6 +1573,7 @@
    ],
    "replacement": "gpt-5.6-terra",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1493,9 +1591,12 @@
    ],
    "replacement": "Realtime API migration guide",
    "status": null,
+   "links": [
+    "Realtime API migration guide: https://developers.openai.com/api/docs/guides/realtime#beta-to-ga-migration"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "360b961ee1fdd773",
@@ -1510,6 +1611,7 @@
    ],
    "replacement": "gpt-audio-1.5",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1527,6 +1629,7 @@
    ],
    "replacement": "gpt-realtime-1.5",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1544,6 +1647,7 @@
    ],
    "replacement": "gpt-audio-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1561,6 +1665,7 @@
    ],
    "replacement": "gpt-realtime-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1578,6 +1683,7 @@
    ],
    "replacement": "gpt-realtime-1.5",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1595,6 +1701,7 @@
    ],
    "replacement": "gpt-realtime-1.5",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1612,9 +1719,12 @@
    ],
    "replacement": "Responses API and Conversations API (migration guide)",
    "status": null,
+   "links": [
+    "migration guide: https://developers.openai.com/api/docs/assistants/migration"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "ba9bed6aa2be9873",
@@ -1629,6 +1739,7 @@
    ],
    "replacement": "gpt-realtime-1.5",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1646,6 +1757,7 @@
    ],
    "replacement": "gpt-audio-1.5",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1663,6 +1775,7 @@
    ],
    "replacement": "omni-moderation",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1680,6 +1793,7 @@
    ],
    "replacement": "omni-moderation",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1697,6 +1811,7 @@
    ],
    "replacement": "o4-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1714,6 +1829,7 @@
    ],
    "replacement": "o3",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1731,6 +1847,7 @@
    ],
    "replacement": "omni-moderation",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1748,6 +1865,7 @@
    ],
    "replacement": "gpt-4.1",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1765,9 +1883,12 @@
    ],
    "replacement": "OpenAI-Beta: assistants=v2 (migration guide)",
    "status": null,
+   "links": [
+    "migration guide: https://developers.openai.com/api/docs/assistants/migration"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "5c9c3c2896d44a78",
@@ -1782,6 +1903,7 @@
    ],
    "replacement": "gpt-4o-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1799,6 +1921,7 @@
    ],
    "replacement": "gpt-4o-mini",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1816,6 +1939,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1833,6 +1957,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1850,6 +1975,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1867,6 +1993,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1884,6 +2011,7 @@
    ],
    "replacement": "gpt-3.5-turbo",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1901,6 +2029,7 @@
    ],
    "replacement": "gpt-3.5-turbo",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1918,6 +2047,7 @@
    ],
    "replacement": "/v1/fine_tuning/jobs",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1935,6 +2065,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1952,6 +2083,7 @@
    ],
    "replacement": "gpt-3.5-turbo-instruct",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1969,6 +2101,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -1986,6 +2119,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2003,6 +2137,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2020,6 +2155,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2037,6 +2173,7 @@
    ],
    "replacement": "davinci-002",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2054,6 +2191,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2071,6 +2209,7 @@
    ],
    "replacement": "babbage-002",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2088,6 +2227,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2105,6 +2245,7 @@
    ],
    "replacement": "babbage-002",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2122,6 +2263,7 @@
    ],
    "replacement": "gpt-3.5-turbo-instruct",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2139,6 +2281,7 @@
    ],
    "replacement": "gpt-3.5-turbo-instruct",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2156,6 +2299,7 @@
    ],
    "replacement": "babbage-002",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2173,6 +2317,7 @@
    ],
    "replacement": "gpt-3.5-turbo-instruct",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2190,6 +2335,7 @@
    ],
    "replacement": "davinci-002",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2207,6 +2353,7 @@
    ],
    "replacement": "davinci-002, gpt-3.5-turbo, gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2224,6 +2371,7 @@
    ],
    "replacement": "/v1/chat/completions",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2241,6 +2389,7 @@
    ],
    "replacement": "gpt-3.5-turbo-instruct",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2258,6 +2407,7 @@
    ],
    "replacement": "davinci-002",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2275,6 +2425,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2292,6 +2443,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2309,6 +2461,7 @@
    ],
    "replacement": "gpt-3.5-turbo-instruct",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2326,6 +2479,7 @@
    ],
    "replacement": "gpt-3.5-turbo-instruct",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2343,6 +2497,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2360,6 +2515,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2377,6 +2533,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2394,6 +2551,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2411,6 +2569,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2428,6 +2587,7 @@
    ],
    "replacement": "babbage-002",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2445,6 +2605,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2462,6 +2623,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2479,6 +2641,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2496,6 +2659,7 @@
    ],
    "replacement": "text-embedding-3-small",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2513,6 +2677,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2530,6 +2695,7 @@
    ],
    "replacement": "gpt-3.5-turbo",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2547,6 +2713,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2564,6 +2731,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2581,6 +2749,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2598,6 +2767,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2615,6 +2785,7 @@
    ],
    "replacement": "gpt-4o",
    "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null
@@ -2632,9 +2803,12 @@
    ],
    "replacement": "View transition guide",
    "status": null,
+   "links": [
+    "View transition guide: https://help.openai.com/en/articles/6272941-classifications-transition-guide"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "192abf07ddc64390",
@@ -2649,9 +2823,12 @@
    ],
    "replacement": "/v1/models",
    "status": null,
+   "links": [
+    "/v1/models: https://platform.openai.com/docs/api-reference/models/list"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "af83f7fba1801aed",
@@ -2666,9 +2843,12 @@
    ],
    "replacement": "View transition guide",
    "status": null,
+   "links": [
+    "View transition guide: https://help.openai.com/en/articles/6272952-search-transition-guide"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   },
   {
    "id": "f8be16cf9af5082d",
@@ -2683,9 +2863,12 @@
    ],
    "replacement": "View transition guide",
    "status": null,
+   "links": [
+    "View transition guide: https://help.openai.com/en/articles/6233728-answers-transition-guide"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null
+   "updated": "2026-11-22"
   }
  ]
 }
