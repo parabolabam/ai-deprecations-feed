@@ -4,7 +4,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from depfeed.parsers import anthropic, azure, groq, openai, vertex
+from depfeed.parsers import anthropic, azure, gemini, groq, openai, vertex
 
 if TYPE_CHECKING:
     from depfeed.records import Record
@@ -30,7 +30,7 @@ SOURCES: list[Source] = [
            "https://platform.claude.com/docs/en/about-claude/model-deprecations", parser=anthropic.parse),
     Source("gemini", "Google AI (Gemini)",
            ("https://aistudio.google.com/docs/deprecations.md",),
-           "https://aistudio.google.com/docs/deprecations"),
+           "https://aistudio.google.com/docs/deprecations", parser=gemini.parse),
     Source("vertex", "Google Vertex AI",
            ("https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions.md.txt",
             "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations.md.txt"),

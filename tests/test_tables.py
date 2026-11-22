@@ -55,3 +55,5 @@ def test_require_date():
 def test_markdoc_tables():
     t = "x\n{% table %}\n* A\n* B\n---\n* 1\n*\n---\n* 2\n* 3\n{% /table %}\ny"
     assert markdoc_tables(t) == "x\n| A | B |\n|---|---|\n| 1 |  |\n| 2 | 3 |\ny"
+    t = "{% table %}\n* A\n---\n* x\ny\nz\n{% /table %}"
+    assert markdoc_tables(t) == "| A |\n|---|\n| x y z |"

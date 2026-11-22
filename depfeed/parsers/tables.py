@@ -59,6 +59,8 @@ def markdoc_tables(text: str) -> str:
             rows.append([])
         elif line.startswith("*"):
             rows[-1].append(line[1:].strip())
+        elif line.strip() and rows[-1]:  # continuation of the last cell
+            rows[-1][-1] = f"{rows[-1][-1]} {line.strip()}".strip()
     return "\n".join(out)
 
 
