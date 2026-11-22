@@ -38,10 +38,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
+          set -euo pipefail
           for id in $(jq -r '.sources|to_entries[]|select(.value.state|endswith("_broken"))|.key' data/status.json); do
             state=$(jq -r --arg id "$id" '.sources[$id].state' data/status.json)
             error=$(jq -r --arg id "$id" '.sources[$id].error' data/status.json)
-            if [ "$(gh issue list --state open --search "\"[broken] $id\" in:title" --json number --jq length)" = 0 ]; then
+            n=$(gh issue list --state open --search "\"[broken] $id\" in:title" --json number --jq length)
+            if [ "$n" = 0 ]; then
               body=$(printf '%s: %s\n\n%s\n\nReset after a legitimate big change: delete snapshots/%s.md and the sources.%s entry in status.json on branch data; the next run treats the source as new.' "$state" "$error" "$RUN_URL" "$id" "$id")
               gh issue create --title "[broken] $id" --body "$body"
             fi

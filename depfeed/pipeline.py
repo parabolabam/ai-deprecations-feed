@@ -41,7 +41,6 @@ def process(src: Source, old: str | None, prev: dict | None,
             fetch: Callable[[Source], str], today: str) -> Result:
     p = prev or {}
     p_state, p_count, p_changed = p.get("state"), p.get("count", 0), p.get("changed")
-    base = "ok" if src.parser else "diff"
     snapshot = parsed = None
     extra: list[Record] = []
     count, changed, error = p_count, p_changed, None
@@ -54,15 +53,15 @@ def process(src: Source, old: str | None, prev: dict | None,
 
     if error:
         state = "fetch_broken"
-    elif text == old:
-        state = "parser_broken" if p_state == "parser_broken" else base
-        error = p.get("error") if state == "parser_broken" else None
     else:
-        snapshot, changed = text, today
+        changed_now = text != old
+        if changed_now:
+            snapshot, changed = text, today
         if src.parser is None:
             state, count = "diff", 0
-            d = diff_record(src, old, text, today)
-            extra = [d] if d else []
+            if changed_now:
+                d = diff_record(src, old, text, today)
+                extra = [d] if d else []
         else:
             try:
                 records = src.parser(text, src.link)
@@ -71,8 +70,9 @@ def process(src: Source, old: str | None, prev: dict | None,
                 error = f"parser exception: {type(e).__name__}: {e}"
             if error:
                 state = "parser_broken"
-                d = diff_record(src, old, text, today)
-                extra = [d] if d else []
+                if changed_now:
+                    d = diff_record(src, old, text, today)
+                    extra = [d] if d else []
             else:
                 state, parsed, count = "ok", records, len(records)
 

@@ -26,17 +26,17 @@ def main(argv: list[str] | None = None,
     site_url = os.environ.get("SITE_URL", "http://localhost").rstrip("/")
 
     status_path = data / "status.json"
-    status = (json.loads(status_path.read_text()) if status_path.exists()
+    status = (json.loads(status_path.read_text(encoding="utf-8")) if status_path.exists()
               else {"heartbeat": None, "sources": {}})
     records = load_records(data / "deprecations.json")
 
     for src in sources:
         snap = data / "snapshots" / f"{src.id}.md"
-        old = snap.read_text() if snap.exists() else None
+        old = snap.read_text(encoding="utf-8") if snap.exists() else None
         res = process(src, old, status["sources"].get(src.id), fetch, today)
         if res.snapshot is not None:
             snap.parent.mkdir(parents=True, exist_ok=True)
-            snap.write_text(res.snapshot)
+            snap.write_text(res.snapshot, encoding="utf-8")
         records = merge(records, (res.parsed or []) + res.extra, today)
         status["sources"][src.id] = res.status
 
@@ -46,12 +46,12 @@ def main(argv: list[str] | None = None,
 
     save_records(data / "deprecations.json", records)
     status_path.write_text(
-        json.dumps(status, indent=1, ensure_ascii=False, sort_keys=True) + "\n")
+        json.dumps(status, indent=1, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
 
     site.mkdir(parents=True, exist_ok=True)
     names = {s.id: s.name for s in sources}
-    (site / "feed.xml").write_text(rss(records, today, site_url, names))
-    (site / "feed.json").write_text(json_feed(records, today, site_url, names))
+    (site / "feed.xml").write_text(rss(records, today, site_url, names), encoding="utf-8")
+    (site / "feed.json").write_text(json_feed(records, today, site_url, names), encoding="utf-8")
     for f in ("deprecations.json", "status.json"):
         shutil.copyfile(data / f, site / f)
 

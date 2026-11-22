@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import html
+import http.client
 import re
 import time
 import urllib.error
@@ -36,7 +37,7 @@ def fetch(url: str) -> str:
             if e.code != 429 and e.code < 500:
                 raise FetchError(f"{url}: HTTP {e.code}") from e
             err: Exception = e
-        except (urllib.error.URLError, TimeoutError) as e:
+        except (OSError, http.client.HTTPException) as e:
             err = e
         if attempt == 0:
             time.sleep(2)

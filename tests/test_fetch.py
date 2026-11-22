@@ -1,3 +1,4 @@
+import http.client
 import io
 import os
 import urllib.error
@@ -59,6 +60,35 @@ def test_fetch_retries_once_on_503(monkeypatch):
     monkeypatch.setattr(F.urllib.request, "urlopen", fake)
     monkeypatch.setattr(F.time, "sleep", lambda s: None)
     assert fetch("https://example.com/x") == "# ok"
+    assert len(calls) == 2
+
+
+def test_fetch_retries_on_connection_reset(monkeypatch):
+    calls = []
+
+    def fake(*a, **k):
+        calls.append(1)
+        if len(calls) == 1:
+            raise ConnectionResetError("reset")
+        return Resp("# ok")
+
+    monkeypatch.setattr(F.urllib.request, "urlopen", fake)
+    monkeypatch.setattr(F.time, "sleep", lambda s: None)
+    assert fetch("https://example.com/x") == "# ok"
+    assert len(calls) == 2
+
+
+def test_fetch_incomplete_read_raises_fetcherror(monkeypatch):
+    calls = []
+
+    def fake(*a, **k):
+        calls.append(1)
+        raise http.client.IncompleteRead(b"")
+
+    monkeypatch.setattr(F.urllib.request, "urlopen", fake)
+    monkeypatch.setattr(F.time, "sleep", lambda s: None)
+    with pytest.raises(FetchError):
+        fetch("https://example.com/x")
     assert len(calls) == 2
 
 

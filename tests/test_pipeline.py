@@ -62,10 +62,16 @@ def test_too_short_page_is_fetch_broken():
     assert r.status["error"] == "page too short: 100 chars"
 
 
-def test_unchanged_skips():
+def test_unchanged_diff_source_skips():
     r = process(DIFF_SRC, OLD, prev("diff", 0), ok(OLD), T)
     assert r.extra == [] and r.snapshot is None and r.parsed is None
     assert r.status["state"] == "diff"
+
+
+def test_unchanged_parser_source_reparses():
+    r = process(parser_returning(3), OLD, prev("ok", 3), ok(OLD), T)
+    assert r.status["state"] == "ok" and len(r.parsed) == 3
+    assert r.extra == [] and r.snapshot is None
 
 
 def test_recovery_from_fetch_broken_same_text():
@@ -109,10 +115,34 @@ def test_health_only_on_transition():
 
 
 def test_unchanged_keeps_parser_broken():
-    r = process(parser_returning(3), OLD, prev("parser_broken", error="no records"),
+    r = process(parser_returning(0), OLD, prev("parser_broken", error="no records"),
                 ok(OLD), T)
     assert r.status["state"] == "parser_broken" and r.status["error"] == "no records"
-    assert r.extra == []
+    assert r.extra == [] and r.snapshot is None
+
+
+def test_parser_broken_survives_fetch_blip():
+    src = parser_returning(0)
+    r1 = process(src, OLD, prev("ok"), ok(NEW), T)
+    assert r1.status["state"] == "parser_broken"
+
+    def boom(s):
+        raise FetchError("HTTP 500")
+    r2 = process(src, OLD, r1.status, boom, T)
+    assert r2.status["state"] == "fetch_broken"
+    r3 = process(src, NEW, r2.status, ok(NEW), T)
+    assert r3.status["state"] == "parser_broken"
+
+
+def test_parser_added_to_existing_snapshot():
+    r = process(parser_returning(3), OLD, prev("diff", 0), ok(OLD), T)
+    assert r.status["state"] == "ok" and r.parsed is not None
+    assert r.status["count"] == len(r.parsed)
+
+
+def test_parser_fixed_with_unchanged_page():
+    r = process(parser_returning(10), OLD, prev("parser_broken", error="x"), ok(OLD), T)
+    assert r.status["state"] == "ok" and r.extra == []
 
 
 def test_first_run_diff_source():

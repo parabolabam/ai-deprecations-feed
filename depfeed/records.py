@@ -61,7 +61,7 @@ def prune(records: list[Record], today: str) -> list[Record]:
 def load_records(path: Path) -> list[Record]:
     if not path.exists():
         return []
-    return [Record(**d) for d in json.loads(path.read_text())["records"]]
+    return [Record(**d) for d in json.loads(path.read_text(encoding="utf-8"))["records"]]
 
 
 def save_records(path: Path, records: list[Record]) -> None:
@@ -69,4 +69,4 @@ def save_records(path: Path, records: list[Record]) -> None:
     rs = sorted(records, key=lambda r: r.id)
     rs.sort(key=feed_date, reverse=True)  # stable: id asc kept within equal dates
     data = {"records": [asdict(r) for r in rs]}
-    path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
+    path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
