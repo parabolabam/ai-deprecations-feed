@@ -31,10 +31,10 @@
   },
   "gemini": {
    "changed": "2026-11-22",
-   "count": 0,
+   "count": 56,
    "error": null,
    "since": "2026-11-22",
-   "state": "diff"
+   "state": "ok"
   },
   "groq": {
    "changed": "2026-11-22",

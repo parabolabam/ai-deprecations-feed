@@ -159,6 +159,25 @@
    "baseline": true
   },
   {
+   "id": "0b1149d23331d6d3",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-01: gemini-2.0-flash-lite",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-01",
+   "affected": [
+    "gemini-2.0-flash-lite"
+   ],
+   "replacement": "gemini-3.1-flash-lite",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "0b611bffa4aed6b3",
    "source": "azure",
    "kind": "parsed",
@@ -249,6 +268,25 @@
    ],
    "replacement": "gpt-5.1 (2025-11-13)",
    "status": "Deprecated",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "0dd9df657154c922",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-10-22: veo-3.1-generate-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-10-22",
+   "affected": [
+    "veo-3.1-generate-preview"
+   ],
+   "replacement": "gemini-omni-1.2-flash",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -370,6 +408,25 @@
    "baseline": true
   },
   {
+   "id": "12a290de0eac2e0f",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Agent shutdown 2026-10-23: deep-research-pro-preview-12-2025",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-10-23",
+   "affected": [
+    "deep-research-pro-preview-12-2025"
+   ],
+   "replacement": "deep-research-preview-04-2026",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "13a5067a4e5d71ee",
    "source": "groq",
    "kind": "parsed",
@@ -465,6 +522,25 @@
    "baseline": true
   },
   {
+   "id": "15636b99880a4aab",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-12-09: gemini-2.0-flash-lite-preview-02-05",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-12-09",
+   "affected": [
+    "gemini-2.0-flash-lite-preview-02-05"
+   ],
+   "replacement": "gemini-3.1-flash-lite",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "15e04886ad024c17",
    "source": "vertex",
    "kind": "parsed",
@@ -480,6 +556,25 @@
    "links": [
     "gemini-2.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash.md.txt"
    ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "160397d223e2830c",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-12-02: gemini-2.5-pro-preview-03-25",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-12-02",
+   "affected": [
+    "gemini-2.5-pro-preview-03-25"
+   ],
+   "replacement": "gemini-3.8-flash",
+   "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -644,6 +739,25 @@
    "baseline": true
   },
   {
+   "id": "2086e562bd746eb1",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-10-22: veo-3.1-fast-generate-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-10-22",
+   "affected": [
+    "veo-3.1-fast-generate-preview"
+   ],
+   "replacement": "gemini-omni-1.2-flash",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "21021f51c6de49c9",
    "source": "azure",
    "kind": "parsed",
@@ -741,6 +855,25 @@
    "baseline": true
   },
   {
+   "id": "23b8dce4542c46d8",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-07-28: gemini-2.5-computer-use-preview-10-2025",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-07-28",
+   "affected": [
+    "gemini-2.5-computer-use-preview-10-2025"
+   ],
+   "replacement": "gemini-3.8-flash",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "240dde2154b041e0",
    "source": "azure",
    "kind": "parsed",
@@ -801,6 +934,25 @@
    "baseline": true
   },
   {
+   "id": "25008483f219c80b",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-08-31: gemini-robotics-er-1.6-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-08-31",
+   "affected": [
+    "gemini-robotics-er-1.6-preview"
+   ],
+   "replacement": "gemini-robotics-er-2-preview",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "2666bb76d7bada7c",
    "source": "azure",
    "kind": "parsed",
@@ -813,6 +965,25 @@
    ],
    "replacement": null,
    "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2859c20ea2bb36a8",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-04-30: gemini-robotics-er-1.5-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-04-30",
+   "affected": [
+    "gemini-robotics-er-1.5-preview"
+   ],
+   "replacement": "gemini-robotics-er-2-preview",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -938,6 +1109,44 @@
    "baseline": true
   },
   {
+   "id": "2ea793b782df3ab2",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-08-17: imagen-4.0-fast-generate-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-08-17",
+   "affected": [
+    "imagen-4.0-fast-generate-001"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2ece85c0f803fcad",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-10-22: veo-3.1-lite-generate-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-10-22",
+   "affected": [
+    "veo-3.1-lite-generate-preview"
+   ],
+   "replacement": "gemini-omni-1.2-flash",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "2f98b743f69c91fc",
    "source": "azure",
    "kind": "parsed",
@@ -951,6 +1160,27 @@
    "replacement": null,
    "status": "GA",
    "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "30f98a1ac8c00218",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-30: veo-3.0-fast-generate-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "veo-3.0-fast-generate-001"
+   ],
+   "replacement": "gemini-omni-1.2-flash or the GA models on the Gemini Enterprise Agent Platform",
+   "status": null,
+   "links": [
+    "Gemini Enterprise Agent Platform: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate"
+   ],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1066,6 +1296,44 @@
    ],
    "replacement": null,
    "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3aee9233fbfca52c",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-12-18: gemini-2.5-flash-preview-tts",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-12-18",
+   "affected": [
+    "gemini-2.5-flash-preview-tts"
+   ],
+   "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3af295a08b13e2c7",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2027-03-15: gemini-2.5-flash-image",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2027-03-15",
+   "affected": [
+    "gemini-2.5-flash-image"
+   ],
+   "replacement": "gemini-3.1-flash-lite-image",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -1345,6 +1613,25 @@
    "baseline": true
   },
   {
+   "id": "43d069452526420f",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-01: gemini-2.0-flash",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-01",
+   "affected": [
+    "gemini-2.0-flash"
+   ],
+   "replacement": "gemini-3.6-flash",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "454e648dba2ff4c7",
    "source": "azure",
    "kind": "parsed",
@@ -1357,6 +1644,25 @@
    ],
    "replacement": "MAI-Image-2.5-Flash",
    "status": "Retired",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4726a525c8854737",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-12-09: gemini-2.0-flash-lite-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-12-09",
+   "affected": [
+    "gemini-2.0-flash-lite-preview"
+   ],
+   "replacement": "gemini-3.1-flash-lite",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -1400,6 +1706,25 @@
    "links": [
     "veo-3.1-generate-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate.md.txt#3.1-generate-001"
    ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "47b16c2f2d11861e",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-11-10: imagen-3.0-generate-002",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-11-10",
+   "affected": [
+    "imagen-3.0-generate-002"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1460,6 +1785,27 @@
    "status": null,
    "links": [
     "gemini-2.5-flash: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "4bd42560d01125ef",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-30: veo-3.0-generate-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "veo-3.0-generate-001"
+   ],
+   "replacement": "gemini-omni-1.2-flash or the GA models on the Gemini Enterprise Agent Platform",
+   "status": null,
+   "links": [
+    "Gemini Enterprise Agent Platform: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate"
    ],
    "text": null,
    "first_seen": "2026-11-22",
@@ -1617,6 +1963,25 @@
    ],
    "replacement": null,
    "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "52bd8a9e10c362b2",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-02-17: imagen-4.0-ultra-generate-preview-06-06",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-02-17",
+   "affected": [
+    "imagen-4.0-ultra-generate-preview-06-06"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -1861,6 +2226,25 @@
    "baseline": true
   },
   {
+   "id": "590074b03fcb656b",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-02-17: imagen-4.0-generate-preview-06-06",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-02-17",
+   "affected": [
+    "imagen-4.0-generate-preview-06-06"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "5a6497e8ef093442",
    "source": "vertex",
    "kind": "parsed",
@@ -1901,6 +2285,25 @@
    "baseline": true
   },
   {
+   "id": "5a967128272bedca",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-08-17: imagen-4.0-ultra-generate-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-08-17",
+   "affected": [
+    "imagen-4.0-ultra-generate-001"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "5ccdb604f5bae5eb",
    "source": "vertex",
    "kind": "parsed",
@@ -1916,6 +2319,44 @@
    "links": [
     "veo-3.1-generate-001: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate.md.txt#3.1-generate-001"
    ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5d944bd312cba34f",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-12-02: gemini-2.5-pro-preview-06-05",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-12-02",
+   "affected": [
+    "gemini-2.5-pro-preview-06-05"
+   ],
+   "replacement": "gemini-3.8-flash",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5e09dfec91ed1107",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-10-22: gemini-omni-flash-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-10-22",
+   "affected": [
+    "gemini-omni-flash-preview"
+   ],
+   "replacement": "gemini-omni-1.2-flash",
+   "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -1972,6 +2413,25 @@
    ],
    "replacement": null,
    "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "600f88b1dfe297b4",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-11-14: gemini-2.0-flash-preview-image-generation",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-11-14",
+   "affected": [
+    "gemini-2.0-flash-preview-image-generation"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -2115,6 +2575,44 @@
    "baseline": true
   },
   {
+   "id": "685868aa15eadcef",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-12-01: gemini-2.5-flash",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-12-01",
+   "affected": [
+    "gemini-2.5-flash"
+   ],
+   "replacement": "gemini-3.5-flash-lite (gemini-2.5-flash is no longer available in Google AI Studio; effective December 1, 2026, API requests to gemini-2.5-flash will automatically route to gemini-3.5-flash-lite)",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "691e7c791b8ed755",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-01: gemini-2.0-flash-lite-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-01",
+   "affected": [
+    "gemini-2.0-flash-lite-001"
+   ],
+   "replacement": "gemini-3.1-flash-lite",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "6a557fb9b7302cb2",
    "source": "azure",
    "kind": "parsed",
@@ -2172,6 +2670,25 @@
    "baseline": true
   },
   {
+   "id": "6b37023d7e42290c",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-10-30: gemini-embedding-exp",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-10-30",
+   "affected": [
+    "gemini-embedding-exp"
+   ],
+   "replacement": "gemini-embedding-2",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "6cadc487d7a75357",
    "source": "azure",
    "kind": "parsed",
@@ -2206,6 +2723,25 @@
    "links": [
     "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
    ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6dfd304f2f4438a7",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-12-03: gemini-omni-1.1-flash",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-12-03",
+   "affected": [
+    "gemini-omni-1.1-flash"
+   ],
+   "replacement": "gemini-omni-1.2-flash (Effective December 3, 2026, the endpoint is automatically routing API requests to gemini-omni-1.2-flash)",
+   "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -2262,6 +2798,25 @@
    ],
    "replacement": null,
    "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "709084e181726721",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2028-05-14: gemini-embedding-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2028-05-14",
+   "affected": [
+    "gemini-embedding-001"
+   ],
+   "replacement": "gemini-embedding-2",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -2666,6 +3221,44 @@
    "baseline": true
   },
   {
+   "id": "834cfb4b2b4e7162",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-10-30: gemini-embedding-exp-03-07",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-10-30",
+   "affected": [
+    "gemini-embedding-exp-03-07"
+   ],
+   "replacement": "gemini-embedding-2",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "86ba5056380a0568",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-11-12: veo-3.0-fast-generate-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-11-12",
+   "affected": [
+    "veo-3.0-fast-generate-preview"
+   ],
+   "replacement": "gemini-omni-1.2-flash",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "8767bb6d230562f4",
    "source": "azure",
    "kind": "parsed",
@@ -2997,6 +3590,25 @@
    "baseline": true
   },
   {
+   "id": "9bb01800dc1b98cf",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2027-05-07: gemini-3.1-flash-lite",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2027-05-07",
+   "affected": [
+    "gemini-3.1-flash-lite"
+   ],
+   "replacement": "gemini-3.5-flash-lite",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "9c6fc2e84ce52e34",
    "source": "azure",
    "kind": "parsed",
@@ -3144,6 +3756,25 @@
    ],
    "replacement": "microsoft--phi-4 (Foundry Managed Compute)",
    "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a1d0d8f5ef52e0e9",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-25: gemini-3.1-flash-image-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-25",
+   "affected": [
+    "gemini-3.1-flash-image-preview"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -3438,6 +4069,25 @@
    "baseline": true
   },
   {
+   "id": "abb02636d333aaff",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-10-30: embedding-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-10-30",
+   "affected": [
+    "embedding-001"
+   ],
+   "replacement": "gemini-embedding-2",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "b2d45851fb299bf0",
    "source": "azure",
    "kind": "parsed",
@@ -3450,6 +4100,25 @@
    ],
    "replacement": "ministral-ministral-4b-instruct",
    "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b5fc33d0cc702ca3",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2027-03-31: gemini-2.5-flash-native-audio-preview-12-2025",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2027-03-31",
+   "affected": [
+    "gemini-2.5-flash-native-audio-preview-12-2025"
+   ],
+   "replacement": "gemini-3.8-live",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -3476,6 +4145,25 @@
    "baseline": true
   },
   {
+   "id": "b638c138dd21fd87",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-05-25: gemini-3.1-flash-lite-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-05-25",
+   "affected": [
+    "gemini-3.1-flash-lite-preview"
+   ],
+   "replacement": "gemini-3.1-flash-lite",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "b64db2e982b19c92",
    "source": "azure",
    "kind": "parsed",
@@ -3488,6 +4176,25 @@
    ],
    "replacement": null,
    "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b736a7955b400333",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Agent shutdown 2026-10-05: antigravity-preview-05-2026",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-10-05",
+   "affected": [
+    "antigravity-preview-05-2026"
+   ],
+   "replacement": "antigravity-preview-09-2026",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -3510,6 +4217,25 @@
    "links": [
     "gemini-2.5-flash-image: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-image.md.txt"
    ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b7ac334315f973f5",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-25: gemini-3-pro-image-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-25",
+   "affected": [
+    "gemini-3-pro-image-preview"
+   ],
+   "replacement": "gemini-3-pro-image",
+   "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -3606,6 +4332,25 @@
    ],
    "replacement": null,
    "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "bbf99183325a554c",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-12-09: gemini-live-2.5-flash-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-12-09",
+   "affected": [
+    "gemini-live-2.5-flash-preview"
+   ],
+   "replacement": "gemini-3.8-live",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -3741,6 +4486,44 @@
    ],
    "replacement": null,
    "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "bfd909e408ae84df",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-02-17: gemini-2.5-flash-preview-09-2025",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-02-17",
+   "affected": [
+    "gemini-2.5-flash-preview-09-2025"
+   ],
+   "replacement": "gemini-3.6-flash",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "c34a41e2ccb5e2b3",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-03-31: gemini-2.5-flash-lite-preview-09-2025",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-03-31",
+   "affected": [
+    "gemini-2.5-flash-lite-preview-09-2025"
+   ],
+   "replacement": "gemini-3.1-flash-lite",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -3886,6 +4669,25 @@
    "baseline": true
   },
   {
+   "id": "c92dbd17c9229dfa",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-03-09: gemini-3-pro-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-03-09",
+   "affected": [
+    "gemini-3-pro-preview"
+   ],
+   "replacement": "gemini-3.1-pro-preview",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "cae0562beb87624a",
    "source": "azure",
    "kind": "parsed",
@@ -3898,6 +4700,25 @@
    ],
    "replacement": null,
    "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "cbcdc775ceb4acb5",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-01-14: text-embedding-004",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-01-14",
+   "affected": [
+    "text-embedding-004"
+   ],
+   "replacement": "gemini-embedding-2",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -3957,6 +4778,25 @@
    ],
    "replacement": null,
    "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d2bf930add847f72",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-01: gemini-2.0-flash-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-01",
+   "affected": [
+    "gemini-2.0-flash-001"
+   ],
+   "replacement": "gemini-3.6-flash",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -4042,6 +4882,44 @@
    "baseline": true
   },
   {
+   "id": "d7843220da0270d4",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-11-06: gemini-embedding-2-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-11-06",
+   "affected": [
+    "gemini-embedding-2-preview"
+   ],
+   "replacement": "gemini-embedding-2 (effective November 6, 2026, API requests to gemini-embedding-2-preview route to gemini-embedding-2)",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d7a2efe89110f97e",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-12-01: gemini-2.5-pro",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-12-01",
+   "affected": [
+    "gemini-2.5-pro"
+   ],
+   "replacement": "gemini-3.8-flash (gemini-2.5-pro is no longer available in Google AI Studio; effective December 1, 2026, API requests to gemini-2.5-pro will automatically route to gemini-3.8-flash)",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "dac9d4c4e9e53d3d",
    "source": "vertex",
    "kind": "parsed",
@@ -4075,6 +4953,25 @@
    ],
    "replacement": null,
    "status": "Preview",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "dcb5b30e28f862d4",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-12-02: gemini-2.5-pro-preview-05-06",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-12-02",
+   "affected": [
+    "gemini-2.5-pro-preview-05-06"
+   ],
+   "replacement": "gemini-3.8-flash",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
@@ -4158,6 +5055,25 @@
    "baseline": true
   },
   {
+   "id": "e16882dc12a8a106",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-11-12: veo-3.0-generate-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-11-12",
+   "affected": [
+    "veo-3.0-generate-preview"
+   ],
+   "replacement": "gemini-omni-1.2-flash",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "e36756d773e16369",
    "source": "azure",
    "kind": "parsed",
@@ -4191,6 +5107,46 @@
    "status": null,
    "links": [
     "gemini-3.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite.md.txt"
+   ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e7011febf3b6d689",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-12-18: gemini-3.1-flash-tts-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-12-18",
+   "affected": [
+    "gemini-3.1-flash-tts-preview"
+   ],
+   "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e7154b8236470f30",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-06-30: veo-2.0-generate-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-06-30",
+   "affected": [
+    "veo-2.0-generate-001"
+   ],
+   "replacement": "gemini-omni-1.2-flash or the GA models on the Gemini Enterprise Agent Platform",
+   "status": null,
+   "links": [
+    "Gemini Enterprise Agent Platform: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/veo/3-1-generate"
    ],
    "text": null,
    "first_seen": "2026-11-22",
@@ -4255,6 +5211,25 @@
    "baseline": true
   },
   {
+   "id": "e953f0f13e2d5437",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-12-18: gemini-2.5-pro-preview-tts",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-12-18",
+   "affected": [
+    "gemini-2.5-pro-preview-tts"
+   ],
+   "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "e983c4d850daff05",
    "source": "vertex",
    "kind": "parsed",
@@ -4273,6 +5248,25 @@
     "gemini-3.5-flash-lite: https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite.md.txt",
     "Gemma 4: https://console.cloud.google.com/agent-platform/publishers/google/model-garden/gemma4"
    ],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "eb371f527e4875a2",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-10-30: embedding-gecko-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-10-30",
+   "affected": [
+    "embedding-gecko-001"
+   ],
+   "replacement": "gemini-embedding-2",
+   "status": null,
+   "links": [],
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
@@ -4553,6 +5547,25 @@
    "baseline": true
   },
   {
+   "id": "f97c1d92e0ae50b8",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-12-09: gemini-2.0-flash-live-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-12-09",
+   "affected": [
+    "gemini-2.0-flash-live-001"
+   ],
+   "replacement": "gemini-3.8-live",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "fa5c0a257b3ecb81",
    "source": "azure",
    "kind": "parsed",
@@ -4591,6 +5604,44 @@
    "baseline": true
   },
   {
+   "id": "fb531bb1c91307dd",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-01-15: gemini-2.5-flash-image-preview",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-01-15",
+   "affected": [
+    "gemini-2.5-flash-image-preview"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ff0d9ee4d54e22d1",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2026-08-17: imagen-4.0-generate-001",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2026-08-17",
+   "affected": [
+    "imagen-4.0-generate-001"
+   ],
+   "replacement": "gemini-nano-banana-2.1",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "ff18414d1602f383",
    "source": "groq",
    "kind": "parsed",
@@ -4622,6 +5673,25 @@
    ],
    "replacement": null,
    "status": "GA",
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ff83f19059c178dc",
+   "source": "gemini",
+   "kind": "parsed",
+   "title": "Model shutdown 2025-11-18: gemini-2.5-flash-preview-05-20",
+   "url": "https://aistudio.google.com/docs/deprecations",
+   "announced": null,
+   "shutdown": "2025-11-18",
+   "affected": [
+    "gemini-2.5-flash-preview-05-20"
+   ],
+   "replacement": "gemini-3.6-flash",
+   "status": null,
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
