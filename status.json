@@ -3,10 +3,10 @@
  "sources": {
   "anthropic": {
    "changed": "2026-11-22",
-   "count": 0,
+   "count": 21,
    "error": null,
    "since": "2026-11-22",
-   "state": "diff"
+   "state": "ok"
   },
   "azure": {
    "changed": "2026-11-22",

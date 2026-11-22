@@ -1,6 +1,31 @@
 {
  "records": [
   {
+   "id": "56ed5346289fd5d6",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "API parameter deprecation: temperature, top_p, top_k",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": null,
+   "shutdown": null,
+   "affected": [
+    "temperature",
+    "top_p",
+    "top_k"
+   ],
+   "replacement": "Omit and use prompting to guide model behavior.",
+   "status": "Removed in API version 2026-10-21",
+   "links": [
+    "API version 2026-10-21: https://platform.claude.com/docs/en/api/migration-2026-10-21#sampling-parameters",
+    "Claude Mythos Preview: https://anthropic.com/glasswing",
+    "prompting: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+   ],
+   "text": "Returns a 400 error. Earlier API versions return it when set to a non-default value on Claude 4.7 and later models and Claude Mythos Preview.",
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "3670570fd58e48cb",
    "source": "openai",
    "kind": "parsed",
@@ -254,6 +279,25 @@
    "first_seen": "2026-11-22",
    "updated": null,
    "baseline": false
+  },
+  {
+   "id": "2a0b06c125931c1c",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2026-11-30: claude-sonnet-4-5-20250929",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2026-09-30",
+   "shutdown": "2026-11-30",
+   "affected": [
+    "claude-sonnet-4-5-20250929"
+   ],
+   "replacement": "claude-sonnet-5-5",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
   },
   {
    "id": "4b0ea5ce8667f1ff",
@@ -666,6 +710,25 @@
    "first_seen": "2026-11-22",
    "updated": null,
    "baseline": false
+  },
+  {
+   "id": "92cd2e0d52230096",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2026-08-05: claude-opus-4-1-20250805",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2026-06-05",
+   "shutdown": "2026-08-05",
+   "affected": [
+    "claude-opus-4-1-20250805"
+   ],
+   "replacement": "claude-opus-4-8",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
   },
   {
    "id": "27950fc17033ee61",
@@ -1358,6 +1421,44 @@
    "baseline": false
   },
   {
+   "id": "06508c764ffa7c4c",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-15: claude-sonnet-4-20250514",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2026-04-14",
+   "shutdown": "2026-06-15",
+   "affected": [
+    "claude-sonnet-4-20250514"
+   ],
+   "replacement": "claude-sonnet-5-5",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9f9349466e1421e2",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2026-06-15: claude-opus-4-20250514",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2026-04-14",
+   "shutdown": "2026-06-15",
+   "affected": [
+    "claude-opus-4-20250514"
+   ],
+   "replacement": "claude-opus-4-8",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "0d54515bdf902b7e",
    "source": "openai",
    "kind": "parsed",
@@ -1472,6 +1573,44 @@
    "baseline": false
   },
   {
+   "id": "964d7b52d377c4e3",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2026-04-20: claude-3-haiku-20240307",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2026-02-19",
+   "shutdown": "2026-04-20",
+   "affected": [
+    "claude-3-haiku-20240307"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3b78702fb3834c5d",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2026-02-19: claude-3-5-haiku-20241022",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2025-12-19",
+   "shutdown": "2026-02-19",
+   "affected": [
+    "claude-3-5-haiku-20241022"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "a109d9d6aa206a63",
    "source": "openai",
    "kind": "parsed",
@@ -1546,6 +1685,25 @@
    "first_seen": "2026-11-22",
    "updated": null,
    "baseline": false
+  },
+  {
+   "id": "9c1659233a4daa3e",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2026-02-19: claude-3-7-sonnet-20250219",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2025-10-28",
+   "shutdown": "2026-02-19",
+   "affected": [
+    "claude-3-7-sonnet-20250219"
+   ],
+   "replacement": "claude-sonnet-5-5",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
   },
   {
    "id": "15cdc465878c15ee",
@@ -1820,6 +1978,63 @@
    "baseline": false
   },
   {
+   "id": "83cee170198dc26c",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2025-10-28: claude-3-5-sonnet-20240620",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2025-08-13",
+   "shutdown": "2025-10-28",
+   "affected": [
+    "claude-3-5-sonnet-20240620"
+   ],
+   "replacement": "claude-sonnet-5-5",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b779a4ae4abedcbf",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2025-10-28: claude-3-5-sonnet-20241022",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2025-08-13",
+   "shutdown": "2025-10-28",
+   "affected": [
+    "claude-3-5-sonnet-20241022"
+   ],
+   "replacement": "claude-sonnet-5-5",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3ba4dc1c1adf23b9",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2026-01-05: claude-3-opus-20240229",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2025-06-30",
+   "shutdown": "2026-01-05",
+   "affected": [
+    "claude-3-opus-20240229"
+   ],
+   "replacement": "claude-opus-4-8",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "ba9bed6aa2be9873",
    "source": "openai",
    "kind": "parsed",
@@ -1972,6 +2187,63 @@
    "baseline": false
   },
   {
+   "id": "5a70f983957ed615",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2025-07-21: claude-2.1",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2025-01-21",
+   "shutdown": "2025-07-21",
+   "affected": [
+    "claude-2.1"
+   ],
+   "replacement": "claude-opus-4-8",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8d13ceed7fb3e3f0",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2025-07-21: claude-3-sonnet-20240229",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2025-01-21",
+   "shutdown": "2025-07-21",
+   "affected": [
+    "claude-3-sonnet-20240229"
+   ],
+   "replacement": "claude-sonnet-5-5",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a925cbba6f7e624a",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2025-07-21: claude-2.0",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2025-01-21",
+   "shutdown": "2025-07-21",
+   "affected": [
+    "claude-2.0"
+   ],
+   "replacement": "claude-opus-4-8",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "0f65fa61e112a34c",
    "source": "openai",
    "kind": "parsed",
@@ -1991,6 +2263,139 @@
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
    "baseline": false
+  },
+  {
+   "id": "3ff2e6e019f39685",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2024-11-06: claude-1.0",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2024-09-04",
+   "shutdown": "2024-11-06",
+   "affected": [
+    "claude-1.0"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "63fb2dd7d82d65df",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2024-11-06: claude-instant-1.0",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2024-09-04",
+   "shutdown": "2024-11-06",
+   "affected": [
+    "claude-instant-1.0"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "70a12391bddab9dd",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2024-11-06: claude-1.1",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2024-09-04",
+   "shutdown": "2024-11-06",
+   "affected": [
+    "claude-1.1"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "79dcb88c01ff24b9",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2024-11-06: claude-instant-1.1",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2024-09-04",
+   "shutdown": "2024-11-06",
+   "affected": [
+    "claude-instant-1.1"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a53fa311e2d681e8",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2024-11-06: claude-instant-1.2",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2024-09-04",
+   "shutdown": "2024-11-06",
+   "affected": [
+    "claude-instant-1.2"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "e81cb05291f54c3f",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2024-11-06: claude-1.2",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2024-09-04",
+   "shutdown": "2024-11-06",
+   "affected": [
+    "claude-1.2"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "f4baf50e1debc98d",
+   "source": "anthropic",
+   "kind": "parsed",
+   "title": "Model retirement 2024-11-06: claude-1.3",
+   "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+   "announced": "2024-09-04",
+   "shutdown": "2024-11-06",
+   "affected": [
+    "claude-1.3"
+   ],
+   "replacement": "claude-haiku-4-5-20251001",
+   "status": null,
+   "links": [],
+   "text": null,
+   "first_seen": "2026-11-22",
+   "updated": null,
+   "baseline": true
   },
   {
    "id": "5c9c3c2896d44a78",
