@@ -21,7 +21,7 @@ jobs:
         with:
           ref: data
           path: data
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.3
       - run: uv sync --locked --python 3.12
       - name: Run
         run: |
