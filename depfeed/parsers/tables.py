@@ -117,7 +117,7 @@ def parse_tables(text: str, link: str, source: str, specs: list[TableSpec]) -> l
             v = _plain(c.get("version", ""))
             affected = [_plain(cell) if v in ("", "—") else f"{_plain(cell)} {v}"]
         else:
-            affected = re.findall(r"`([^`]+)`", cell) or [
+            affected = [a.rstrip("\\*") for a in re.findall(r"`([^`]+)`", cell)] or [
                 a.strip() for a in _plain(cell).split(",") if a.strip()]
         when = shutdown or c.get("shutdown", "").replace("**", "")
         sec = section + ": " if "section" in spec.id_fields else ""

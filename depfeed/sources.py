@@ -4,7 +4,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from depfeed.parsers import anthropic, azure, groq, openai
+from depfeed.parsers import anthropic, azure, groq, openai, vertex
 
 if TYPE_CHECKING:
     from depfeed.records import Record
@@ -33,9 +33,12 @@ SOURCES: list[Source] = [
            "https://aistudio.google.com/docs/deprecations"),
     Source("vertex", "Google Vertex AI",
            ("https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions.md.txt",
-            "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations.md.txt",
-            "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models.md.txt"),
-           "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions"),
+            "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations.md.txt"),
+           "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+           parser=vertex.parse),
+    Source("vertex-partners", "Google Vertex AI (partner models)",
+           ("https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models.md.txt",),
+           "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models"),
     Source("bedrock", "AWS Bedrock",
            ("https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.md",
             "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.md"),

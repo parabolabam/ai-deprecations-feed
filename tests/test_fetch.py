@@ -92,9 +92,9 @@ def test_fetch_incomplete_read_raises_fetcherror(monkeypatch):
     assert len(calls) == 2
 
 
-def test_sources_ids_unique_and_nine():
-    assert len(SOURCES) == 9
-    assert len({s.id for s in SOURCES}) == 9
+def test_sources_ids_unique_and_ten():
+    assert len(SOURCES) == 10
+    assert len({s.id for s in SOURCES}) == 10
 
 
 @pytest.mark.skipif(not os.getenv("LIVE"), reason="network")
