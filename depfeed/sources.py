@@ -4,7 +4,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from depfeed.parsers import anthropic, groq, openai
+from depfeed.parsers import anthropic, azure, groq, openai
 
 if TYPE_CHECKING:
     from depfeed.records import Record
@@ -52,5 +52,5 @@ SOURCES: list[Source] = [
            keep=r"(?i)end of life|deprecat|retire|sunset|shut ?down"),
     Source("azure", "Azure AI Foundry",
            ("https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule?accept=text/markdown",),
-           "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule"),
+           "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule", parser=azure.parse),
 ]
