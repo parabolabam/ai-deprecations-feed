@@ -1,0 +1,46 @@
+from pathlib import Path
+
+from depfeed.parsers.openai import parse
+from depfeed.sources import SOURCES
+
+TEXT = (Path(__file__).parent / "fixtures/openai.md").read_text()
+L = "https://example.com/l"
+FLOOR = 124  # 80% of the real count (156)
+
+
+def test_parses_many():
+    assert len(parse(TEXT, L)) >= FLOOR
+
+
+def test_known_row():
+    r = next(r for r in parse(TEXT, L) if "gpt-5-mini" in r.affected)
+    assert r.shutdown == "2026-12-11" and r.announced == "2026-06-11"
+    assert r.replacement == "gpt-6.1-terra"
+    assert r.source == "openai" and r.kind == "parsed" and r.url == L
+
+
+def test_all_dated():
+    assert all(r.announced or r.shutdown for r in parse(TEXT, L))
+
+
+def test_all_have_notice_date():
+    assert all(r.announced for r in parse(TEXT, L))
+
+
+def test_ids_unique():
+    ids = [r.id for r in parse(TEXT, L)]
+    assert len(ids) == len(set(ids))
+
+
+def test_no_tables_returns_empty():
+    assert parse("# Title\ntext", L) == []
+
+
+def test_ids_stable_when_replacement_edited():
+    edited = TEXT.replace("`gpt-6.1-terra`", "`something-else`", 1)
+    assert edited != TEXT
+    assert {r.id for r in parse(edited, L)} == {r.id for r in parse(TEXT, L)}
+
+
+def test_source_wired():
+    assert next(s for s in SOURCES if s.id == "openai").parser is parse
