@@ -29,8 +29,10 @@ def _desc(r: Record) -> str:
             f"Shutdown: {r.shutdown or 'not set'}",
             *([f"Status: {r.status}"] if r.status else []),
             f"Replacement: {r.replacement or 'none'}",
+            *[f"Docs: {x}" for x in r.links],
+            f"Source: {r.url}",
         ])
-    return r.text or ""
+    return f"{r.text or ''}\n\nSource: {r.url}"
 
 
 def _dt(iso: str) -> datetime:

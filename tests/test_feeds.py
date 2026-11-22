@@ -68,3 +68,15 @@ def test_status_line():
         return json.loads(json_feed([r], TODAY, SITE, {}))["items"][0]["content_text"]
     assert "Status: Deprecated" in desc(status="Deprecated")
     assert "Status:" not in desc()
+
+
+def test_docs_and_source_lines():
+    def desc(r):
+        return json.loads(json_feed([r], TODAY, SITE, {}))["items"][0]["content_text"]
+    p = Record(id="p", source="openai", kind="parsed", title="t", url="https://p",
+               announced=ago(1), links=["Guide: https://x/y"])
+    lines = desc(p).split("\n")
+    assert "Docs: Guide: https://x/y" in lines and lines[-1] == "Source: https://p"
+    r = Record(id="r", source="openai", kind="raw", title="t", url="https://p",
+               text="added line", first_seen=ago(1))
+    assert desc(r) == "added line\n\nSource: https://p"

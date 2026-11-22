@@ -1,4 +1,5 @@
 import re
+from urllib.parse import urljoin
 
 from depfeed.dates import parse_date
 from depfeed.records import Record, record_id
@@ -18,7 +19,18 @@ def _plain(s: str) -> str:
     return " ".join(s.replace("`", "").split())
 
 
-def _row(c: dict[str, str], link: str, prefix: str) -> Record:
+def _links(cells: list[str], page: str) -> list[str]:
+    out: list[str] = []
+    for cell in cells:
+        for text, url in re.findall(r"\[([^\]]*)\]\(([^)\s]+)\)", cell):
+            url = page + url if url.startswith("#") else urljoin(page, url)
+            entry = f"{_plain(text)}: {url}"
+            if entry not in out:
+                out.append(entry)
+    return out
+
+
+def _row(c: dict[str, str], link: str, prefix: str, cells: list[str]) -> Record:
     shutdown = parse_date(c.get("shutdown", ""))
     announced = parse_date(c.get("announced", ""))
     cell = c.get("affected", "")
@@ -36,7 +48,7 @@ def _row(c: dict[str, str], link: str, prefix: str) -> Record:
     return Record(id=rid, source="openai", kind="parsed", title=title, url=link,
                   announced=announced, shutdown=shutdown, affected=affected,
                   replacement=None if rep in ("", "—", "-", "N/A") else rep,
-                  status=status)
+                  status=status, links=_links(cells, link))
 
 
 def parse(text: str, link: str) -> list[Record]:
@@ -61,7 +73,7 @@ def parse(text: str, link: str) -> list[Record]:
             continue
         if all(re.fullmatch(r":?-+:?", c) for c in cells):
             continue
-        r = _row({cols[i]: c for i, c in enumerate(cells) if i in cols}, link, prefix)
+        r = _row({cols[i]: c for i, c in enumerate(cells) if i in cols}, link, prefix, cells)
         if r.id in seen:  # same date + first ID twice: disambiguate by full affected cell
             r.id = record_id("openai", r.announced or r.shutdown or "", r.affected[0] if r.affected else r.title, "|".join(r.affected))
         seen.add(r.id)

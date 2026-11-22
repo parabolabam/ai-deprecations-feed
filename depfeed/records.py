@@ -20,6 +20,7 @@ class Record:
     affected: list[str] = field(default_factory=list)
     replacement: str | None = None
     status: str | None = None
+    links: list[str] = field(default_factory=list)
     text: str | None = None
     first_seen: str | None = None
     updated: str | None = None

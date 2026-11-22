@@ -60,3 +60,23 @@ def test_title_prefixes():
     rs = parse(TEXT, L)
     assert all(r.title.startswith(ps) for r in rs)
     assert all(any(r.title.startswith(p + " ") for r in rs) for p in ps)
+
+
+def test_row_links():
+    rs = parse(TEXT, "https://developers.openai.com/api/docs/deprecations")
+    p = next(r for r in rs if "/v1/prompts" in r.title)
+    assert p.links == ["Migration guide: https://developers.openai.com/api/docs/guides/prompting/migrate-from-prompt-object"]
+    e = next(r for r in rs if "Evals dashboard" in r.title)
+    assert "fine-tuning timeline: https://developers.openai.com/api/docs/deprecations#update-to-openais-self-serve-fine-tuning" in e.links
+    assert sum(bool(r.links) for r in rs) == 13
+
+
+def test_ids_unchanged_by_links():
+    rs = parse(TEXT, "https://developers.openai.com/api/docs/deprecations")
+    assert any(r.id == "3670570fd58e48cb" for r in rs)
+
+
+def test_link_text_plain():
+    rs = parse(TEXT, "https://developers.openai.com/api/docs/deprecations")
+    t = next(r for r in rs if "/v1/audio/translations" in r.title)
+    assert t.links == ["/v1/realtime/translations: https://developers.openai.com/api/docs/guides/realtime-translation"]
