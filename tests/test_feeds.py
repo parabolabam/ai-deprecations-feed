@@ -80,3 +80,10 @@ def test_docs_and_source_lines():
     r = Record(id="r", source="openai", kind="raw", title="t", url="https://p",
                text="added line", first_seen=ago(1))
     assert desc(r) == "added line\n\nSource: https://p"
+
+
+def test_window_drops_undated_baseline():
+    def p(id, **kw):
+        return Record(id=id, source="x", kind="parsed", title="t", url="u",
+                      first_seen=TODAY, baseline=True, **kw)
+    assert [r.id for r in in_window([p("a"), p("b", announced=ago(10))], TODAY)] == ["b"]

@@ -27,6 +27,7 @@ class Result:
     parsed: list[Record] | None
     extra: list[Record]
     status: dict
+    baseline: bool = False
 
 
 def _junk(text: str, old: str | None) -> str | None:
@@ -44,6 +45,7 @@ def process(src: Source, old: str | None, prev: dict | None,
     snapshot = parsed = None
     extra: list[Record] = []
     count, changed, error = p_count, p_changed, None
+    baseline = False
 
     try:
         text = fetch(src)
@@ -75,6 +77,7 @@ def process(src: Source, old: str | None, prev: dict | None,
                     extra = [d] if d else []
             else:
                 state, parsed, count = "ok", records, len(records)
+                baseline = p_count == 0
 
     if state in BROKEN and p_state not in BROKEN:
         title = (f"Парсер источника {src.name} сломан" if state == "parser_broken"
@@ -84,4 +87,4 @@ def process(src: Source, old: str | None, prev: dict | None,
 
     since = p.get("since", today) if state == p_state else today
     return Result(snapshot, parsed, extra, {"state": state, "since": since,
-                  "changed": changed, "count": count, "error": error})
+                  "changed": changed, "count": count, "error": error}, baseline)

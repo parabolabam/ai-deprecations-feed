@@ -24,6 +24,7 @@ class Record:
     text: str | None = None
     first_seen: str | None = None
     updated: str | None = None
+    baseline: bool = False
 
 
 def record_id(*parts: str) -> str:
@@ -38,6 +39,7 @@ def _content(r: Record) -> dict:
     d = asdict(r)
     d.pop("first_seen")
     d.pop("updated")
+    d.pop("baseline")
     return d
 
 
@@ -50,7 +52,7 @@ def merge(archive: list[Record], new: list[Record], today: str) -> list[Record]:
                                 affected=list(n.affected))
         elif _content(old) != _content(n):
             out[n.id] = replace(n, first_seen=old.first_seen, updated=today,
-                                affected=list(n.affected))
+                                affected=list(n.affected), baseline=old.baseline)
     return list(out.values())
 
 

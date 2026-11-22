@@ -13,7 +13,7 @@ DESC = "Deprecation and retirement announcements from AI providers"
 def in_window(records: list[Record], today: str) -> list[Record]:
     cutoff = (date.fromisoformat(today) - timedelta(days=WINDOW_DAYS)).isoformat()
     rs = sorted(records, key=lambda r: r.id)
-    rs = [r for r in rs if feed_date(r) >= cutoff]
+    rs = [r for r in rs if feed_date(r) >= cutoff and not (r.baseline and not r.announced)]
     rs.sort(key=feed_date, reverse=True)  # stable: id asc kept within equal dates
     return rs
 

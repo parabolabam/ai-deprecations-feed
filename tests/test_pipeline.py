@@ -156,3 +156,9 @@ def test_since_kept_when_state_same():
     assert r.status["since"] == "2025-12-01"
     r = process(DIFF_SRC, OLD, prev("fetch_broken", 0, since="2025-12-01"), ok(NEW), T)
     assert r.status["since"] == T
+
+
+def test_pipeline_first_parse_is_baseline():
+    assert process(parser_returning(3), OLD, None, ok(NEW), T).baseline
+    assert process(parser_returning(3), OLD, prev("diff", 0), ok(NEW), T).baseline
+    assert not process(parser_returning(80), OLD, prev("ok", 156), ok(NEW), T).baseline

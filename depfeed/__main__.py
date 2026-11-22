@@ -4,6 +4,7 @@ import os
 import shutil
 import sys
 from collections.abc import Callable
+from dataclasses import replace
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -37,7 +38,9 @@ def main(argv: list[str] | None = None,
         if res.snapshot is not None:
             snap.parent.mkdir(parents=True, exist_ok=True)
             snap.write_text(res.snapshot, encoding="utf-8")
-        records = merge(records, (res.parsed or []) + res.extra, today)
+        parsed = ([replace(r, baseline=True) for r in res.parsed] if res.baseline
+                  else (res.parsed or []))
+        records = merge(records, parsed + res.extra, today)
         status["sources"][src.id] = res.status
 
     records = prune(records, today)

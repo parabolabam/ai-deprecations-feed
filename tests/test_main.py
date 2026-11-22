@@ -72,3 +72,29 @@ def test_heartbeat_monday(tmp_path):
     t.mkdir()
     run(t)
     assert status(t)["heartbeat"] is None
+
+
+def test_e2e_switch_from_diff_no_flood(tmp_path):
+    from dataclasses import replace
+
+    from depfeed.records import Record
+    from depfeed.sources import Source
+    s1 = Source("x", "X", ("u",), "http://x")
+    text = "\n".join(f"line {i}" for i in range(200))
+    day2 = "2026-11-25"
+
+    def rec(i, **kw):
+        return Record(id=f"r{i}", source="x", kind="parsed", title=f"t{i}", url="u", **kw)
+
+    def fn(t, link):
+        return [rec(0, shutdown="2027-01-01"), rec(1, shutdown="2027-01-01"),
+                rec(2, shutdown="2027-01-01"), rec(3, announced="2026-11-15")]
+
+    def go(today, src):
+        assert main(["--data", str(tmp_path / "data"), "--site", str(tmp_path / "site"),
+                     "--today", today], fetch=lambda s: text, sources=[src]) == 0
+
+    go(TUE, s1)
+    go(day2, replace(s1, parser=fn))
+    items = json.loads((tmp_path / "site" / "feed.json").read_text())["items"]
+    assert [i["title"] for i in items if i["tags"][0] == "x"] == ["[X] t3"]

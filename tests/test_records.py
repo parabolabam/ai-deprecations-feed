@@ -61,3 +61,11 @@ def test_record_id_stable():
     assert record_id("a", "b") == record_id("a", "b")
     assert len(record_id("a", "b")) == 16
     assert record_id("a", "b") != record_id("a", "c")
+
+
+def test_merge_keeps_baseline_no_update():
+    old = rec(first_seen="2026-01-01", baseline=True)
+    (r,) = merge([old], [rec()], TODAY)
+    assert r == old and r.updated is None and r.baseline
+    (r,) = merge([old], [rec(replacement="b")], TODAY)
+    assert r.updated == TODAY and r.baseline
