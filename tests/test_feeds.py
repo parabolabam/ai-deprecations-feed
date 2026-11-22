@@ -52,3 +52,19 @@ def test_json_feed_valid():
     a, b = d["items"]
     assert a["date_modified"] == f"{TODAY}T00:00:00Z" and "date_modified" not in b
     assert a["tags"] == ["openai", "raw"]
+
+
+def test_links_have_id_fragment():
+    rs = [raw("a", 1)]
+    item = ET.fromstring(rss(rs, TODAY, SITE, {}).encode()).find("channel/item")
+    assert item.find("link").text.endswith("#a")
+    assert json.loads(json_feed(rs, TODAY, SITE, {}))["items"][0]["url"].endswith("#a")
+
+
+def test_status_line():
+    def desc(**kw):
+        r = Record(id="p", source="openai", kind="parsed", title="t", url="u",
+                   announced=ago(1), **kw)
+        return json.loads(json_feed([r], TODAY, SITE, {}))["items"][0]["content_text"]
+    assert "Status: Deprecated" in desc(status="Deprecated")
+    assert "Status:" not in desc()

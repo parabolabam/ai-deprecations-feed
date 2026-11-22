@@ -17,6 +17,7 @@ def test_known_row():
     assert r.shutdown == "2026-12-11" and r.announced == "2026-06-11"
     assert r.replacement == "gpt-6.1-terra"
     assert r.source == "openai" and r.kind == "parsed" and r.url == L
+    assert r.title.startswith("Model shutdown 2026-12-11:")
 
 
 def test_all_dated():
@@ -44,3 +45,18 @@ def test_ids_stable_when_replacement_edited():
 
 def test_source_wired():
     assert next(s for s in SOURCES if s.id == "openai").parser is parse
+
+
+def test_feature_row_wording():
+    r = next(r for r in parse(TEXT, L) if "EU data residency" in r.title)
+    assert r.title.startswith(
+        "Feature/endpoint shutdown 2027-01-11: GPT-5.2, GPT-5.4, and GPT-5.4 mini")
+    assert r.affected == [r.title.split(": ", 1)[1]]
+    assert r.status == "Deprecated" and r.announced == "2026-11-18"
+
+
+def test_title_prefixes():
+    ps = ("Feature/endpoint shutdown", "Model shutdown", "Shutdown")
+    rs = parse(TEXT, L)
+    assert all(r.title.startswith(ps) for r in rs)
+    assert all(any(r.title.startswith(p + " ") for r in rs) for p in ps)

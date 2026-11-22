@@ -19,6 +19,7 @@ class Record:
     shutdown: str | None = None
     affected: list[str] = field(default_factory=list)
     replacement: str | None = None
+    status: str | None = None
     text: str | None = None
     first_seen: str | None = None
     updated: str | None = None

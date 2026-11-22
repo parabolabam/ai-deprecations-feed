@@ -27,6 +27,7 @@ def _desc(r: Record) -> str:
         return "\n".join([
             f"Affected: {', '.join(r.affected)}",
             f"Shutdown: {r.shutdown or 'not set'}",
+            *([f"Status: {r.status}"] if r.status else []),
             f"Replacement: {r.replacement or 'none'}",
         ])
     return r.text or ""
@@ -45,7 +46,7 @@ def rss(records: list[Record], today: str, site_url: str, names: dict[str, str])
     for r in in_window(records, today):
         it = ET.SubElement(ch, "item")
         ET.SubElement(it, "title").text = _title(r, names)
-        ET.SubElement(it, "link").text = r.url
+        ET.SubElement(it, "link").text = f"{r.url}#{r.id}"
         ET.SubElement(it, "guid", isPermaLink="false").text = r.id
         ET.SubElement(it, "pubDate").text = format_datetime(_dt(feed_date(r)))
         ET.SubElement(it, "description").text = _desc(r)
@@ -55,7 +56,7 @@ def rss(records: list[Record], today: str, site_url: str, names: dict[str, str])
 def json_feed(records: list[Record], today: str, site_url: str, names: dict[str, str]) -> str:
     items = []
     for r in in_window(records, today):
-        item = {"id": r.id, "url": r.url, "title": _title(r, names),
+        item = {"id": r.id, "url": f"{r.url}#{r.id}", "title": _title(r, names),
                 "content_text": _desc(r), "date_published": f"{feed_date(r)}T00:00:00Z"}
         if r.updated:
             item["date_modified"] = f"{r.updated}T00:00:00Z"
