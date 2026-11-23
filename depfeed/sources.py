@@ -4,7 +4,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from depfeed.parsers import anthropic, azure, gemini, groq, openai, vertex
+from depfeed.parsers import anthropic, azure, bedrock, gemini, groq, openai, vertex
 
 if TYPE_CHECKING:
     from depfeed.records import Record
@@ -42,7 +42,8 @@ SOURCES: list[Source] = [
     Source("bedrock", "AWS Bedrock",
            ("https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.md",
             "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.md"),
-           "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html"),
+           "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+           parser=bedrock.parse),
     Source("cohere", "Cohere",
            ("https://docs.cohere.com/docs/deprecations.md",),
            "https://docs.cohere.com/docs/deprecations"),

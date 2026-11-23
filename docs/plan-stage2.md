@@ -53,7 +53,7 @@
 | azure | `Model \| Version \| Lifecycle \| Retirement date \| Replacement`; fine-tuned `Training retirement date \| Deployment retirement date` (deployment → shutdown) | none (baseline matters) | section, affected, status | `affected="model_version"`; lifecycle in id: GA→Deprecated makes a new item; vendor `###` in title; `skip_undated` |
 | vertex | `Model ID \| Release date \| Retirement date \| Replacement model ID / Recommended upgrade`; `Feature \| Deprecated date \| Shutdown date \| Details` | feature: deprecated date → announced | affected | `skip_undated` ("No retirement date announced"); details → text. Split source: `vertex` = model-versions + deprecations (parser), new `vertex-partners` = partner-models URL (diff) |
 | gemini | after `markdoc_tables`: `Model \| Release date \| Shutdown date \| Recommended replacement` | none | affected | `skip_undated` ("No shutdown date announced") |
-| bedrock | own parser: bullet groups `- **Provider**`, `- **Model name:**`, `- **Model ID:**`, `- **Regions:** … / **Legacy date:** … / **EOL date:** …` (one or more region lines) | earliest Legacy date → announced, earliest EOL → shutdown | model id | status `Legacy` under "Models with a scheduled EOL date", `EOL reached` under "Models that have reached EOL"; per-region lines → text |
+| bedrock | own parser: bullet groups `- **Provider**`, `- **Model name:**`, `- **Model ID:**`, `- **Regions:** … / **Legacy date:** … / **EOL date:** …` (one or more region lines) | earliest EOL → shutdown; announced = None (owner decision 2026-11-23, option B: no switch-day posts); Legacy/EOL/extended-access dates per region → text | model id (duplicate entry: + status) | status `Legacy` under "Models with a scheduled EOL date", `EOL reached` under "Models that have reached EOL"; per-region lines → text |
 | cohere | own parser: each `### YYYY-MM-DD: title` under `## Deprecation History` is one record | heading → shutdown | shutdown, title | affected = backticked IDs in the section; section body (≤1500 chars) → text |
 
 ## Review Focus
@@ -103,7 +103,7 @@
 
 **Files:** Create `depfeed/parsers/bedrock.py`, `tests/fixtures/bedrock.md`, `tests/test_bedrock.py`; modify `depfeed/sources.py`.
 
-- [ ] Tests: `anthropic.claude-3-haiku-20240307-v1:0` → one record, shutdown = earliest EOL across its region lines (`2026-11-13`), announced = earliest Legacy date (`2026-10-10`), status `Legacy`, text lists regions; `ai21.jamba-1-5-large-v1:0` → shutdown `2026-11-26`; records under "Models that have reached EOL" have status `EOL reached`; count floor; ids unique.
+- [ ] Tests: `anthropic.claude-3-haiku-20240307-v1:0` → one record, shutdown = earliest EOL across its region lines (`2026-11-13`), announced is None, text contains the Legacy date `2026-10-10`, status `Legacy`, text lists regions; `ai21.jamba-1-5-large-v1:0` → shutdown `2026-11-26`; records under "Models that have reached EOL" have status `EOL reached`; count floor; ids unique.
 - [ ] Implement, verify, commit, push, run, check live as in Tasks 3–7.
 
 ### Task 9: Cohere parser
