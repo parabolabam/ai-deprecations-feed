@@ -40,6 +40,10 @@ def _dt(iso: str) -> datetime:
     return datetime.combine(date.fromisoformat(iso), datetime.min.time(), tzinfo=timezone.utc)
 
 
+def _pub(r: Record) -> datetime:
+    return datetime.fromisoformat(r.seen_at) if r.seen_at else _dt(feed_date(r))
+
+
 def rss(records: list[Record], today: str, site_url: str, names: dict[str, str]) -> str:
     root = ET.Element("rss", version="2.0")
     ch = ET.SubElement(root, "channel")
@@ -51,7 +55,7 @@ def rss(records: list[Record], today: str, site_url: str, names: dict[str, str])
         ET.SubElement(it, "title").text = _title(r, names)
         ET.SubElement(it, "link").text = f"{r.url}#{r.id}"
         ET.SubElement(it, "guid", isPermaLink="false").text = r.id
-        ET.SubElement(it, "pubDate").text = format_datetime(_dt(feed_date(r)))
+        ET.SubElement(it, "pubDate").text = format_datetime(_pub(r))
         ET.SubElement(it, "description").text = _desc(r)
     return ET.tostring(root, encoding="utf-8", xml_declaration=True).decode()
 
@@ -60,7 +64,7 @@ def json_feed(records: list[Record], today: str, site_url: str, names: dict[str,
     items = []
     for r in in_window(records, today):
         item = {"id": r.id, "url": f"{r.url}#{r.id}", "title": _title(r, names),
-                "content_text": _desc(r), "date_published": f"{feed_date(r)}T00:00:00Z"}
+                "content_text": _desc(r), "date_published": r.seen_at or f"{feed_date(r)}T00:00:00Z"}
         if r.updated:
             item["date_modified"] = f"{r.updated}T00:00:00Z"
         item["tags"] = [r.source, r.kind]

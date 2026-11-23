@@ -93,3 +93,19 @@ def test_details_line():
     r = Record(id="p", source="openai", kind="parsed", title="t", url="u",
                announced=TODAY, text="why")
     assert "Details: why" in json.loads(json_feed([r], TODAY, SITE, {}))["items"][0]["content_text"]
+
+
+def _seen_pair():
+    return [raw("a", 1, seen_at="2026-11-23T10:15:00Z"), raw("b", 2)]
+
+
+def test_rss_pubdate_uses_seen_at():
+    items = ET.fromstring(rss(_seen_pair(), TODAY, SITE, {}).encode()).findall("channel/item")
+    assert items[0].find("pubDate").text == "Mon, 23 Nov 2026 10:15:00 +0000"
+    assert items[1].find("pubDate").text == "Fri, 20 Nov 2026 00:00:00 +0000"
+
+
+def test_json_feed_date_published_uses_seen_at():
+    a, b = json.loads(json_feed(_seen_pair(), TODAY, SITE, {}))["items"]
+    assert a["date_published"] == "2026-11-23T10:15:00Z"
+    assert b["date_published"] == f"{ago(2)}T00:00:00Z"

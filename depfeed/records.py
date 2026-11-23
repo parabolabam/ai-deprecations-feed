@@ -25,6 +25,7 @@ class Record:
     first_seen: str | None = None
     updated: str | None = None
     baseline: bool = False
+    seen_at: str | None = None  # ISO UTC of first detection
 
 
 def record_id(*parts: str) -> str:
@@ -40,19 +41,22 @@ def _content(r: Record) -> dict:
     d.pop("first_seen")
     d.pop("updated")
     d.pop("baseline")
+    d.pop("seen_at")
     return d
 
 
-def merge(archive: list[Record], new: list[Record], today: str) -> list[Record]:
+def merge(archive: list[Record], new: list[Record], today: str,
+          now: str | None = None) -> list[Record]:
     out = {r.id: r for r in archive}
     for n in new:
         old = out.get(n.id)
         if old is None:
             out[n.id] = replace(n, first_seen=n.first_seen or today, updated=None,
-                                affected=list(n.affected))
+                                affected=list(n.affected), seen_at=n.seen_at or now)
         elif _content(old) != _content(n):
             out[n.id] = replace(n, first_seen=old.first_seen, updated=today,
-                                affected=list(n.affected), baseline=old.baseline)
+                                affected=list(n.affected), baseline=old.baseline,
+                                seen_at=old.seen_at)
     return list(out.values())
 
 

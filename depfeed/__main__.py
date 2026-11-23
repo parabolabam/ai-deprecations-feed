@@ -22,6 +22,7 @@ def main(argv: list[str] | None = None,
     ap.add_argument("--data", default="data")
     ap.add_argument("--site", default="site")
     ap.add_argument("--today", default=datetime.now(timezone.utc).date().isoformat())
+    ap.add_argument("--now", default=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
     a = ap.parse_args(argv)
     data, site, today = Path(a.data), Path(a.site), a.today
     site_url = os.environ.get("SITE_URL", "http://localhost").rstrip("/")
@@ -40,7 +41,7 @@ def main(argv: list[str] | None = None,
             snap.write_text(res.snapshot, encoding="utf-8")
         parsed = ([replace(r, baseline=True) for r in res.parsed] if res.baseline
                   else (res.parsed or []))
-        records = merge(records, parsed + res.extra, today)
+        records = merge(records, parsed + res.extra, today, now=a.now)
         status["sources"][src.id] = res.status
 
     records = prune(records, today)

@@ -69,3 +69,13 @@ def test_merge_keeps_baseline_no_update():
     assert r == old and r.updated is None and r.baseline
     (r,) = merge([old], [rec(replacement="b")], TODAY)
     assert r.updated == TODAY and r.baseline
+
+
+def test_merge_sets_seen_at_on_new_only():
+    now = "2026-11-23T10:15:00Z"
+    out = merge([], [rec(replacement="a")], TODAY, now=now)
+    assert out[0].seen_at == now
+    out = merge(out, [rec(replacement="b")], TODAY, now="2026-11-24T00:00:00Z")
+    assert out[0].seen_at == now and out[0].updated == TODAY
+    out = merge(out, [rec(replacement="b")], TODAY, now="2026-11-25T00:00:00Z")
+    assert out[0].seen_at == now
