@@ -15,7 +15,26 @@
    "text": "After January 31st, 2025, usage of Classify endpoint via the default Embed models will be deprecated.\nHowever, you can still use the Classify endpoint with a fine-tuned Embed model. By leveraging fine-tuning, you can achieve even better performance and accuracy in your classification tasks. Read the documentation on [Classify fine-tuning](https://docs.cohere.com/docs/classify-fine-tuning) for more information.",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
+  },
+  {
+   "id": "03788b0b995e4765",
+   "source": "openai",
+   "kind": "raw",
+   "title": "TEST: OpenAI models with upcoming shutdown (40)",
+   "url": "https://developers.openai.com/api/docs/deprecations",
+   "announced": null,
+   "shutdown": null,
+   "affected": [],
+   "replacement": null,
+   "status": null,
+   "links": [],
+   "text": "Test post to check Slack delivery. Upcoming OpenAI shutdowns:\n2026-11-30: /v1/prompts and reusable prompt objects -> Move prompt content into your application code\n2026-11-30: Agent Builder -> Agents SDK or ChatGPT Workspace Agents\n2026-11-30: Evals dashboard, API, and graders for eval workflows -> Migrate to Promptfoo\n2026-12-01: chatgpt-image-latest -> gpt-image-2.6-sunburst or gpt-image-2.6-flare\n2026-12-01: gpt-image-1-mini -> gpt-image-2.6-sunburst or gpt-image-2.6-flare\n2026-12-01: gpt-image-1.5, gpt-image-1.5-2025-12-16 -> gpt-image-2.6-sunburst or gpt-image-2.6-flare\n2026-12-11: gpt-5, gpt-5-2025-08-07 -> gpt-6.1-sol\n2026-12-11: gpt-5-mini, gpt-5-mini-2025-08-07 -> gpt-6.1-terra\n2026-12-11: gpt-5-nano, gpt-5-nano-2025-08-07 -> gpt-6-luna\n2026-12-11: gpt-5-pro, gpt-5-pro-2025-10-06 -> gpt-6.1-sol (reasoning.mode: pro) in the Responses API\n2026-12-11: o3, o3-2025-04-16 -> gpt-6.1-sol\n2026-12-11: o3-pro, o3-pro-2025-06-10 -> gpt-6.1-sol (reasoning.mode: pro) in the Responses API\n2027-01-06: Self-serve fine-tuning job creation -> See the fine-tuning timeline.\n2027-01-06: gpt-4o-mini-tts, gpt-4o-mini-tts-2025-03-20, gpt-4o-mini-tts-2025-12-15 -> gpt-realtime-2.1-mini\n2027-01-06: tts-1 -> gpt-realtime-2.1-mini\n2027-01-06: tts-1-hd -> gpt-realtime-2.1-mini\n2027-01-11: GPT-5.2, GPT-5.4, and GPT-5.4 mini with EU data residency and service_tier: fast or priority -> The same models with EU data residency and Standard processing (service_tier: default), or the GPT-6.2 model family.\n2027-01-14: gpt-4.1-2025-04-14 -> gpt-6-luna\n2027-01-14: gpt-4.1-mini-2025-04-14 -> gpt-6-luna\n2027-01-14: gpt-4o-2024-08-06, gpt-4o-2024-11-20 -> gpt-6-luna\n2027-01-14: gpt-4o-mini-2024-07-18 -> gpt-6-luna\n2027-01-20: gpt-4o-audio -> gpt-audio-1.5\n2027-01-20: gpt-4o-mini-audio -> gpt-audio-1.5\n2027-01-20: gpt-4o-mini-realtime -> gpt-realtime-2.1-mini\n2027-01-20: gpt-4o-mini-transcribe-2025-03-20 -> gpt-4o-mini-transcribe-2025-12-15\n2027-01-20: gpt-4o-realtime -> gpt-realtime-2.1\n2027-01-20: gpt-audio, gpt-audio-2025-08-28 -> gpt-audio-1.5\n2027-01-20: gpt-audio-mini, gpt-audio-mini-2025-12-15 -> gpt-audio-1.5\n2027-01-20: gpt-realtime, gpt-realtime-2025-08-28 -> gpt-realtime-2.1\n2027-01-20: gpt-realtime-mini, gpt-realtime-mini-2025-12-15 -> gpt-realtime-2.1-mini\n2027-02-01: gpt-5.5-cyber-preview -> The most capable cyber model available to you.\n2027-02-10: gpt-image-2, gpt-image-2-2026-04-21 -> gpt-image-2.6-sunburst or gpt-image-2.6-flare\n2027-02-26: /v1/audio/translations -> /v1/realtime/translations\n2027-02-26: gpt-4o-mini-transcribe, gpt-4o-mini-transcribe-2025-12-15 -> gpt-live-transcribe or gpt-transcribe\n2027-02-26: gpt-4o-transcribe -> gpt-live-transcribe or gpt-transcribe\n2027-02-26: gpt-4o-transcribe-diarize -> gpt-live-transcribe or gpt-transcribe\n2027-02-26: whisper-1 -> gpt-live-transcribe or gpt-transcribe\n2027-04-01: gpt-5.1, gpt-5.1-2025-11-13 -> gpt-6-sol\n2027-04-01: gpt-5.3-codex -> gpt-6-sol\n2027-04-01: gpt-5.4-nano, gpt-5.4-nano-2026-03-17 -> gpt-6-luna",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": false,
+   "seen_at": "2026-11-23T10:25:14Z"
   },
   {
    "id": "0ae68c3732509312",
@@ -34,7 +53,8 @@
    "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "11d40c4c326244c3",
@@ -53,7 +73,8 @@
    "text": "ap-south-1, ca-central-1, eu-west-2, us-east-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced; us-gov-west-1: Legacy 2026-11-09, EOL 2027-05-09, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1295535c22574da4",
@@ -72,7 +93,8 @@
    "text": "ap-northeast-1, eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-3, us-east-1, us-east-2, us-west-1, us-west-2, ap-east-2, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, ap-southeast-5, ap-southeast-7, il-central-1: Legacy 2026-04-14, EOL 2026-10-14, extended access 2026-07-14",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "13a38e606f446854",
@@ -91,7 +113,8 @@
    "text": "eu-central-1, eu-west-1, eu-west-3, us-east-1, us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1d1c01c0f0a33cc0",
@@ -110,7 +133,8 @@
    "text": "ap-northeast-2, ap-south-1, ap-southeast-1: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10; eu-central-2, sa-east-1: Legacy 2026-10-13, EOL 2026-11-13, extended access 2026-10-13; ca-central-1: Legacy 2026-10-15, EOL 2026-11-27, extended access 2026-10-15",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1e0d482153bfe414",
@@ -129,7 +153,8 @@
    "text": "us-east-1, us-west-2: Legacy 2026-02-19, EOL 2026-08-19, extended access 2026-05-19",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2351dd4cbe0527a9",
@@ -148,7 +173,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "24161170f348e3b9",
@@ -169,7 +195,8 @@
    "text": "On December 2nd, 2024, we announced the release of Rerank-v3.5 along with the deprecation of the Rerank-v2.0 model family.\nFine-tuned models created from these base models are not affected by this deprecation.\n| Shutdown Date | Deprecated Model | Deprecated Model Price | Recommended Replacement |\n| ------------- | -------------------------- | ---------------------- | ----------------------- |\n| 2025-04-30 | `rerank-english-v2.0` | \\$1.00 / 1K searches | `rerank-v3.5` |\n| 2025-04-30 | `rerank-multilingual-v2.0` | \\$1.00 / 1K searches | `rerank-v3.5` |",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2f6f582ddc59629d",
@@ -188,7 +215,8 @@
    "text": "ap-northeast-1, eu-west-1, us-east-1: Legacy 2026-03-30, EOL 2026-09-30, extended access —",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "330dd5a0403cdf9c",
@@ -207,7 +235,8 @@
    "text": "us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "36148d410d1777bd",
@@ -226,7 +255,8 @@
    "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "384a25be12b164c3",
@@ -246,7 +276,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-north-1, eu-west-2, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3c264d6daf4e90cb",
@@ -265,7 +296,8 @@
    "text": "ap-south-1, ap-southeast-2, ca-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-east-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3e2dacd76d167cf5",
@@ -284,7 +316,8 @@
    "text": "ap-south-1, ca-central-1, eu-west-2, us-east-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced; us-gov-west-1: Legacy 2026-11-09, EOL 2027-05-09, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "45fcfa8a873be9a5",
@@ -303,7 +336,8 @@
    "text": "ap-northeast-1, eu-north-1, us-east-1: Legacy 2026-03-13, EOL 2026-09-14, extended access —",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "56bb81714f13436a",
@@ -322,7 +356,8 @@
    "text": "ap-south-1, ap-southeast-1, eu-west-2: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10; sa-east-1: Legacy 2026-10-13, EOL 2026-11-13, extended access 2026-10-13; ca-central-1: Legacy 2026-10-15, EOL 2026-11-27, extended access 2026-10-15",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "56fc087395021686",
@@ -341,7 +376,8 @@
    "text": "ap-northeast-2, ap-south-1, ap-southeast-1: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5930d81219b4d975",
@@ -360,7 +396,8 @@
    "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5c19aa1548459e13",
@@ -379,7 +416,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "653189027efbae53",
@@ -398,7 +436,8 @@
    "text": "eu-central-1, eu-west-1, eu-west-3, us-east-1, us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "661aeb6014232958",
@@ -418,7 +457,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-north-1, eu-west-2, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "66dfba742e9137fa",
@@ -437,7 +477,8 @@
    "text": "ap-northeast-2, eu-west-1, us-east-1: Legacy 2026-05-29, EOL 2026-11-30, extended access 2026-08-29",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6915d8f65e322f64",
@@ -456,7 +497,8 @@
    "text": "us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6b4c096472f42034",
@@ -473,7 +515,8 @@
    "text": "On March 08, 2025, we will sunset all models fine-tuned with Command-R-03-2024. As part of our ongoing efforts to enhance our services, we are making the following changes to our fine-tuning capabilities:\n* Deprecating fine-tuning with the older Command-R-03-2024 model\n* All fine-tunes are now powered by the Command-R-08-2024 model.\nModels fine-tuned with Command-R-03-2024 will continue to be supported until March 08, 2025. After this date, all requests to these models will return an error.",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6e70ee4714e8d50d",
@@ -492,7 +535,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "741bb0b5e3b3b431",
@@ -511,7 +555,8 @@
    "text": "us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-09, EOL 2027-03-09, extended access —",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "76d1718419728dc8",
@@ -530,7 +575,8 @@
    "text": "us-east-1: Legacy 2026-05-26, EOL 2026-11-26, extended access 2026-08-26",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "775d6535084fcb77",
@@ -549,7 +595,8 @@
    "text": "af-south-1, ap-east-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, ap-southeast-5, ap-southeast-7, ca-central-1, ca-west-1, eu-central-1, eu-central-2, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-2, eu-west-3, il-central-1, mx-central-1, sa-east-1, us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-22, EOL 2027-03-22, extended access —",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7a7aa5988a000205",
@@ -568,7 +615,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7e25b7429457efac",
@@ -588,7 +636,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "82e68ecc647744c8",
@@ -607,7 +656,8 @@
    "text": "us-east-1, us-west-2: Legacy 2026-02-19, EOL 2026-08-19, extended access 2026-05-19",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8628a5f7b17800ef",
@@ -626,7 +676,8 @@
    "text": "us-east-1: Legacy 2026-03-30, EOL 2026-09-30, extended access —",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "86c5bd761301e9eb",
@@ -646,7 +697,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "87cf634eced9014b",
@@ -665,7 +717,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8a903d1eaf8254f8",
@@ -684,7 +737,8 @@
    "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8b9af9d9663a828b",
@@ -703,7 +757,8 @@
    "text": "ap-northeast-2: Legacy 2026-09-22, EOL 2027-03-22, extended access —",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "93e8194d5c95e747",
@@ -722,7 +777,8 @@
    "text": "ap-northeast-2, ap-south-1, ap-southeast-1: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "951d93b880b67045",
@@ -741,7 +797,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9cb44307d2df9c82",
@@ -760,7 +817,8 @@
    "text": "ap-northeast-1, ap-southeast-2, eu-central-1, eu-west-1, eu-west-2, eu-west-3, us-east-1, us-east-2, us-west-2: Legacy 2026-03-10, EOL 2026-09-10, extended access 2026-06-10; us-gov-east-1, us-gov-west-1: Legacy 2026-03-10, EOL 2026-09-10, extended access 2026-06-10",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a32b9ecf030c04d6",
@@ -779,7 +837,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-north-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a82025179975ee99",
@@ -798,7 +857,8 @@
    "text": "us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "aad5994797ce32a7",
@@ -817,7 +877,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "abf2f808af15089a",
@@ -836,7 +897,8 @@
    "text": "ap-south-1, eu-west-2: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b8b0a2088871c2c2",
@@ -855,7 +917,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b8b17faedb5eb1fd",
@@ -874,7 +937,8 @@
    "text": "af-south-1, ap-east-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, ap-southeast-5, ap-southeast-6, ap-southeast-7, ca-central-1, ca-west-1, eu-central-1, eu-central-2, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-2, eu-west-3, il-central-1, mx-central-1, sa-east-1, us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-10-08, EOL 2027-04-08, extended access 2027-01-08; us-gov-east-1, us-gov-west-1: Legacy 2026-10-27, EOL 2027-04-27, extended access 2027-01-27",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ca3ee9d19f9ca71d",
@@ -893,7 +957,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "cfb871e397df52ae",
@@ -912,7 +977,8 @@
    "text": "ap-south-1, ap-southeast-2, ca-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-east-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d0ac3fbb12a060dd",
@@ -931,7 +997,8 @@
    "text": "ap-northeast-1, eu-west-1, us-east-1: Legacy 2026-03-30, EOL 2026-09-30, extended access —",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d2f88723fc8d4e7b",
@@ -950,7 +1017,8 @@
    "text": "us-east-1: Legacy 2026-05-26, EOL 2026-11-26, extended access 2026-08-26",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d50fb7970debb00e",
@@ -969,7 +1037,8 @@
    "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d7e68ece302f881d",
@@ -988,7 +1057,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ddcb058373a18ff4",
@@ -1007,7 +1077,8 @@
    "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-07-08, EOL 2027-01-08, extended access 2026-10-08",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "de64d6744b713ad5",
@@ -1026,7 +1097,8 @@
    "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e9cbab66796ae03e",
@@ -1063,7 +1135,8 @@
    "text": "Effective September 15, 2025, the following deprecations will roll out.\nDeprecated Models:\n* `command-r-03-2024` (and the alias `command-r`)\n* `command-r-plus-04-2024` (and the alias `command-r-plus`)\n* `command-light`\n* `command`\n* `summarize` (Refer to [the migration guide](https://docs.cohere.com/docs/summarizing-text#migration-from-summarize-to-chat-endpoint) for alternatives).\nFor command model replacements, we recommend you use `command-r-08-2024`, `command-r-plus-08-2024`, or `command-a-03-2025` (which is the strongest-performing model across domains) instead.\nRetired Fine-Tuning Capabilities:\nFine-tuning for the `command-light`, `command`, `command-r`, `classify`, and `rerank` models is being retired. This covers both the Cohere dashboard and API. Previously fine-tuned models will no longer be accessible.\nDeprecated Features and API Endpoints:\n* `/v1/connectors` (Managed connectors for RAG)\n* `/v1/chat` parameters: `connectors`, `search_queries_only`\n* `/v1/generate` (Legacy generative endpoint)\n* `/v1/summarize` (Legacy summarization endpoint)\n* `/v1/classify`\n* Slack App integration\n* Coral Web UI (chat.cohere.com and coral.cohere.com)\nThese changes reflect our commitment to innovation and performance optimization. We encourage users to assess their current implementations and migrate to recommended alternatives. Our support team is available at [support@cohere.com](mailto:support@cohere.com) to assist with the transition. For detailed guidance, please refer to our ",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f537cd67d20f2df3",
@@ -1092,7 +1165,8 @@
    "text": "Effective April 4th, 2026, the following models will be retired:\n* `embed-english-v2.0`\n* `embed-english-light-v2.0`\n* `embed-multilingual-v2.0`\n* `c4ai-aya-expanse-8b`\n* `c4ai-aya-vision-8b`\nWe encourage you to migrate to our latest models, which offer enhanced performance, improved accuracy, and expanded capabilities:\n* Embedding tasks alternatives:\n* `embed-english-v3.0`\n* `embed-multilingual-v3.0`\n* `embed-v4.0`\n* Chat tasks alternatives:\n* `command-r7b-12-2024`\n* `command-a-03-2025`\n* `command-a-reasoning-08-2025`\nOur team is here to ensure a seamless transition. For questions or assistance, please don’t hesitate reaching out to us at [support@cohere.com](mailto:support@cohere.com). Thank you for your continued partnership. We look forward to powering your applications with our latest AI advancements.",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f68715b88209dceb",
@@ -1111,7 +1185,8 @@
    "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f785d0247ea7663c",
@@ -1130,7 +1205,8 @@
    "text": "us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-21, EOL 2027-03-21, extended access —",
    "first_seen": "2026-11-23",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "01dee388c264735c",
@@ -1149,7 +1225,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0289bc44b1fa46ca",
@@ -1168,7 +1245,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "087ebb2df4dd70b8",
@@ -1187,7 +1265,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "08bf07022e7b02a3",
@@ -1206,7 +1285,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "092ce41869f47eed",
@@ -1229,7 +1309,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "097028c365f3984c",
@@ -1248,7 +1329,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "09d1bcfe49d2ccfd",
@@ -1269,7 +1351,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0a9278235fbec182",
@@ -1288,7 +1371,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0b1149d23331d6d3",
@@ -1307,7 +1391,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0b611bffa4aed6b3",
@@ -1326,7 +1411,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0c031157801fb466",
@@ -1345,7 +1431,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0c34eb5bbd244c39",
@@ -1364,7 +1451,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0c6c97c94a487074",
@@ -1385,7 +1473,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0d9ba9cd53ab913b",
@@ -1404,7 +1493,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0dd9df657154c922",
@@ -1423,7 +1513,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0e49beb6e9305401",
@@ -1442,7 +1533,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0ea44d26a452534f",
@@ -1461,7 +1553,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0f5151fb016aa78d",
@@ -1480,7 +1573,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0f545b49797ceb75",
@@ -1499,7 +1593,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0f61258cfffacfd0",
@@ -1518,7 +1613,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "11daa9bcd4822166",
@@ -1537,7 +1633,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "12a290de0eac2e0f",
@@ -1556,7 +1653,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "13a5067a4e5d71ee",
@@ -1575,7 +1673,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "13c7354d5bd84bb0",
@@ -1594,7 +1693,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "14148ed7da767639",
@@ -1613,7 +1713,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1511691fa49b9d8b",
@@ -1632,7 +1733,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "153f9c9382f30d43",
@@ -1651,7 +1753,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "15636b99880a4aab",
@@ -1670,7 +1773,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "15e04886ad024c17",
@@ -1691,7 +1795,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "160397d223e2830c",
@@ -1710,7 +1815,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1682ec6f9259970c",
@@ -1731,7 +1837,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "180350552336f7be",
@@ -1750,7 +1857,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1833a7c04f8f8c31",
@@ -1771,7 +1879,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "18703b8be839548b",
@@ -1790,7 +1899,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1981884721c9a2f0",
@@ -1809,7 +1919,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1d1907b6f90944e7",
@@ -1828,7 +1939,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1eabc7f31f41191e",
@@ -1847,7 +1959,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1fc5c7ddfdf0ece1",
@@ -1868,7 +1981,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2086e562bd746eb1",
@@ -1887,7 +2001,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "21021f51c6de49c9",
@@ -1906,7 +2021,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2172e615ad6f44fa",
@@ -1925,7 +2041,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "21a8b12861823756",
@@ -1944,7 +2061,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "21fe2e904ad44540",
@@ -1965,7 +2083,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "23367feb831581cc",
@@ -1984,7 +2103,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "23b8dce4542c46d8",
@@ -2003,7 +2123,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "240dde2154b041e0",
@@ -2022,7 +2143,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "241074060cd61877",
@@ -2044,7 +2166,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "24168f63601ce78f",
@@ -2063,7 +2186,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "25008483f219c80b",
@@ -2082,7 +2206,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2666bb76d7bada7c",
@@ -2101,7 +2226,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2859c20ea2bb36a8",
@@ -2120,7 +2246,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "296ee0207effee65",
@@ -2139,7 +2266,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2a7e4dfc8a39d23e",
@@ -2158,7 +2286,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2c9390b2fab25f85",
@@ -2177,7 +2306,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2d8ac36f17e8f019",
@@ -2198,7 +2328,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2e33119f288d21dc",
@@ -2219,7 +2350,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2e6e32ac12dd57ed",
@@ -2238,7 +2370,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2ea793b782df3ab2",
@@ -2257,7 +2390,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2ece85c0f803fcad",
@@ -2276,7 +2410,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2f98b743f69c91fc",
@@ -2295,7 +2430,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "30f98a1ac8c00218",
@@ -2316,7 +2452,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3289cdeb8b266cb3",
@@ -2335,7 +2472,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "32a3e29fe98d2388",
@@ -2354,7 +2492,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "33711e56572169d5",
@@ -2375,7 +2514,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "36c723f3ead6b95a",
@@ -2394,7 +2534,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "37149ed8b2cca0b5",
@@ -2413,7 +2554,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3987c6637a4d9472",
@@ -2432,7 +2574,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3aee9233fbfca52c",
@@ -2451,7 +2594,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3af295a08b13e2c7",
@@ -2470,7 +2614,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3b84a6ffbbbbee20",
@@ -2489,7 +2634,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3b986d9db44cc1e1",
@@ -2508,7 +2654,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3c32fd1775e97b81",
@@ -2527,7 +2674,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3ca4dadbdfe36cbf",
@@ -2546,7 +2694,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3cd9a031819f54c5",
@@ -2565,7 +2714,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3d1124bd073a0f26",
@@ -2584,7 +2734,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3d7a2f3a5ab99354",
@@ -2605,7 +2756,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3dc42b3589e17fb9",
@@ -2626,7 +2778,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3e1e3dcaf4022fd6",
@@ -2645,7 +2798,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3fecd7f4fb5013db",
@@ -2666,7 +2820,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4200bd0406a55530",
@@ -2685,7 +2840,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "424099c4db733fa7",
@@ -2704,7 +2860,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "431d7e39c592701c",
@@ -2723,7 +2880,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4338533581e12bb7",
@@ -2742,7 +2900,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "43d069452526420f",
@@ -2761,7 +2920,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "454e648dba2ff4c7",
@@ -2780,7 +2940,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4726a525c8854737",
@@ -2799,7 +2960,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4764be24445ef9f1",
@@ -2820,7 +2982,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "479424daea0f3f5a",
@@ -2841,7 +3004,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "47b16c2f2d11861e",
@@ -2860,7 +3024,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "49ce0a7639897b6c",
@@ -2879,7 +3044,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4a2b7ed016bb847a",
@@ -2900,7 +3066,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4ba30be295d67f39",
@@ -2921,7 +3088,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4bd42560d01125ef",
@@ -2942,7 +3110,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4bd8b96502a9ea15",
@@ -2961,7 +3130,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4c40a50a7e5be38b",
@@ -2980,7 +3150,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4d95978d5e21035a",
@@ -3001,7 +3172,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4de8a987dbe1e9be",
@@ -3020,7 +3192,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4f7a68d0d795702d",
@@ -3039,7 +3212,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5026cf1585bd90e9",
@@ -3058,7 +3232,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "51a25f59d89de37f",
@@ -3080,7 +3255,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "51eb47394f9f54cc",
@@ -3099,7 +3275,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "52bd8a9e10c362b2",
@@ -3118,7 +3295,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5445e9531d54f226",
@@ -3137,7 +3315,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "54cdf2f02fb4a971",
@@ -3159,7 +3338,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "54ced8e8b27b1f2d",
@@ -3178,7 +3358,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "54e20b61612efc56",
@@ -3197,7 +3378,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "557087a97d06e2e3",
@@ -3216,7 +3398,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "55b3a5aeca954547",
@@ -3235,7 +3418,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5646bf6d23dc0382",
@@ -3254,7 +3438,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "56ab14f39496098f",
@@ -3273,7 +3458,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "56ed5346289fd5d6",
@@ -3298,7 +3484,8 @@
    "text": "Returns a 400 error. Earlier API versions return it when set to a non-default value on Claude 4.7 and later models and Claude Mythos Preview.",
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "582d8eaf52c03ade",
@@ -3317,7 +3504,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5845ccefbc693c0b",
@@ -3336,7 +3524,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "588e99111b3fb3d4",
@@ -3355,7 +3544,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "590074b03fcb656b",
@@ -3374,7 +3564,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5a6497e8ef093442",
@@ -3395,7 +3586,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5a84009a096a31b2",
@@ -3414,7 +3606,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5a967128272bedca",
@@ -3433,7 +3626,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5ccdb604f5bae5eb",
@@ -3454,7 +3648,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5d944bd312cba34f",
@@ -3473,7 +3668,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5e09dfec91ed1107",
@@ -3492,7 +3688,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5f1d305d600e3787",
@@ -3511,7 +3708,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5f3679685b52414f",
@@ -3530,7 +3728,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5fdcac769656ae5c",
@@ -3549,7 +3748,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "600f88b1dfe297b4",
@@ -3568,7 +3768,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "62157f4b35a69bbf",
@@ -3587,7 +3788,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "626e49ce2e7d3a5f",
@@ -3606,7 +3808,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "638a3403e1ea23d5",
@@ -3625,7 +3828,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "639fb157bedb7f2e",
@@ -3644,7 +3848,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "640df408b04ad4f0",
@@ -3663,7 +3868,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "659f7c3d7f78cadd",
@@ -3685,7 +3891,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "66ec86e3b9a643ac",
@@ -3704,7 +3911,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "685868aa15eadcef",
@@ -3723,7 +3931,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "691e7c791b8ed755",
@@ -3742,7 +3951,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6a557fb9b7302cb2",
@@ -3761,7 +3971,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6a878c89a812aace",
@@ -3780,7 +3991,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6ad9077706e537a8",
@@ -3799,7 +4011,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6b37023d7e42290c",
@@ -3818,7 +4031,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6cadc487d7a75357",
@@ -3837,7 +4051,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6ce03064aee18e86",
@@ -3858,7 +4073,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6dfd304f2f4438a7",
@@ -3877,7 +4093,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6e7094435ea847d5",
@@ -3896,7 +4113,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6eafad57a6331d41",
@@ -3915,7 +4133,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "6f3a1c9396f14dee",
@@ -3934,7 +4153,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "709084e181726721",
@@ -3953,7 +4173,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "72ac71a5c3e43cd8",
@@ -3972,7 +4193,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "736cddb8903f975e",
@@ -3993,7 +4215,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "742b226d8586a9a4",
@@ -4012,7 +4235,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "76a90e4a7f72275a",
@@ -4033,7 +4257,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "77ec0052c4a59e7f",
@@ -4052,7 +4277,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "799d5ed923cda222",
@@ -4074,7 +4300,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "79d8222d9a28a149",
@@ -4093,7 +4320,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7ae820c901c4a57e",
@@ -4114,7 +4342,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7b7cc901292b8245",
@@ -4133,7 +4362,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7d3ca5c71c2dfda6",
@@ -4154,7 +4384,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7de841c5db40bf56",
@@ -4173,7 +4404,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7ea865413349bd39",
@@ -4192,7 +4424,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7ef77da7aa0ec045",
@@ -4211,7 +4444,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7f9133225f8872ce",
@@ -4232,7 +4466,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "807246a08c6331a8",
@@ -4251,7 +4486,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "808c0fa422d2c1a0",
@@ -4270,7 +4506,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "820f82a6b000d019",
@@ -4289,7 +4526,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "823eeeaefed06b1b",
@@ -4310,7 +4548,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "827cd92f0ad07bf3",
@@ -4331,7 +4570,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "82987a65e32bcde1",
@@ -4350,7 +4590,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "834cfb4b2b4e7162",
@@ -4369,7 +4610,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "86ba5056380a0568",
@@ -4388,7 +4630,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8767bb6d230562f4",
@@ -4407,7 +4650,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "89325fbe954519e6",
@@ -4426,7 +4670,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "89b6122dbae10912",
@@ -4447,7 +4692,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8bfe4f991faad46a",
@@ -4466,7 +4712,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8df04e3e7236385d",
@@ -4485,7 +4732,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8ecb31cef2def764",
@@ -4504,7 +4752,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8ee76d2c1288c075",
@@ -4525,7 +4774,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8f2699c121bce118",
@@ -4544,7 +4794,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8fe1bbb48d71a766",
@@ -4563,7 +4814,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "90f9927fe2659eb9",
@@ -4582,7 +4834,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "925c7fa68d03fe11",
@@ -4601,7 +4854,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9454d3a66c2799d5",
@@ -4620,7 +4874,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "94c4adcfa6004914",
@@ -4643,7 +4898,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "94ff2091abe06642",
@@ -4662,7 +4918,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "96246c762bf224f6",
@@ -4681,7 +4938,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "999c1617153874f8",
@@ -4700,7 +4958,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "99fa80ca481cb0ea",
@@ -4719,7 +4978,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9bb01800dc1b98cf",
@@ -4738,7 +4998,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9c6fc2e84ce52e34",
@@ -4757,7 +5018,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9cbd7fe6f7e8239e",
@@ -4776,7 +5038,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9cfdc225e1cbb43b",
@@ -4795,7 +5058,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9dbb0c68356bd93c",
@@ -4814,7 +5078,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9e5dabcea26b5d58",
@@ -4833,7 +5098,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9ec5857204797258",
@@ -4854,7 +5120,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9fb05ca8232f2776",
@@ -4873,7 +5140,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a013f1569610fc37",
@@ -4892,7 +5160,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a1d0d8f5ef52e0e9",
@@ -4911,7 +5180,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a24c16a3fe8f33e2",
@@ -4930,7 +5200,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a2d5f012aaf585da",
@@ -4949,7 +5220,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a31d97d575c4d133",
@@ -4968,7 +5240,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a3d85e29e9fd17ce",
@@ -4989,7 +5262,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a3fe0a6f50be94f6",
@@ -5008,7 +5282,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a5a38bcca5e71387",
@@ -5027,7 +5302,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a71365b330862edc",
@@ -5046,7 +5322,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a7d12999685edd07",
@@ -5065,7 +5342,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a7f2a974a48376d0",
@@ -5084,7 +5362,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a915e70603ac1d89",
@@ -5103,7 +5382,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a9b5924bcb983d6b",
@@ -5122,7 +5402,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "aaa7465c7410ee14",
@@ -5141,7 +5422,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "aabecd3735271f84",
@@ -5160,7 +5442,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "aae888c0011e6a03",
@@ -5179,7 +5462,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ab950aabfa9a83fa",
@@ -5198,7 +5482,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "abb02636d333aaff",
@@ -5217,7 +5502,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b2d45851fb299bf0",
@@ -5236,7 +5522,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b5fc33d0cc702ca3",
@@ -5255,7 +5542,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b6059a1d6d58bcb2",
@@ -5274,7 +5562,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b638c138dd21fd87",
@@ -5293,7 +5582,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b64db2e982b19c92",
@@ -5312,7 +5602,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b736a7955b400333",
@@ -5331,7 +5622,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b77daf93cd81e686",
@@ -5352,7 +5644,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b7ac334315f973f5",
@@ -5371,7 +5664,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b995317e7a68c733",
@@ -5390,7 +5684,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b9b83b71b958f605",
@@ -5409,7 +5704,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b9c93205f99b4536",
@@ -5428,7 +5724,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ba9d54c019255320",
@@ -5449,7 +5746,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "bb80866b66c014b8",
@@ -5468,7 +5766,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "bbf99183325a554c",
@@ -5487,7 +5786,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "bc6efb72ce8e26b9",
@@ -5506,7 +5806,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "bcf907187489ec4d",
@@ -5527,7 +5828,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "bdf0892140989021",
@@ -5546,7 +5848,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "be26eaa1c8d1cb87",
@@ -5565,7 +5868,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "be6b5f151448eae9",
@@ -5584,7 +5888,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "be6f4206e1bea8f2",
@@ -5603,7 +5908,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "bee3bf0c10268c33",
@@ -5622,7 +5928,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "bfd909e408ae84df",
@@ -5641,7 +5948,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c34a41e2ccb5e2b3",
@@ -5660,7 +5968,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c355ee4282a74f10",
@@ -5679,7 +5988,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c3e6eecf2995db21",
@@ -5700,7 +6010,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c6dcc81c1c8a03cb",
@@ -5719,7 +6030,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c72eee6aa62a87bf",
@@ -5738,7 +6050,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c7f5d176dc0bd301",
@@ -5760,7 +6073,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c83d6e052e06f632",
@@ -5779,7 +6093,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c87f18e6a5751d84",
@@ -5798,7 +6113,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "c92dbd17c9229dfa",
@@ -5817,7 +6133,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "cae0562beb87624a",
@@ -5836,7 +6153,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "cbcdc775ceb4acb5",
@@ -5855,7 +6173,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "cd2dece68e8b1d33",
@@ -5876,7 +6195,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "cfdab9304fe3f6bb",
@@ -5895,7 +6215,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d11dedb0598dc625",
@@ -5914,7 +6235,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d2bf930add847f72",
@@ -5933,7 +6255,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d2c97bee2ee3866e",
@@ -5952,7 +6275,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d2ccf63a5a6d177c",
@@ -5971,7 +6295,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d448201e87b828bb",
@@ -5990,7 +6315,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d77c778678662f71",
@@ -6011,7 +6337,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d7843220da0270d4",
@@ -6030,7 +6357,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "d7a2efe89110f97e",
@@ -6049,7 +6377,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "dac9d4c4e9e53d3d",
@@ -6070,7 +6399,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "dc5f33209694ce7d",
@@ -6089,7 +6419,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "dcb5b30e28f862d4",
@@ -6108,7 +6439,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "de737949b9ce2766",
@@ -6127,7 +6459,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "de90e7e545c9f729",
@@ -6146,7 +6479,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e00f1ba5b25a55bf",
@@ -6165,7 +6499,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e15f2d52d7d2a53e",
@@ -6184,7 +6519,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e16882dc12a8a106",
@@ -6203,7 +6539,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e36756d773e16369",
@@ -6222,7 +6559,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e4a6d544a3e1d671",
@@ -6243,7 +6581,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e7011febf3b6d689",
@@ -6262,7 +6601,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e7154b8236470f30",
@@ -6283,7 +6623,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e800dc667eb49822",
@@ -6302,7 +6643,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e8f057648e140b1d",
@@ -6321,7 +6663,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e910091b100654ad",
@@ -6340,7 +6683,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e953f0f13e2d5437",
@@ -6359,7 +6703,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e983c4d850daff05",
@@ -6383,7 +6728,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "eb371f527e4875a2",
@@ -6402,7 +6748,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ec996760ff6edea2",
@@ -6423,7 +6770,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ed3b89d077263400",
@@ -6442,7 +6790,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ed921fc42f8956fa",
@@ -6461,7 +6810,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "edebf5aebeb69d4e",
@@ -6480,7 +6830,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "eee9c3cd59148d49",
@@ -6499,7 +6850,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ef20d8a8fed1fe5f",
@@ -6518,7 +6870,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "eff8d380b1fe8bd4",
@@ -6537,7 +6890,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f1d5aa000962b289",
@@ -6558,7 +6912,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f3e9e224408eec32",
@@ -6577,7 +6932,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f4ea50e91217a4cd",
@@ -6596,7 +6952,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f6ff7ee3ef567e68",
@@ -6617,7 +6974,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f7a07d0813f76919",
@@ -6636,7 +6994,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f9334cf057d62a75",
@@ -6657,7 +7016,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f9590ab94b42e50f",
@@ -6676,7 +7036,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f97c1d92e0ae50b8",
@@ -6695,7 +7056,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "fa5c0a257b3ecb81",
@@ -6714,7 +7076,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "faae36a9f5e02cc4",
@@ -6733,7 +7096,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "fb531bb1c91307dd",
@@ -6752,7 +7116,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ff0d9ee4d54e22d1",
@@ -6771,7 +7136,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ff18414d1602f383",
@@ -6790,7 +7156,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ff6ad67b059ef74d",
@@ -6809,7 +7176,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ff83f19059c178dc",
@@ -6828,7 +7196,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ffdce9598af5f905",
@@ -6847,7 +7216,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3670570fd58e48cb",
@@ -6868,7 +7238,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "bee9d703da5cbfc1",
@@ -6888,7 +7259,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "3112a72dc68bdc30",
@@ -6907,7 +7279,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "299f89875d32370a",
@@ -6927,7 +7300,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "c077e5abb328a6d6",
@@ -6946,7 +7320,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "c2d021648b0b4c7b",
@@ -6965,7 +7340,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "fad1adecf6953c73",
@@ -6984,7 +7360,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "0ffcffc6796a14aa",
@@ -7003,7 +7380,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "1d288026c6fa240b",
@@ -7022,7 +7400,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "1da710e4b216e70b",
@@ -7042,7 +7421,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "5858b30821325913",
@@ -7061,7 +7441,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ac7baba662aadd0c",
@@ -7081,7 +7462,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e65d12733d104af4",
@@ -7102,7 +7484,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "2a0b06c125931c1c",
@@ -7121,7 +7504,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "4b0ea5ce8667f1ff",
@@ -7140,7 +7524,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "17b762d09ab8cc48",
@@ -7159,7 +7544,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "1a82ba7a8f585102",
@@ -7178,7 +7564,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "480982b37ffc5e62",
@@ -7198,7 +7585,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "4f15c125a54d201c",
@@ -7217,7 +7605,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "90b8cceed46a39e3",
@@ -7238,7 +7627,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "70677c12e01477b8",
@@ -7257,7 +7647,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "dcf8871ab60ab840",
@@ -7276,7 +7667,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1124b9cd1be91b12",
@@ -7295,7 +7687,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "2f2aa0bba1ec8c45",
@@ -7315,7 +7708,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "81344a0355bb8d38",
@@ -7335,7 +7729,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "9169377348d0a5fb",
@@ -7355,7 +7750,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "b412f62a576a89cd",
@@ -7374,7 +7770,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "c3cac3237c4224da",
@@ -7394,7 +7791,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ddc90d12d0fc9ecb",
@@ -7413,7 +7811,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e2de64b8ef4b827c",
@@ -7432,7 +7831,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f787c0a0f4bfa730",
@@ -7451,7 +7851,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "065374cd6a8fdefa",
@@ -7470,7 +7871,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5ab619b387f9ea87",
@@ -7489,7 +7891,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "89b305b5753966e7",
@@ -7508,7 +7911,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a1ce82c76bd06ece",
@@ -7527,7 +7931,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "158776383e88e16f",
@@ -7547,7 +7952,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "3c710f025fca26de",
@@ -7567,7 +7973,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "72b290d7f950bb0e",
@@ -7587,7 +7994,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "9b7478024afb074c",
@@ -7607,7 +8015,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "c5b14b0df55777d9",
@@ -7627,7 +8036,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "fe9b5c366f679880",
@@ -7647,7 +8057,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "92cd2e0d52230096",
@@ -7666,7 +8077,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "27950fc17033ee61",
@@ -7687,7 +8099,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "8bc5a04f9d3d4d72",
@@ -7709,7 +8122,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "d4056c324731987d",
@@ -7730,7 +8144,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "87d3e9c520490afb",
@@ -7749,7 +8164,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "b6db26731d7a128b",
@@ -7769,7 +8185,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e8a643d5a42296cb",
@@ -7788,7 +8205,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "4c8e496a3e02476c",
@@ -7807,7 +8225,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f1287e7e54abc91e",
@@ -7826,7 +8245,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "b86c69ca0fae9924",
@@ -7847,7 +8267,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "1bd7ac0057f94994",
@@ -7866,7 +8287,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "3961d17c95776b62",
@@ -7886,7 +8308,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "3c91e6ccedcd9139",
@@ -7905,7 +8328,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "3d12e37ef6c135c3",
@@ -7924,7 +8348,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "62510683034e85cf",
@@ -7944,7 +8369,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "6260a928e5f0ec52",
@@ -7963,7 +8389,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "7b42f2bac2f3fa70",
@@ -7982,7 +8409,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "7ba6a59c57cb7a9b",
@@ -8001,7 +8429,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "a45611bc0791af0c",
@@ -8020,7 +8449,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "aabf87f660e9390a",
@@ -8040,7 +8470,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "aec16e19557f1d4c",
@@ -8059,7 +8490,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "b13b3318472ddd42",
@@ -8078,7 +8510,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "b7cbccec34806ba2",
@@ -8098,7 +8531,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "bacbefd4d9cf3862",
@@ -8118,7 +8552,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "bea60cbc8c7268c6",
@@ -8137,7 +8572,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "c3bc22a495c42237",
@@ -8158,7 +8594,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "cde8387eb3f1ea2c",
@@ -8177,7 +8614,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "cf4aef5d73c25b1e",
@@ -8196,7 +8634,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ddd6932aedb3f4dc",
@@ -8215,7 +8654,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e529a684971ab899",
@@ -8235,7 +8675,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e5eb85da500d5e61",
@@ -8257,7 +8698,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e83af6711a00f5f6",
@@ -8277,7 +8719,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ebc6f30c8cf8311b",
@@ -8297,7 +8740,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f3826c914df871cc",
@@ -8316,7 +8760,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "fb2b55a268cc83ba",
@@ -8335,7 +8780,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ff74fd973bc3d5c7",
@@ -8356,7 +8802,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "06508c764ffa7c4c",
@@ -8375,7 +8822,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "9f9349466e1421e2",
@@ -8394,7 +8842,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0d54515bdf902b7e",
@@ -8413,7 +8862,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "1f914b1440430822",
@@ -8432,7 +8882,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "4d1c8cf3fec869b1",
@@ -8451,7 +8902,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "6b97020ecd7fd1cf",
@@ -8470,7 +8922,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "9d83a7d47dcceae0",
@@ -8489,7 +8942,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "d14d83ed372f5e7a",
@@ -8508,7 +8962,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "833b9aa4b728c075",
@@ -8527,7 +8982,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "27101eab4bb2bf00",
@@ -8546,7 +9002,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "964d7b52d377c4e3",
@@ -8565,7 +9022,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2993fbac39c42cd4",
@@ -8584,7 +9042,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3a30daf8499b99b9",
@@ -8603,7 +9062,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ef135dbeee7f1b4a",
@@ -8622,7 +9082,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3b78702fb3834c5d",
@@ -8641,7 +9102,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a109d9d6aa206a63",
@@ -8660,7 +9122,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "4ad8bffc63c66652",
@@ -8679,7 +9142,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "7e12cca0528ae78c",
@@ -8698,7 +9162,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "df5f537a68a38773",
@@ -8717,7 +9182,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "9c1659233a4daa3e",
@@ -8736,7 +9202,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "15cdc465878c15ee",
@@ -8755,7 +9222,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "48be11d88e3253c4",
@@ -8774,7 +9242,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "8ac1c90d9a387a45",
@@ -8795,7 +9264,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "a587ed5c6a363d53",
@@ -8814,7 +9284,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "d8eca102a75f9305",
@@ -8833,7 +9304,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f099552b789e6b12",
@@ -8852,7 +9324,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "2740af92940c923b",
@@ -8873,7 +9346,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "360b961ee1fdd773",
@@ -8892,7 +9366,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "6a094e931b595457",
@@ -8911,7 +9386,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "b6d38a29a896fcbc",
@@ -8930,7 +9406,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "c82c9aa0bc8bca71",
@@ -8949,7 +9426,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f2b1572644db4359",
@@ -8968,7 +9446,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ff1502b19dbfb679",
@@ -8987,7 +9466,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f32b0554e99a09b4",
@@ -9006,7 +9486,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3e4103a6790c636c",
@@ -9025,7 +9506,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a309dcf572547439",
@@ -9046,7 +9528,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "83cee170198dc26c",
@@ -9065,7 +9548,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b779a4ae4abedcbf",
@@ -9084,7 +9568,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "eaedd6b9b8b0ab2f",
@@ -9103,7 +9588,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3ba4dc1c1adf23b9",
@@ -9122,7 +9608,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8e126b91ef8a5b95",
@@ -9143,7 +9630,8 @@
    "text": "Starting on June 24, 2025, the Generative AI module in the Vertex AI SDK is deprecated. The Generative AI module will be removed on June 24, 2026. For information about migrating to the Google Gen AI SDK, see Vertex AI SDK migration guide.",
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ba9bed6aa2be9873",
@@ -9162,7 +9650,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ca3be1d7e2197d59",
@@ -9181,7 +9670,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "00066b40f3833a39",
@@ -9200,7 +9690,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "2aafcf7b2e7804d9",
@@ -9219,7 +9710,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "681b201624824d22",
@@ -9238,7 +9730,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5112a6a4cd58d606",
@@ -9257,7 +9750,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "67ee8a63b44752a1",
@@ -9276,7 +9770,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "7bb28a7a0aeb76b6",
@@ -9295,7 +9790,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "9e99a5666ebb6809",
@@ -9314,7 +9810,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e7457f901f386393",
@@ -9333,7 +9830,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "4cdfcfaa4739bb6d",
@@ -9352,7 +9850,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "011ee309d258d543",
@@ -9371,7 +9870,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "07efeb9ee9bd1f5c",
@@ -9390,7 +9890,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1631a914b0ff82ad",
@@ -9409,7 +9910,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "1703940629bea4b1",
@@ -9428,7 +9930,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "adfbf248878f32c3",
@@ -9447,7 +9950,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "b85a72b817eaef7d",
@@ -9466,7 +9970,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ceb29f983a9954ba",
@@ -9485,7 +9990,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "da777e2f14ff5f63",
@@ -9504,7 +10010,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ffd1e1fa687c2d6b",
@@ -9523,7 +10030,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "ab6a33331c1ad1a5",
@@ -9542,7 +10050,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "3fe05ae19750bb68",
@@ -9561,7 +10070,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5a70f983957ed615",
@@ -9580,7 +10090,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "8d13ceed7fb3e3f0",
@@ -9599,7 +10110,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a925cbba6f7e624a",
@@ -9618,7 +10130,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "7ddee70f84615765",
@@ -9637,7 +10150,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "0f65fa61e112a34c",
@@ -9658,7 +10172,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "3ff2e6e019f39685",
@@ -9677,7 +10192,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "63fb2dd7d82d65df",
@@ -9696,7 +10212,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "70a12391bddab9dd",
@@ -9715,7 +10232,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "79dcb88c01ff24b9",
@@ -9734,7 +10252,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "a53fa311e2d681e8",
@@ -9753,7 +10272,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "e81cb05291f54c3f",
@@ -9772,7 +10292,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "f4baf50e1debc98d",
@@ -9791,7 +10312,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": true
+   "baseline": true,
+   "seen_at": null
   },
   {
    "id": "5c9c3c2896d44a78",
@@ -9810,7 +10332,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "82cd55f5e19fd245",
@@ -9829,7 +10352,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "16a93b8a89ec67f9",
@@ -9848,7 +10372,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "1f0d3ab553c7f1e2",
@@ -9867,7 +10392,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "3af27c6d0c090c8f",
@@ -9886,7 +10412,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "d9ee55d553384d70",
@@ -9905,7 +10432,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "449bfe8fe1ab82ad",
@@ -9924,7 +10452,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ff6d0a45420ff04c",
@@ -9943,7 +10472,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "0ddfbbbcb5f4ae87",
@@ -9962,7 +10492,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "103e7cbbbe12913a",
@@ -9981,7 +10512,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "28c93594ad5239bb",
@@ -10000,7 +10532,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "2bc7bc12a6459a54",
@@ -10019,7 +10552,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "31fe2f8823d32957",
@@ -10038,7 +10572,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "347b59aeac1a1f9b",
@@ -10057,7 +10592,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "49c8526564b898a9",
@@ -10076,7 +10612,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "5690c425c7e126c6",
@@ -10095,7 +10632,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "5c2c55dfc52a8381",
@@ -10114,7 +10652,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "5eea5ae8a38dc338",
@@ -10133,7 +10672,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "64189048c673bfc4",
@@ -10152,7 +10692,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "6ab894f17d80722c",
@@ -10171,7 +10712,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "73bf492c23f69238",
@@ -10190,7 +10732,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "7c01f74dece68d97",
@@ -10209,7 +10752,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "866afbcdd33ba52e",
@@ -10228,7 +10772,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "9f3645f91fe5ab46",
@@ -10247,7 +10792,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "9f36794a581c2338",
@@ -10266,7 +10812,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "a38737ce0a48d793",
@@ -10285,7 +10832,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ab71d3e23e8f9603",
@@ -10304,7 +10852,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "bae964f4a1fd8c5a",
@@ -10323,7 +10872,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "bcd8f1483b5846bf",
@@ -10342,7 +10892,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "bfd3c29bfed685de",
@@ -10361,7 +10912,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "c878c1ad3e5d8035",
@@ -10380,7 +10932,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "c95c3fea83b375c3",
@@ -10399,7 +10952,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "cb8a2c08af1a9f00",
@@ -10418,7 +10972,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ce3c815aeca9f4b3",
@@ -10437,7 +10992,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "d2acbe7398798c6a",
@@ -10456,7 +11012,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "dbe5830d35cf97a6",
@@ -10475,7 +11032,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e097d3d866f8b9a5",
@@ -10494,7 +11052,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "e62629470f7fb0bc",
@@ -10513,7 +11072,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "eb84fa624f635fce",
@@ -10532,7 +11092,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f093fb1e00cef254",
@@ -10551,7 +11112,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f6d3b18d3288fdab",
@@ -10570,7 +11132,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "fad209cf73e6cfcd",
@@ -10589,7 +11152,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "fc8237d1b2493ccc",
@@ -10608,7 +11172,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "8f9ab4fa0ed60ff3",
@@ -10627,7 +11192,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "b280af68404fdf73",
@@ -10646,7 +11212,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f8292f7411b9eaed",
@@ -10665,7 +11232,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "9681c196a581a96c",
@@ -10684,7 +11252,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "ab2db12d386ff574",
@@ -10703,7 +11272,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "b64c082452a5f82e",
@@ -10722,7 +11292,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "d7dff9cd937cd738",
@@ -10741,7 +11312,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": null,
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "18616b114b85b612",
@@ -10762,7 +11334,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "192abf07ddc64390",
@@ -10783,7 +11356,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "af83f7fba1801aed",
@@ -10804,7 +11378,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   },
   {
    "id": "f8be16cf9af5082d",
@@ -10825,7 +11400,8 @@
    "text": null,
    "first_seen": "2026-11-22",
    "updated": "2026-11-22",
-   "baseline": false
+   "baseline": false,
+   "seen_at": null
   }
  ]
 }
