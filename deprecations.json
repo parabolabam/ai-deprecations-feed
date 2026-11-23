@@ -1,6 +1,1017 @@
 {
  "records": [
   {
+   "id": "0ae68c3732509312",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-07-07: Llama 3.2 90B Instruct (meta.llama3-2-90b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-07-07",
+   "affected": [
+    "meta.llama3-2-90b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "11d40c4c326244c3",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Llama 3 70B Instruct (meta.llama3-70b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "meta.llama3-70b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-south-1, ca-central-1, eu-west-2, us-east-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced; us-gov-west-1: Legacy 2026-11-09, EOL 2027-05-09, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1295535c22574da4",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-10-14: Claude Sonnet 4 (anthropic.claude-sonnet-4-20250514-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-10-14",
+   "affected": [
+    "anthropic.claude-sonnet-4-20250514-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "ap-northeast-1, eu-central-1, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-3, us-east-1, us-east-2, us-west-1, us-west-2, ap-east-2, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, ap-southeast-5, ap-southeast-7, il-central-1: Legacy 2026-04-14, EOL 2026-10-14, extended access 2026-07-14",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "13a38e606f446854",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-07-07: Llama 3.2 1B Instruct (meta.llama3-2-1b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-07-07",
+   "affected": [
+    "meta.llama3-2-1b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "eu-central-1, eu-west-1, eu-west-3, us-east-1, us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1d1c01c0f0a33cc0",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-11-13: Claude 3 Haiku (anthropic.claude-3-haiku-20240307-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-11-13",
+   "affected": [
+    "anthropic.claude-3-haiku-20240307-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-2, ap-south-1, ap-southeast-1: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10; eu-central-2, sa-east-1: Legacy 2026-10-13, EOL 2026-11-13, extended access 2026-10-13; ca-central-1: Legacy 2026-10-15, EOL 2026-11-27, extended access 2026-10-15",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "1e0d482153bfe414",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-08-19: Command R (cohere.command-r-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-08-19",
+   "affected": [
+    "cohere.command-r-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "us-east-1, us-west-2: Legacy 2026-02-19, EOL 2026-08-19, extended access 2026-05-19",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2351dd4cbe0527a9",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Gemma 3 4B IT (google.gemma-3-4b-it)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "google.gemma-3-4b-it"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "2f6f582ddc59629d",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-09-30: Nova Canvas (amazon.nova-canvas-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-09-30",
+   "affected": [
+    "amazon.nova-canvas-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "ap-northeast-1, eu-west-1, us-east-1: Legacy 2026-03-30, EOL 2026-09-30, extended access —",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "330dd5a0403cdf9c",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-07-07: Llama 3.1 405B Instruct (meta.llama3-1-405b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-07-07",
+   "affected": [
+    "meta.llama3-1-405b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "36148d410d1777bd",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-07-07: Llama 3.2 11B Instruct (meta.llama3-2-11b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-07-07",
+   "affected": [
+    "meta.llama3-2-11b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "384a25be12b164c3",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: DeepSeek-V3.1 (deepseek.v3-v1:0, deepseek.v3.1)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "deepseek.v3-v1:0",
+    "deepseek.v3.1"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-north-1, eu-west-2, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3c264d6daf4e90cb",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Mixtral 8x7B Instruct (mistral.mixtral-8x7b-instruct-v0:1)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "mistral.mixtral-8x7b-instruct-v0:1"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-south-1, ap-southeast-2, ca-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-east-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "3e2dacd76d167cf5",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Llama 3 8B Instruct (meta.llama3-8b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "meta.llama3-8b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-south-1, ca-central-1, eu-west-2, us-east-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced; us-gov-west-1: Legacy 2026-11-09, EOL 2027-05-09, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "45fcfa8a873be9a5",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-09-14: Nova Sonic (amazon.nova-sonic-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-09-14",
+   "affected": [
+    "amazon.nova-sonic-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "ap-northeast-1, eu-north-1, us-east-1: Legacy 2026-03-13, EOL 2026-09-14, extended access —",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "56bb81714f13436a",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-11-13: Claude 3 Sonnet (anthropic.claude-3-sonnet-20240229-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-11-13",
+   "affected": [
+    "anthropic.claude-3-sonnet-20240229-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-south-1, ap-southeast-1, eu-west-2: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10; sa-east-1: Legacy 2026-10-13, EOL 2026-11-13, extended access 2026-10-13; ca-central-1: Legacy 2026-10-15, EOL 2026-11-27, extended access 2026-10-15",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "56fc087395021686",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-11-13: Claude 3.5 Sonnet v2 (anthropic.claude-3-5-sonnet-20241022-v2:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-11-13",
+   "affected": [
+    "anthropic.claude-3-5-sonnet-20241022-v2:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-2, ap-south-1, ap-southeast-1: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5930d81219b4d975",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: DeepSeek-R1 (deepseek.r1-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "deepseek.r1-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "5c19aa1548459e13",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: GLM 4.7 Flash (zai.glm-4.7-flash)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "zai.glm-4.7-flash"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "653189027efbae53",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-07-07: Llama 3.2 3B Instruct (meta.llama3-2-3b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-07-07",
+   "affected": [
+    "meta.llama3-2-3b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "eu-central-1, eu-west-1, eu-west-3, us-east-1, us-east-2, us-west-2: Legacy 2026-01-07, EOL 2026-07-07, extended access 2026-04-07",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "661aeb6014232958",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Qwen3 Coder 480B A35B Instruct (qwen.qwen3-coder-480b-a35b-v1:0, qwen.qwen3-coder-480b-a35b-instruct)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "qwen.qwen3-coder-480b-a35b-v1:0",
+    "qwen.qwen3-coder-480b-a35b-instruct"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-north-1, eu-west-2, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "66dfba742e9137fa",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-11-30: Marengo Embed v2.7 (twelvelabs.marengo-embed-2-7-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-11-30",
+   "affected": [
+    "twelvelabs.marengo-embed-2-7-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-2, eu-west-1, us-east-1: Legacy 2026-05-29, EOL 2026-11-30, extended access 2026-08-29",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6915d8f65e322f64",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Llama 4 Maverick 17B Instruct (meta.llama4-maverick-17b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "meta.llama4-maverick-17b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "6e70ee4714e8d50d",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Gemma 3 27B PT (google.gemma-3-27b-it)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "google.gemma-3-27b-it"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "741bb0b5e3b3b431",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-09: Palmyra X4 (writer.palmyra-x4-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-09",
+   "affected": [
+    "writer.palmyra-x4-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-09, EOL 2027-03-09, extended access —",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "76d1718419728dc8",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-11-26: Jamba 1.5 Large (ai21.jamba-1-5-large-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-11-26",
+   "affected": [
+    "ai21.jamba-1-5-large-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1: Legacy 2026-05-26, EOL 2026-11-26, extended access 2026-08-26",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "775d6535084fcb77",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-22: Pegasus v1.2 (twelvelabs.pegasus-1-2-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-22",
+   "affected": [
+    "twelvelabs.pegasus-1-2-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "af-south-1, ap-east-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, ap-southeast-5, ap-southeast-7, ca-central-1, ca-west-1, eu-central-1, eu-central-2, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-2, eu-west-3, il-central-1, mx-central-1, sa-east-1, us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-22, EOL 2027-03-22, extended access —",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "7a7aa5988a000205",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Voxtral Mini 3B 2507 (mistral.voxtral-mini-3b-2507)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "mistral.voxtral-mini-3b-2507"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "7e25b7429457efac",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Qwen3-Coder-30B-A3B-Instruct (qwen.qwen3-coder-30b-a3b-v1:0, qwen.qwen3-coder-30b-a3b-instruct)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "qwen.qwen3-coder-30b-a3b-v1:0",
+    "qwen.qwen3-coder-30b-a3b-instruct"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "82e68ecc647744c8",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-08-19: Command R\\+ (cohere.command-r-plus-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-08-19",
+   "affected": [
+    "cohere.command-r-plus-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "us-east-1, us-west-2: Legacy 2026-02-19, EOL 2026-08-19, extended access 2026-05-19",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8628a5f7b17800ef",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-09-30: Nova Reel (amazon.nova-reel-v1:1)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-09-30",
+   "affected": [
+    "amazon.nova-reel-v1:1"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "us-east-1: Legacy 2026-03-30, EOL 2026-09-30, extended access —",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "86c5bd761301e9eb",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Kimi K2 Thinking (moonshot.kimi-k2-thinking, moonshotai.kimi-k2-thinking)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "moonshot.kimi-k2-thinking",
+    "moonshotai.kimi-k2-thinking"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "87cf634eced9014b",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: NVIDIA Nemotron Nano 9B v2 (nvidia.nemotron-nano-9b-v2)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "nvidia.nemotron-nano-9b-v2"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8a903d1eaf8254f8",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Llama 3.1 70B Instruct (meta.llama3-1-70b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "meta.llama3-1-70b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "8b9af9d9663a828b",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-22: Marengo Embed 3.0 (twelvelabs.marengo-embed-3-0-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-22",
+   "affected": [
+    "twelvelabs.marengo-embed-3-0-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-2: Legacy 2026-09-22, EOL 2027-03-22, extended access —",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "93e8194d5c95e747",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-11-13: Claude 3.5 Sonnet (anthropic.claude-3-5-sonnet-20240620-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-11-13",
+   "affected": [
+    "anthropic.claude-3-5-sonnet-20240620-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-2, ap-south-1, ap-southeast-1: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "951d93b880b67045",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Gemma 3 12B IT (google.gemma-3-12b-it)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "google.gemma-3-12b-it"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "9cb44307d2df9c82",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-09-10: Claude 3 Haiku (anthropic.claude-3-haiku-20240307-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-09-10",
+   "affected": [
+    "anthropic.claude-3-haiku-20240307-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "ap-northeast-1, ap-southeast-2, eu-central-1, eu-west-1, eu-west-2, eu-west-3, us-east-1, us-east-2, us-west-2: Legacy 2026-03-10, EOL 2026-09-10, extended access 2026-06-10; us-gov-east-1, us-gov-west-1: Legacy 2026-03-10, EOL 2026-09-10, extended access 2026-06-10",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a32b9ecf030c04d6",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: GLM 4.7 (zai.glm-4.7)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "zai.glm-4.7"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-north-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "a82025179975ee99",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Llama 4 Scout 17B Instruct (meta.llama4-scout-17b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "meta.llama4-scout-17b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "aad5994797ce32a7",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Voxtral Small 24B 2507 (mistral.voxtral-small-24b-2507)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "mistral.voxtral-small-24b-2507"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "abf2f808af15089a",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-11-13: Claude 3.7 Sonnet (anthropic.claude-3-7-sonnet-20250219-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-11-13",
+   "affected": [
+    "anthropic.claude-3-7-sonnet-20250219-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-south-1, eu-west-2: Legacy 2026-10-10, EOL 2026-11-13, extended access 2026-10-10",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b8b0a2088871c2c2",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: MiniMax M2 (minimax.minimax-m2)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "minimax.minimax-m2"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "b8b17faedb5eb1fd",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-04-08: Claude Sonnet 4.5 (anthropic.claude-sonnet-4-5-20250929-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-04-08",
+   "affected": [
+    "anthropic.claude-sonnet-4-5-20250929-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "af-south-1, ap-east-2, ap-northeast-1, ap-northeast-2, ap-northeast-3, ap-south-1, ap-south-2, ap-southeast-1, ap-southeast-2, ap-southeast-3, ap-southeast-4, ap-southeast-5, ap-southeast-6, ap-southeast-7, ca-central-1, ca-west-1, eu-central-1, eu-central-2, eu-north-1, eu-south-1, eu-south-2, eu-west-1, eu-west-2, eu-west-3, il-central-1, mx-central-1, sa-east-1, us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-10-08, EOL 2027-04-08, extended access 2027-01-08; us-gov-east-1, us-gov-west-1: Legacy 2026-10-27, EOL 2027-04-27, extended access 2027-01-27",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ca3ee9d19f9ca71d",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: NVIDIA Nemotron Nano 12B v2 VL BF16 (nvidia.nemotron-nano-12b-v2)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "nvidia.nemotron-nano-12b-v2"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "cfb871e397df52ae",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Mistral 7B Instruct (mistral.mistral-7b-instruct-v0:2)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "mistral.mistral-7b-instruct-v0:2"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-south-1, ap-southeast-2, ca-central-1, eu-west-1, eu-west-2, eu-west-3, sa-east-1, us-east-1, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d0ac3fbb12a060dd",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-09-30: Nova Reel (amazon.nova-reel-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-09-30",
+   "affected": [
+    "amazon.nova-reel-v1:0"
+   ],
+   "replacement": null,
+   "status": "EOL reached",
+   "links": [],
+   "text": "ap-northeast-1, eu-west-1, us-east-1: Legacy 2026-03-30, EOL 2026-09-30, extended access —",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d2f88723fc8d4e7b",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2026-11-26: Jamba 1.5 Mini (ai21.jamba-1-5-mini-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2026-11-26",
+   "affected": [
+    "ai21.jamba-1-5-mini-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1: Legacy 2026-05-26, EOL 2026-11-26, extended access 2026-08-26",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d50fb7970debb00e",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Llama 3.1 8B Instruct (meta.llama3-1-8b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "meta.llama3-1-8b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "d7e68ece302f881d",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: MiniMax M2.1 (minimax.minimax-m2.1)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "minimax.minimax-m2.1"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "ddcb058373a18ff4",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-01-08: Claude Opus 4.1 (anthropic.claude-opus-4-1-20250805-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-01-08",
+   "affected": [
+    "anthropic.claude-opus-4-1-20250805-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-07-08, EOL 2027-01-08, extended access 2026-10-08",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "de64d6744b713ad5",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Devstral 2 123B (mistral.devstral-2-123b)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "mistral.devstral-2-123b"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "ap-northeast-1, ap-south-1, ap-southeast-2, ap-southeast-3, eu-central-1, eu-north-1, eu-south-1, eu-west-1, eu-west-2, sa-east-1, us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "f68715b88209dceb",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-30: Llama 3.3 70B Instruct (meta.llama3-3-70b-instruct-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-30",
+   "affected": [
+    "meta.llama3-3-70b-instruct-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-2: Legacy 2026-09-30, EOL 2027-03-30, extended access To be announced",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
+   "id": "f785d0247ea7663c",
+   "source": "bedrock",
+   "kind": "parsed",
+   "title": "Model EOL 2027-03-21: Palmyra X5 (writer.palmyra-x5-v1:0)",
+   "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+   "announced": null,
+   "shutdown": "2027-03-21",
+   "affected": [
+    "writer.palmyra-x5-v1:0"
+   ],
+   "replacement": null,
+   "status": "Legacy",
+   "links": [],
+   "text": "us-east-1, us-east-2, us-west-1, us-west-2: Legacy 2026-09-21, EOL 2027-03-21, extended access —",
+   "first_seen": "2026-11-23",
+   "updated": null,
+   "baseline": true
+  },
+  {
    "id": "01dee388c264735c",
    "source": "azure",
    "kind": "parsed",

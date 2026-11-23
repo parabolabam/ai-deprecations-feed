@@ -17,10 +17,10 @@
   },
   "bedrock": {
    "changed": "2026-11-22",
-   "count": 0,
+   "count": 53,
    "error": null,
-   "since": "2026-11-22",
-   "state": "diff"
+   "since": "2026-11-23",
+   "state": "ok"
   },
   "cohere": {
    "changed": "2026-11-22",
