@@ -4,7 +4,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from typing import TYPE_CHECKING
 
-from depfeed.parsers import anthropic, azure, bedrock, gemini, groq, openai, vertex
+from depfeed.parsers import anthropic, azure, bedrock, cohere, gemini, groq, openai, vertex
 
 if TYPE_CHECKING:
     from depfeed.records import Record
@@ -46,7 +46,8 @@ SOURCES: list[Source] = [
            parser=bedrock.parse),
     Source("cohere", "Cohere",
            ("https://docs.cohere.com/docs/deprecations.md",),
-           "https://docs.cohere.com/docs/deprecations"),
+           "https://docs.cohere.com/docs/deprecations",
+           parser=cohere.parse),
     Source("groq", "Groq",
            ("https://console.groq.com/docs/deprecations.md",),
            "https://console.groq.com/docs/deprecations", parser=groq.parse),
