@@ -142,8 +142,8 @@ Unless explicitly stated, training retires no earlier than the base model retire
 ### Meta
 | Model | Version | Lifecycle | Retirement date | Replacement |
 | --- | --- | --- | --- | --- |
-| Llama-3.3-70B-Instruct | — | GA | 2027-01-31 | — |
-| Llama-4-Maverick-17B-128E-Instruct-FP8 | — | GA | 2026-11-19 | — |
+| Llama-3.3-70B-Instruct | — | GA | 2027-02-03 | — |
+| Llama-4-Maverick-17B-128E-Instruct-FP8 | — | GA | 2027-02-03 | — |
 ### Microsoft
 | Model | Version | Lifecycle | Retirement date | Replacement |
 | --- | --- | --- | --- | --- |
@@ -174,6 +174,7 @@ mistral-document-ai-2512 enters the Legacy stage on November 6, 2026, and the De
 | Kimi-K2.5 | 1 | Preview | 2027-01-26 | — |
 | Kimi-K2.6 | 2026-04-20 | Preview | 2027-04-16 | — |
 | Kimi-K2.7-Code | 2026-06-12 | Preview | 2027-04-16 | — |
+| Kimi-K3.1-Pro | 2026-11-04 | GA | 2027-11-04 | — |
 ### OpenAI-OSS
 | Model | Version | Lifecycle | Retirement date | Replacement |
 | --- | --- | --- | --- | --- |
@@ -229,9 +230,9 @@ For Fireworks pay-per-token lifecycle status, supported Standard deployment type
 ### Meta
 | Model | Version | Lifecycle | Retirement date | Replacement |
 | --- | --- | --- | --- | --- |
-| Llama-3.3-70B-Instruct | — | GA | 2027-01-31 | — |
-| Llama-4-Maverick-17B-128E-Instruct-FP8 | — | GA | 2026-11-19 | — |
-| Llama-4-Scout-17B-16E-Instruct | — | GA | 2027-01-31 | — |
+| Llama-3.3-70B-Instruct | — | GA | 2027-02-03 | — |
+| Llama-4-Maverick-17B-128E-Instruct-FP8 | — | GA | 2027-02-03 | — |
+| Llama-4-Scout-17B-16E-Instruct | — | GA | 2027-02-03 | — |
 ### Microsoft
 | Model | Version | Lifecycle | Retirement date | Replacement |
 | --- | --- | --- | --- | --- |

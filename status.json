@@ -2,22 +2,22 @@
  "heartbeat": "2026-11-23",
  "sources": {
   "anthropic": {
-   "changed": "2026-11-22",
-   "count": 21,
+   "changed": "2026-11-24",
+   "count": 22,
    "error": null,
    "since": "2026-11-22",
    "state": "ok"
   },
   "azure": {
-   "changed": "2026-11-22",
-   "count": 173,
+   "changed": "2026-11-24",
+   "count": 174,
    "error": null,
    "since": "2026-11-22",
    "state": "ok"
   },
   "bedrock": {
-   "changed": "2026-11-22",
-   "count": 53,
+   "changed": "2026-11-24",
+   "count": 54,
    "error": null,
    "since": "2026-11-23",
    "state": "ok"
