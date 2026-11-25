@@ -2,7 +2,7 @@
  "heartbeat": "2026-11-23",
  "sources": {
   "anthropic": {
-   "changed": "2026-11-24",
+   "changed": "2026-11-25",
    "count": 22,
    "error": null,
    "since": "2026-11-22",
@@ -44,7 +44,7 @@
    "state": "ok"
   },
   "openai": {
-   "changed": "2026-11-22",
+   "changed": "2026-11-25",
    "count": 156,
    "error": null,
    "since": "2026-11-22",

@@ -8312,10 +8312,10 @@
    "id": "b86c69ca0fae9924",
    "source": "openai",
    "kind": "parsed",
-   "title": "Feature/endpoint shutdown 2027-01-06: Self-serve fine-tuning job creation",
+   "title": "Feature/endpoint shutdown 2026-12-15: Self-serve fine-tuning job creation",
    "url": "https://developers.openai.com/api/docs/deprecations",
    "announced": "2026-05-07",
-   "shutdown": "2027-01-06",
+   "shutdown": "2026-12-15",
    "affected": [
     "Self-serve fine-tuning job creation"
    ],
@@ -8326,7 +8326,7 @@
    ],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": "2026-11-22",
+   "updated": "2026-11-25",
    "baseline": false,
    "seen_at": null
   },
