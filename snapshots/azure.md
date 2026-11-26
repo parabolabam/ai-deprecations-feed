@@ -182,7 +182,7 @@ mistral-document-ai-2512 enters the Legacy stage on November 6, 2026, and the De
 ### xAI
 | Model | Version | Lifecycle | Retirement date | Replacement |
 | --- | --- | --- | --- | --- |
-| grok-4 | 1 | GA | 2027-01-31 | — |
+| grok-4 | 1 | GA | 2027-02-03 | — |
 | grok-4-1-fast-non-reasoning | 1 | GA | 2027-05-19 | — |
 | grok-4-1-fast-reasoning | 1 | GA | 2027-05-19 | — |
 | grok-4-20-non-reasoning | 1 | Preview | 2027-04-06 | — |
@@ -190,7 +190,7 @@ mistral-document-ai-2512 enters the Legacy stage on November 6, 2026, and the De
 | grok-4.3 | 1 | Preview | 2027-05-12 | — |
 | grok-4.6 | 1 | Preview | 2027-08-24 | — |
 | grok-4.7 | 1 | GA | 2027-10-05 | — |
-| grok-code-fast-1 | 1 | GA | 2027-01-31 | — |
+| grok-code-fast-1 | 1 | GA | 2027-02-03 | — |
 ## Foundry Models from partners and community
 This section lists the retirement lifecycle for Foundry Models sold by partners via Azure Marketplace.
 ### Anthropic

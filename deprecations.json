@@ -5529,10 +5529,10 @@
    "id": "ab950aabfa9a83fa",
    "source": "azure",
    "kind": "parsed",
-   "title": "Model retirement 2027-01-31: xAI: grok-code-fast-1 1",
+   "title": "Model retirement 2027-02-03: xAI: grok-code-fast-1 1",
    "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
    "announced": null,
-   "shutdown": "2027-01-31",
+   "shutdown": "2027-02-03",
    "affected": [
     "grok-code-fast-1 1"
    ],
@@ -5541,7 +5541,7 @@
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null,
+   "updated": "2026-11-26",
    "baseline": true,
    "seen_at": null
   },
@@ -6730,10 +6730,10 @@
    "id": "e910091b100654ad",
    "source": "azure",
    "kind": "parsed",
-   "title": "Model retirement 2027-01-31: xAI: grok-4 1",
+   "title": "Model retirement 2027-02-03: xAI: grok-4 1",
    "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
    "announced": null,
-   "shutdown": "2027-01-31",
+   "shutdown": "2027-02-03",
    "affected": [
     "grok-4 1"
    ],
@@ -6742,7 +6742,7 @@
    "links": [],
    "text": null,
    "first_seen": "2026-11-22",
-   "updated": null,
+   "updated": "2026-11-26",
    "baseline": true,
    "seen_at": null
   },
