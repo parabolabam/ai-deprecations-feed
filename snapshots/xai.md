@@ -29,7 +29,7 @@ On November 2, 2026, `grok-imagine-image-quality` is retired. Requests to the sl
 * **Five reference images.** Image editing now accepts up to 5 source images per request (was 3). See [Multi-Image Editing](/developers/model-capabilities/images/multi-image-editing).
 * **New aspect ratios.** Image generation and editing accept `21:9` (cinematic widescreen) and `5:2` (wide banners). See [Image Generation](/developers/model-capabilities/images/generation#aspect-ratio).
 ### Grok 4.6
-Grok 4.6, SpaceXSI's frontier model for coding, agentic tasks, and knowledge work, is now available on the xAI API. It has a 500k context window, text and image inputs with text-only output, and no text output limit. Pricing is $2 / $0.50 / $6 per 1M tokens (input / cached input / output) below 200k prompt tokens, and $4 / $1 / $12 above. Reasoning effort supports low, medium, high (default), and xhigh. See the [Grok 4.6 overview](/developers/grok-4-6) and the [announcement](https://x.ai/news/grok-4-6).
+Grok 4.6, SpaceXSI's frontier model for coding, agentic tasks, and knowledge work, is now available on the xAI API. It has a 500k context window, text and image inputs with text-only output, and no text output limit. Pricing is $2 / $0.50 / $6 per 1M tokens (input / cached input / output) below 200k prompt tokens, and $4 / $1 / $12 above. Reasoning effort supports low, medium, high (default), and xhigh. See the [Grok 4.6 model page](/developers/models/grok-4.6) and the [announcement](https://x.ai/news/grok-4-6).
 ### Grok Bot
 Grok Bot is now available. Durable AI teammates that work on a persistent cloud computer, with messaging, approvals, connectors, and routines. See the [Grok Bot overview](/grok-bot/overview) and [Get started](/grok-bot/get-started).
 ## July
@@ -40,9 +40,9 @@ Grok Bot is now available. Durable AI teammates that work on a persistent cloud 
 ### Adjustable VAD threshold for Speech to Text
 Speech to Text now accepts a `vad_threshold` parameter (streaming query param and batch multipart field) to tune the voice-activity gate that skips non-speech audio. Lower values transcribe quieter or noisier speech — useful for narrowband telephony — and `0` disables the gate. See the [Speech to Text docs](/developers/model-capabilities/audio/speech-to-text).
 ### Grok 4.5 available in the EU
-Grok 4.5 is now available in the API console for EU users. See the [Grok 4.5 overview](/developers/grok-4-5).
+Grok 4.5 is now available in the API console for EU users. See the [Grok 4.5 model page](/developers/models/grok-4.5).
 ### Grok 4.5
-Grok 4.5, SpaceXSI's model for coding, agentic tasks, and knowledge work, is now available on the xAI API. Priced at $2 / 1M input tokens and $6 / 1M output tokens, with configurable reasoning effort (low, medium, or high; default high). See the [Grok 4.5 overview](/developers/grok-4-5) and the [announcement](https://x.ai/news/grok-4-5).
+Grok 4.5, SpaceXSI's model for coding, agentic tasks, and knowledge work, is now available on the xAI API. Priced at $2 / 1M input tokens and $6 / 1M output tokens, with configurable reasoning effort (low, medium, or high; default high). See the [Grok 4.5 model page](/developers/models/grok-4.5) and the [announcement](https://x.ai/news/grok-4-5).
 ## June
 ### Priority Processing
 You can now request higher scheduling priority per request by setting `service_tier: "priority"` on text inference endpoints (Chat Completions and Responses). The response's `service_tier` field reports the tier actually applied, and priority rates are billed only when priority is used. For more details, see the [Priority Processing docs](/developers/advanced-api-usage/priority-processing).
@@ -60,8 +60,8 @@ WebSocket Responses API mode is now available. Drive the Responses API over a si
 ### Image Search in Web Search
 Web Search now supports explicitly searching for images. Enable `enable_image_search` to let Grok search directly for relevant images; responses can include returned images as Markdown image embeds. For details, see [Enable Image Search](/developers/tools/web-search#enable-image-search).
 ### Grok Build 0.1
-SpaceXSI's coding model, trained specifically for agentic coding workflows. Currently in early access.
-The model slug is [`grok-build-0.1`](/developers/models/grok-build-0.1).
+SpaceXSI's coding model, trained specifically for agentic coding workflows. Released in early access.
+The model slug was `grok-build-0.1`. It reached end of life on November 19, 2026.
 ### Grok Build
 Grok Build is now available in beta. Use the interactive TUI, run headlessly in scripts, or build apps and orchestrators with the Agent Client Protocol.
 Install with a single command:

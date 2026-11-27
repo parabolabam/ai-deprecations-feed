@@ -1,6 +1,24 @@
 {
  "records": [
   {
+   "id": "0b965e2f4b29d014",
+   "source": "xai",
+   "kind": "raw",
+   "title": "xAI: page changed",
+   "url": "https://docs.x.ai/developers/release-notes",
+   "announced": null,
+   "shutdown": null,
+   "affected": [],
+   "replacement": null,
+   "status": null,
+   "links": [],
+   "text": "The model slug was `grok-build-0.1`. It reached end of life on November 19, 2026.",
+   "first_seen": "2026-11-27",
+   "updated": null,
+   "baseline": false,
+   "seen_at": "2026-11-27T06:29:54Z"
+  },
+  {
    "id": "9edbfe0807dd93a6",
    "source": "bedrock",
    "kind": "parsed",
